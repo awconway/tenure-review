@@ -1,0 +1,143 @@
+---
+title: Third year review
+subtitle: Teaching dossier
+author: Aaron Conway
+date: "August 2021"
+# bibliography: Extras/references.bib
+csl: Extras/apa.csl
+# 
+# site: bookdown::bookdown_site
+# documentclass: book
+knit: pagedown::chrome_print
+output:
+  pagedown::html_paged:
+    css:
+      - Extras/pagedown.css
+    toc: true
+    number_sections: false
+    self_contained: true
+toc-title: 'Contents'
+---
+
+# Approach to teaching {.first-h1}
+
+## Teaching philosophy
+
+
+I believe the approach I have taken to teaching has been strongly shaped by my experience as a clinician and researcher. In my clinical practice, I deliver patient-centered evidence-based care. In my teaching, I strive to deliver student-centered evidence-based learning opportunities.  
+
+## Teaching goals
+
+fjksdjdas
+
+## Teaching methods and strategies
+
+Online
+
+Interactive
+
+Engaging
+
+# Teaching and mentoring contributions
+
+## University Teaching
+
+Brief summary
+
+### Summary of courses taught in tenure-track position (2018-2021)
+
+| Term, Year | Course number | Course name | Level | Class size |
+| ---------- | ------------- | ----------- | ----- | ---------- |
+|            |               |             |       |            |
+|            |               |             |       |            |
+|            |               |             |       |            |
+
+### Graduate courses
+
+#### NUR1027
+
+Summary
+
+Course changes
+
+#### NUR1127
+
+Summary Course changes
+
+### Guest lectures
+
+Summary
+
+| Term, Year | Course number | Course name | Level | Class size |
+| ---------- | ------------- | ----------- | ----- | ---------- |
+|            |               |             |       |            |
+|            |               |             |       |            |
+|            |               |             |       |            |
+
+### Student supervision
+
+#### Summary of doctoral student supervision
+
+| Student name    | Program                                        | Year start | Year finish | Role       |
+| --------------- | ---------------------------------------------- | ---------- | ----------- | ---------- |
+| Navpreet Kamboj | PhD - Bloomberg Nursing, University of Toronto | 2019       | 2023        | Supervisor |
+|                 |                                                |            |             |            |
+|                 |                                                |            |             |            |
+
+#### Doctoral supervision
+
+**Navpreet Kamboj**
+
+#### Summary of undergraduate supervision
+
+| Student name      | Program                 | Year start | Year finish | Role |
+| -------------- | ----------------------- | ---------- | ----------- | ---- |
+| Dan Phan       | BScN work study program |            |             |      |
+| Megan Bittner  | BScN work study program |            |             |      |
+|                |                         |            |             |      |
+| Kevin Auw-Yang | UTSC Co-op              |            |             |      |
+
+#### Undergraduate student supervision
+
+**Megan Bitner, Undergraduate Summer Research Placement, Summer 2019**
+
+
+
+**Megan Bitner, BScN Work Study Program, Fall 2019**
+
+
+
+**Dan Phan, BScN Work Study Program, Summer 2019**
+
+
+
+**Kevin Auw-Yang, UTSC Co-op placement, Fall 2019 - Spring 2020**
+
+
+
+# Evidence of teaching effectiveness
+
+### Course evaluations
+
+
+
+# Leadership and professional contributions to teaching
+
+
+
+# Professional development
+
+
+
+# Service to the university
+
+Over the past three years I have served on a number of committees related to teaching service to the University. These include: Curriculum Committee (2019-2020), Admissions Committee, and the Awards Committee. I have served on ad hoc committees including a working group of the Masters Program Committee focused on reviewing the results of quality assurance/improvement survey.
+
+# Teaching reflections
+
+
+
+# Appendices
+
+
+

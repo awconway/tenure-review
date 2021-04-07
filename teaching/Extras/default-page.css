@@ -1,0 +1,317 @@
+/* page size */
+@page {
+  size: 6in 9in; /* var(--pagedjs-width) doesn't work in browser when printing */
+}
+@page :blank {
+
+}
+
+/* store some string variables */
+.shorttitle1 {
+  string-set: h1-text content(text);
+}
+
+.shorttitle2 {
+  string-set: h2-text content(text);
+}
+
+/* left page */
+.running-h1-title {
+  position: running(runningH1Title);
+  width: var(--running-title-width);
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.running-h1-title:before {
+  content: string(h1-text);
+}
+
+@page chapter:left {
+  @top-left {
+    content: element(runningH1Title);
+    white-space: nowrap !important;
+    font-size: small;
+    font-size-adjust: 0.45;
+    color: #666666;
+    background-image: url('headerline_triangle_right.svg');
+    background-repeat: no-repeat;
+  }
+
+  @bottom-right {
+    content: counter(page);
+    font-size: small;
+    color: #666666;
+  }
+
+  @bottom-left: {
+    content: "Teaching Dossier |";
+    white-space: nowrap !important;
+    font-size: small;
+    font-size-adjust: 0.45;
+    color: #666666;
+    text-align: left !important;
+  }
+}
+
+/* right page */
+.running-h2-title {
+  position: running(runningH2Title);
+  width: var(--running-title-width);
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.running-h2-title:before {
+  /* We would want to write: */
+  /* content: string(h2-text, start); */
+  /* However, this is yet unsupported by Paged.js, see https://gitlab.pagedmedia.org/tools/pagedjs/issues/38 */
+  content: string(h2-text);
+}
+
+.running-h1-title {
+  position: running(runningH1Title);
+  width: var(--running-title-width);
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.running-h1-title:before {
+  content: string(h1-text);
+}
+
+
+@page chapter:right {
+  @top-left {
+    content: element(runningH1Title);
+    white-space: nowrap !important;
+    font-size: small;
+    font-size-adjust: 0.45;
+    color: #666666;
+    background-image: url('headerline_triangle_right.svg');
+    background-repeat: no-repeat;
+  }
+
+  @bottom-right {
+    content: counter(page);
+    font-size: small;
+    color: #666666;
+  }
+
+  @bottom-left: {
+    content: "Teaching Dossier |";
+    white-space: nowrap !important;
+    font-size: small;
+    font-size-adjust: 0.45;
+    color: #666666;
+    text-align: left !important;
+  }
+}
+
+/* New chapter page */
+@page chapter:first {
+  @top-left {
+    content: none;
+  }
+  @top-right {
+    content: none;
+  }
+  @bottom-right {
+    content: counter(page);
+  }
+}
+
+/* Report first page */
+@page :first {
+
+  margin: 0 0 0 0;
+  background-color: #ffffff;
+  background-image:
+    url('uot.svg'), url('line-front-page.svg'), linear-gradient(to right, #002a60, #002a60);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 10px 20px, 0px 56px, bottom right;
+  background-size: 30%, 100%, 657px 768px;
+
+@top-center {
+    content: none;
+  }
+  @top-right {
+    content: none;
+  }
+  @bottom-right {
+    content: none !important;
+  }
+}
+
+/* Front matter */
+@page frontmatter:left {
+  @top-left {
+    content: counter(page, lower-roman);
+  }
+  @top-right {
+    content: element(runningH1Title);
+    white-space: nowrap !important;
+  }
+}
+@page frontmatter:right {
+  @top-right {
+    content: counter(page, lower-roman);
+  }
+  @top-left {
+    content: element(runningH1Title);
+    white-space: nowrap !important;
+  }
+}
+@page frontmatter:first {
+  @top-left {
+    content: none;
+  }
+  @top-right {
+    content: none;
+  }
+  @bottom-right {
+    content: counter(page, lower-roman);
+  }
+}
+
+
+/* page breaks; aka CSS fragmentation */
+.level1 {
+  break-before: page;
+  page: chapter;
+}
+
+/* put in 2 columns... */
+/* .level4 {
+  columns: 2;
+} */
+
+.front-matter-container .level1 {
+  page: frontmatter;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+h1 {
+  break-before: always;
+  break-after: avoid;
+  color: var(--primary-color);
+  font-size: 16pt;
+}
+
+
+.title {
+    break-before: avoid;
+    text-align: center;
+    color:#ffffff;
+    font-weight: bold;
+    margin-top: 40mm;
+    bookmark-level: none;
+    margin-right: 8mm;
+    margin-left: 8mm;
+}
+
+.subtitle {
+  break-before: avoid;
+  text-align: center;
+  color:#ffffff;
+  font-weight: bold;
+  margin-top: 8mm;
+  line-height: 50pt;
+  bookmark-level: none;
+  margin-right: 8mm;
+    margin-left: 8mm;
+}
+
+.author {
+    break-before: avoid;
+    color:#ffffff;
+    text-align: center;
+    font-size: 16pt;
+    text-transform: none;
+    bookmark-level: none;
+    margin-right: 8mm;
+    margin-left: 8mm;
+  }
+
+.date {
+    break-before: avoid;
+    color:#ffffff;
+    text-align: center;
+    text-transform: none;
+    bookmark-level: none;
+    margin-right: 8mm;
+    margin-left: 8mm;
+  }
+
+h2 {
+  break-after: avoid;
+  color: #000000;
+  font-size: 13pt;
+}
+
+h3, h4, h5, h6 {
+  break-after: avoid;
+  color: #000000;
+  font-size: 12pt;
+}
+
+p {
+  color: #000000;
+  text-align: left;
+}
+
+/* code snippet directly within the text */
+p code {
+  background-color: #f7f7f9;
+  color: #e01e5a;
+}
+
+div.abstract {
+    color: #999;
+    position: fixed;
+    top : 235mm;
+    text-align: center;
+    font-size: 8pt;
+    width: 100%;
+  }
+p.abstract {
+    display: none;
+  }
+
+.abstract a {
+    color: #999;
+    text-decoration: none;
+  }
+
+
+.footnotes {
+  break-before: always;
+  break-after: always;
+}
+
+/* for charts  */
+.figure {
+  break-inside: avoid;
+  position: relative;
+  padding-top: 4;
+}
+
+
+.caption {
+  break-inside: avoid;
+  break-after: avoid;
+  font-size: 10pt;
+  color: #000000;
+  text-align: center;
+}
+
+/* reset page numbering after front matter */
+.front-matter-container+.level1 h1 {
+  counter-reset: page;
+}
+.toc-title {
+  break-before: avoid;
+}
+.first-h1 {
+  break-before: avoid;
+}

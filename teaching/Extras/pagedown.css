@@ -1,0 +1,529 @@
+@import 'https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&display=swap';
+
+:root {
+  --background: whitesmoke;
+  --pagedjs-width: 6in;
+  --pagedjs-height: 9in;
+  --color-paper: white;
+  --color-mbox: rgba(0, 0, 0, 0.2);
+  --running-title-width: 2.5in;
+  --screen-pages-spacing: 5mm;
+  --primary-color: #002a60;
+}
+
+html {
+  line-height: 1.3;
+}
+
+body {
+  font-family: 'BioRhyme', serif;
+}
+p, ol,ul {
+  font-size: 0.7rem;
+  line-height: 1.5;
+}
+/* references */
+.csl-entry {
+  font-size: 0.7rem;
+  line-height: 1.5;
+  padding-left: 22px ;
+  text-indent: -22px ;
+}
+
+pre, code {
+  font-size: .95rem;
+}
+
+blockquote{
+  font-size: 0.75rem;
+  width:100%;
+  margin:50px auto;
+  font-family: 'BioRhyme', serif;
+  font-style:italic;
+  color: #555555;
+  padding:25px;
+  border-left:8px solid var(--primary-color) ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.author, .date {
+  font-style: italic;
+}
+
+.toc li {
+  break-inside: auto;
+}
+
+li {
+  break-inside: avoid;
+}
+
+/* page size */
+@page {
+  size: 6in 9in; /* var(--pagedjs-width) doesn't work in browser when printing */
+}
+@page :blank {
+
+}
+
+/* store some string variables */
+.shorttitle1 {
+  string-set: h1-text content(text);
+}
+
+.shorttitle2 {
+  string-set: h2-text content(text);
+}
+
+/* left page */
+.running-h1-title {
+  position: running(runningH1Title);
+  width: var(--running-title-width);
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.running-h1-title:before {
+  content: string(h1-text);
+}
+
+@page chapter {
+  @top-left {
+    content: element(runningH1Title);
+    white-space: nowrap !important;
+    font-size: small;
+    font-size-adjust: 0.45;
+    color: #666666;
+    background-image: url('headerline_triangle_right.svg');
+    background-repeat: no-repeat;
+  }
+
+  @bottom-right {
+    content: counter(page);
+    font-size: small;
+    color: #666666;
+  }
+
+  @bottom-left: {
+    content: "Teaching Dossier |";
+    white-space: nowrap !important;
+    font-size: small;
+    font-size-adjust: 0.45;
+    color: #666666;
+    text-align: left !important;
+  }
+}
+
+/* right page */
+.running-h2-title {
+  position: running(runningH2Title);
+  width: var(--running-title-width);
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.running-h2-title:before {
+  /* We would want to write: */
+  /* content: string(h2-text, start); */
+  /* However, this is yet unsupported by Paged.js, see https://gitlab.pagedmedia.org/tools/pagedjs/issues/38 */
+  content: string(h2-text);
+}
+
+.running-h1-title {
+  position: running(runningH1Title);
+  width: var(--running-title-width);
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.running-h1-title:before {
+  content: string(h1-text);
+}
+
+/* New chapter page */
+@page chapter:first {
+  @top-left {
+    content: none;
+  }
+  @top-right {
+    content: none;
+  }
+  @bottom-right {
+    content: counter(page);
+  }
+}
+
+/* Report first page */
+@page :first {
+
+  margin: 0 0 0 0;
+  background-color: #ffffff;
+  background-image:
+    url('uot.svg'), url('line-front-page.svg'), linear-gradient(to right, #002a60, #002a60);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 10px 20px, 0px 56px, bottom right;
+  background-size: 30%, 100%, 657px 768px;
+
+@top-center {
+    content: none;
+  }
+  @top-right {
+    content: none;
+  }
+  @bottom-right {
+    content: none !important;
+  }
+}
+
+/* Front matter */
+@page frontmatter:left {
+  @top-left {
+    content: counter(page, lower-roman);
+  }
+  @top-right {
+    content: element(runningH1Title);
+    white-space: nowrap !important;
+  }
+}
+@page frontmatter:right {
+  @top-right {
+    content: counter(page, lower-roman);
+  }
+  @top-left {
+    content: element(runningH1Title);
+    white-space: nowrap !important;
+  }
+}
+@page frontmatter:first {
+  @top-left {
+    content: none;
+  }
+  @top-right {
+    content: none;
+  }
+  @bottom-right {
+    content: counter(page, lower-roman);
+  }
+}
+
+
+/* page breaks; aka CSS fragmentation */
+.level1 {
+  break-before: page;
+  page: chapter;
+}
+
+/* put in 2 columns... */
+/* .level4 {
+  columns: 2;
+} */
+
+.front-matter-container .level1 {
+  page: frontmatter;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+h1 {
+  break-before: always;
+  break-after: avoid;
+  color: var(--primary-color);
+  font-size: 1rem;
+}
+
+
+.title {
+    break-before: avoid;
+    text-align: center;
+    color:#ffffff;
+    font-weight: bold;
+    margin-top: 40mm;
+    bookmark-level: none;
+    margin-right: 8mm;
+    margin-left: 8mm;
+    font-size: 1.5rem;
+}
+
+.subtitle {
+  break-before: avoid;
+  text-align: center;
+  color:#ffffff;
+  font-weight: bold;
+  margin-top: 8mm;
+  line-height: 50pt;
+  bookmark-level: none;
+  margin-right: 8mm;
+  margin-left: 8mm;
+}
+
+.author {
+    break-before: avoid;
+    color:#ffffff;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: none;
+    bookmark-level: none;
+    margin-right: 8mm;
+    margin-left: 8mm;
+  }
+
+.date {
+    break-before: avoid;
+    color:#ffffff;
+    text-align: center;
+    text-transform: none;
+    bookmark-level: none;
+    margin-right: 8mm;
+    margin-left: 8mm;
+  }
+
+h2 {
+  break-after: avoid;
+  color: #000000;
+  font-size: 0.8rem;
+}
+
+h3, h4, h5, h6 {
+  break-after: avoid;
+  color: #000000;
+  font-size: 0.75rem;
+}
+
+p {
+  color: #000000;
+  text-align: left;
+}
+
+/* code snippet directly within the text */
+p code {
+  background-color: #f7f7f9;
+  color: #e01e5a;
+}
+
+div.abstract {
+    color: #999;
+    position: fixed;
+    top : 235mm;
+    text-align: center;
+    font-size: 0.6rem;
+    width: 100%;
+  }
+p.abstract {
+    display: none;
+  }
+
+.abstract a {
+    color: #999;
+    text-decoration: none;
+  }
+
+
+.footnotes {
+  break-before: always;
+  break-after: always;
+}
+
+/* for charts  */
+.figure {
+  break-inside: avoid;
+  position: relative;
+  padding-top: 4;
+}
+
+
+.caption {
+  break-inside: avoid;
+  break-after: avoid;
+  font-size: 0.6rem;
+  color: #000000;
+  text-align: center;
+}
+
+/* reset page numbering after front matter */
+.front-matter-container+.level1 h1 {
+  counter-reset: page;
+}
+.toc-title {
+  break-before: avoid;
+}
+.first-h1 {
+  break-before: avoid;
+}
+
+
+
+/* generated content */
+a[href^="http"]:not([class="uri"])::after {
+  content: " (" attr(href) ")";
+  font-size: 90%;
+  hyphens: none;
+  word-break: break-all;
+}
+.references a[href^=http]:not([class=uri])::after {
+  content: none;
+}
+.main a[href^="#"]:not([class^="footnote-"]):not([href*=":"])::after {
+  content: " (page " target-counter(attr(href), page) ")";
+}
+.main a.front-matter-ref[href^="#"]:not([class^="footnote-"]):not([href*=":"])::after {
+  content: " (page " target-counter(attr(href), page, lower-roman) ")";
+}
+/* do not include page references in code blocks */
+.sourceCode a[href^="#"]:not([class^="footnote-"]):not([href*=":"])::after,
+.sourceCode a.front-matter-ref[href^="#"]:not([class^="footnote-"]):not([href*=":"])::after {
+  content: unset;
+}
+
+/* TOC, LOT, LOF */
+.toc ul, .lot ul, .lof ul {
+  list-style: none;
+  padding-left: 0;
+  overflow-x: hidden;
+}
+.toc li li {
+  padding-left: 1em;
+}
+.toc a, .lot a, .lof a {
+  text-decoration: none;
+  background: white;
+  padding-right: 0.33em;
+}
+.toc a::after, .lot a::after, .lof a::after {
+  /* content: leader(dotted) target-counter(attr(href), page); */
+  content: target-counter(attr(href), page);
+  float: right;
+  background: white;
+}
+.toc a.front-matter-ref::after, .lot a.front-matter-ref::after, .lof a.front-matter-ref::after {
+  /* content: leader(dotted) target-counter(attr(href), page, lower-roman); */
+  content: target-counter(attr(href), page, lower-roman);
+}
+.toc .leaders::before, .lot .leaders::before, .lof .leaders::before {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content: ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
+}
+
+/* Chapter name */
+.chapter > h1 > .header-section-number::before, .chapter-ref > .toc-section-number::before {
+  content: var(--chapter-name-before, "Chapter ");
+}
+.chapter > h1 > .header-section-number::after, .chapter-ref > .toc-section-number::after {
+  content: var(--chapter-name-after, "");
+}
+
+/* misc elements */
+.subtitle span {
+  font-size: .9rem;
+}
+img {
+  max-width: 100%;
+}
+pre {
+  padding: 1rem;
+}
+pre[class] {
+  background: #f9f9f9;
+}
+abbr {
+  text-decoration: none;
+}
+
+@media screen {
+  div.sourceCode {
+    overflow: visible !important;
+  }
+  a.sourceLine::before {
+    text-decoration: unset !important;
+  }
+}
+pre.numberSource a.sourceLine {
+  left: 0 !important;
+  text-indent: -5em
+}
+pre.numberSource {
+  margin-left: 0 !important;
+}
+table {
+  break-inside: avoid;
+  break-after: avoid;
+  margin: auto;
+  font-size: 0.7rem;
+  border-collapse: collapse;
+
+}
+thead tr {
+  background: #eee;
+
+}
+
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.footnotes {
+  font-size: 90%;
+}
+.footnotes hr::before {
+  content: "Footnotes:";
+}
+.footnotes hr {
+  border: none;
+}
+.footnote-break {
+  width: 1in;
+}
+body {
+  hyphens: manual;
+}
+code {
+  hyphens: none;
+}
+
+/* two pages in a row if possible on screen */
+@media screen {
+  body {
+    background-color: var(--background);
+    margin: var(--screen-pages-spacing) auto 0 auto;
+  }
+  .pagedjs_pages {
+    display: flex;
+    max-width: calc(var(--pagedjs-width) * 2);
+    flex: 0;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .pagedjs_page {
+    background-color: var(--color-paper);
+    box-shadow: 0 0 0 1px var(--color-mbox);
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin: auto auto var(--screen-pages-spacing) auto;
+  }
+}
+
+/* when a row can hold two pages, start first page on the right */
+@media screen and (min-width: 12.32in) {
+  .pagedjs_page {
+    margin: auto 0 var(--screen-pages-spacing) 0;
+  }
+  .pagedjs_first_page {
+    margin-left: var(--pagedjs-width);
+  }
+}
+
+/* use a fixed width body for mobiles */
+@media screen and (max-width:1180px)  {
+  body {
+    width: calc(var(--pagedjs-width) + 2 * var(--screen-pages-spacing));
+  }
+}
