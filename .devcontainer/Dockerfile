@@ -2,7 +2,8 @@ FROM rocker/tidyverse
 
 RUN install2.r --error \
     languageserver \
-    httpgd
+    httpgd \
+    svglite
 
     
 RUN installGithub.r \
