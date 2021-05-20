@@ -210,7 +210,7 @@ glue::glue('
 ## Publications
 
 ```{r}
-pubsdf <- bib2df::bib2df(here::here("publications.bib"))
+pubsdf <- bib2df::bib2df("publications.bib")
 
 pubs <- pubsdf %>%
   group_by(DOI) %>%
