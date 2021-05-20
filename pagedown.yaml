@@ -1,0 +1,15 @@
+---
+title: Interim Review
+subtitle: Teaching portfolio
+author: Aaron Conway
+date: "August 2021"
+output:
+  pagedown::html_paged:
+    css:
+      - css/pagedown.css
+      - https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css
+   toc: true
+   number_sections: false
+   self_contained: true
+toc-title: 'Contents'
+---

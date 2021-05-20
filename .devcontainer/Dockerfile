@@ -3,11 +3,13 @@ FROM rocker/tidyverse
 RUN install2.r --error \
     languageserver \
     httpgd \
-    svglite
+    svglite \
+    downlit
 
     
 RUN installGithub.r \
-    rstudio/pagedown
+    rstudio/pagedown \
+    rstudio/bookdown
 
 
 

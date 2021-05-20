@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+:root {
+    --primary-color: 	hsl(214, 100%, 19%);
+    --primary-color-light: 	hsl(214, 100%, 19%, var(--lighten));
+    --text-color-normal: hsl(0, 0%, 27%);
+    --text-color-light: hsl(0, 0%, 40%);
+    --lighten: 15%;
+  }
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: var(--text-color-normal);
+}
+blockquote{
+    font-size: var(--font-normal);
+    width:100%;
+    margin:30px auto;
+    font-style:italic;
+    color: #555555;
+    padding:25px;
+    border-left:8px solid var(--primary-color) ;
+    position: relative;
+    background: hsl(214, 100%, 94%);
+  }
+  
+  blockquote span{
+    display:block;
+    color:#333333;
+    font-style: normal;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  .quote {
+    position: relative; 
+    text-align: center;
+    padding: 16px 20px;
+    width: 90%;  /* create space for the quotes */
+    margin: 16px auto;
+    background:
+    linear-gradient(to right, var(--primary-color-light) 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, var(--primary-color-light) 4px, transparent 4px) 100% 0,
+    linear-gradient(to bottom, var(--primary-color-light) 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, var(--primary-color-light) 4px, transparent 4px) 0 100%;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    font-style: italic;
+  }
+  
+  .quote p{
+  color: var(--text-color-light);
+  }
+    
+  /* -- create the quotation marks -- */
+  .quote:before,
+  .quote:after{
+    font-family: FontAwesome;
+    position: absolute;
+    color: var(--primary-color);
+  }
+  
+  .quote:before{
+    content: "\f10d";
+    top: 0px;
+    margin-right: -5px;
+    right: 99%;
+  }
+  .quote:after{
+    content: "\f10e";
+    margin-left: -20px;
+    left: 102%;  
+    top: auto;
+    bottom: 0px;
+  }
+  
+  /* footer {
+    display: none;
+  } */
+
+  .noBorder, .inline-figure {
+    border: none;
+  }
+
+  .authorBlock {
+    font-size:0.9rem;
+    color:#929598;
+  }
+
+  .number {
+    background-color: var(--primary-color-light);
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+.cvLogo {
+  float:right
+}
+
+
+@media (min-width: 992px) {
+header {
+  background-image: url('bloomberg.png');
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+}
+
+footer p {
+  display: none;
+}

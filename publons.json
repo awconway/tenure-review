@@ -1,0 +1,246 @@
+{
+        "review": {
+            "per_journal": [
+                {
+                    "name": "Journal of Clinical Nursing",
+                    "count": 61,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Research in Nursing & Health",
+                    "count": 42,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Journal of Advanced Nursing",
+                    "count": 29,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Journal of Perianesthesia Nursing",
+                    "count": 16,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "International Journal of Nursing Studies",
+                    "count": 11,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Systematic Reviews",
+                    "count": 8,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Journal of Medical Internet Research",
+                    "count": 7,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Contemporary Nurse",
+                    "count": 5,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "BMC Emergency Medicine",
+                    "count": 3,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Therapeutics and Clinical Risk Management",
+                    "count": 3,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Heart",
+                    "count": 3,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Australian Critical Care",
+                    "count": 3,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Telemedicine Journal and e-Health",
+                    "count": 3,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "JBI Database of Systematic Reviews and Implementation Reports",
+                    "count": 3,
+                    "is_in_wos_cc": false
+                },
+                {
+                    "name": "Heart Lung and Circulation",
+                    "count": 2,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Thorax",
+                    "count": 2,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Nursing Open",
+                    "count": 2,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Plos One",
+                    "count": 2,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Heart & Lung: The Journal of Acute and Critical Care",
+                    "count": 2,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Clinical Transplantation",
+                    "count": 2,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Oncotarget",
+                    "count": 2,
+                    "is_in_wos_cc": false
+                },
+                {
+                    "name": "Clinical Nursing Research",
+                    "count": 2,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "BMJ Open",
+                    "count": 2,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Odontology",
+                    "count": 2,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "The Journal of Heart and Lung Transplantation",
+                    "count": 2,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "The Journal of Pediatrics",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Medical Devices: Evidence and Research",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Collegian",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Clinical Cardiology",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Annals of Medicine",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Disability and Rehabilitation",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Health & Social Care in the Community",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Cochrane Database of Systematic Reviews",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Biological Research for Nursing",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Journal of Clinical Epidemiology",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Critical Care Nurse",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "BMJ Open Gastroenterology",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Human Resources for Health",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Western Journal of Nursing Research",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Joint Commission Journal on Quality and Patient Safety",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Journal of General Psychology",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "International Journal of Nursing Practice",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Pediatric Drugs",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Journal of Health Services Research & Policy",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "IEEE Journal of Biomedical and Health Informatics",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Journal of Clinical Anesthesia",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Current Medical Research and Opinion",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "BDJ Open",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                }
+            ]
+        }
+    }

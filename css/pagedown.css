@@ -1,4 +1,5 @@
-@import 'https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&display=swap';
+/* @import 'https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&display=swap'; */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 :root {
   --background: whitesmoke;
@@ -10,11 +11,11 @@
   --screen-pages-spacing: 5mm;
   --primary-color: 	hsl(214, 100%, 19%);
   --primary-color-light: 	hsl(214, 100%, 19%, var(--lighten));
-  --font-normal: 0.72rem;
-  --font-small: 0.7rem;
-  --font-xsmall: 0.55rem;
-  --font-large: 0.9rem;
-  --font-xlarge: 1rem;
+  --font-normal: 12pt;
+  --font-small: 10pt;
+  --font-xsmall: 9pt;
+  --font-large: 14pt;
+  --font-xlarge: 16pt;
   --text-color-normal: hsl(0, 0%, 27%);
   --text-color-light: hsl(0, 0%, 40%);
   --lighten: 15%;
@@ -25,9 +26,10 @@ html {
 }
 
 body {
-  font-family: 'BioRhyme', serif;
+  /* font-family: 'BioRhyme', serif; */
+  font-family: 'Work Sans', sans-serif;
 }
-p, ol,ul {
+ol,ul {
   font-size: var(--font-normal);
 }
 /* references */
@@ -35,10 +37,6 @@ p, ol,ul {
   font-size: var(--font-small);
   padding-left: 22px ;
   text-indent: -22px ;
-}
-
-pre, code {
-  font-size: .95rem;
 }
 
 blockquote{
@@ -50,12 +48,8 @@ blockquote{
   color: #555555;
   padding:25px;
   border-left:8px solid var(--primary-color) ;
-  border-top:2px solid var(--primary-color) ;
-  border-bottom:2px solid var(--primary-color) ;
-  border-right:2px solid var(--primary-color) ;
   position: relative;
-  background:#EDEDED;
-  border-radius: 25px;
+  background: hsl(214, 100%, 94%);
 }
 
 blockquote span{
@@ -80,7 +74,8 @@ li {
 
 /* page size */
 @page {
-  size: 6in 9in; /* var(--pagedjs-width) doesn't work in browser when printing */
+  /* size: 6in 9in; var(--pagedjs-width) doesn't work in browser when printing */
+  size: A4 !important;
 }
 @page :blank {
 
@@ -107,28 +102,17 @@ li {
 }
 
 @page chapter {
-  @top-left {
-    content: element(runningH1Title);
-    white-space: nowrap !important;
-    font-size: small;
-    font-size-adjust: 0.45;
-    color: #666666;
-    background-image: url('headerline_triangle_right.svg');
-    background-repeat: no-repeat;
-  }
-
   @bottom-right {
     content: counter(page);
-    font-size: small;
-    color: #666666;
+    font-size: var(--font-small);
+    color: var(--text-color-light);
   }
 
-  @bottom-left: {
-    content: "Teaching Dossier |";
+  @bottom-left {
+    content: string(subtitle) " |";
     white-space: nowrap !important;
-    font-size: small;
-    font-size-adjust: 0.45;
-    color: #666666;
+    font-size: var(--font-xsmall);
+    color: var(--text-color-light);
     text-align: left !important;
   }
 }
@@ -176,10 +160,12 @@ li {
   margin: 0 0 0 0;
   background-color: #ffffff;
   background-image:
-    url('uot.svg'), url('line-front-page.svg'), linear-gradient(to right, #002a60, #002a60);
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: 10px 20px, 0px 56px, bottom right;
-  background-size: 30%, 100%, 657px 768px;
+    url('bloomberg.png'), 
+    /* https://bgjar.com */
+    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='793.7' height='1000' preserveAspectRatio='none' viewBox='0 0 793.7 1000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1043%26quot%3b)' fill='none'%3e%3crect width='793.7' height='1000' x='0' y='0' fill='url(%23SvgjsLinearGradient1044)'%3e%3c/rect%3e%3cpath d='M44 1000L1044 0L1431 0L431 1000z' fill='url(%23SvgjsLinearGradient1045)'%3e%3c/path%3e%3cpath d='M744.7 1000L-255.29999999999995 0L-480.29999999999995 0L519.7 1000z' fill='url(%23SvgjsLinearGradient1046)'%3e%3c/path%3e%3cpath d='M222.78842424175855 1000L793.7 429.0884242417585L793.7 1000z' fill='url(%23SvgjsLinearGradient1045)'%3e%3c/path%3e%3cpath d='M0 1000L570.9115757582415 1000L 0 429.0884242417585z' fill='url(%23SvgjsLinearGradient1046)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1043'%3e%3crect width='793.7' height='1000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='-6.5%25' y1='5.16%25' x2='106.5%25' y2='94.84%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1044'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1045'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1046'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat,no-repeat;
+  background-position: 10px 20px, bottom right;
+  background-size: 30%, 793.7px 1000px;
 
 @top-center {
     content: none;
@@ -247,7 +233,7 @@ h1 {
   break-before: always;
   break-after: avoid;
   color: var(--primary-color);
-  font-size: 1rem;
+  font-size: var(--font-xlarge);
 }
 
 
@@ -256,12 +242,12 @@ h1 {
     text-align: center;
     color:#ffffff;
     font-weight: bold;
-    margin-top: 40mm;
+    margin-top: 100mm;
     bookmark-level: none;
     margin-right: 8mm;
     margin-left: 8mm;
-    font-size: 1.5rem;
-}
+    font-size: var(--font-xlarge);
+  }
 
 .subtitle {
   break-before: avoid;
@@ -273,13 +259,14 @@ h1 {
   bookmark-level: none;
   margin-right: 8mm;
   margin-left: 8mm;
+  string-set: subtitle content(text)
 }
 
 .author {
     break-before: avoid;
     color:#ffffff;
     text-align: center;
-    font-size: 1rem;
+    font-size: var(--font-normal);
     text-transform: none;
     bookmark-level: none;
     margin-right: 8mm;
@@ -294,6 +281,8 @@ h1 {
     bookmark-level: none;
     margin-right: 8mm;
     margin-left: 8mm;
+    font-size: var(--font-normal);
+
   }
 
 h2 {
@@ -311,6 +300,7 @@ h3, h4, h5, h6 {
 p {
   color: var(--text-color-normal);
   text-align: left;
+  font-size: var(--font-normal);
 }
 
 /* code snippet directly within the text */
@@ -318,23 +308,6 @@ p code {
   background-color: #f7f7f9;
   color: #e01e5a;
 }
-
-div.abstract {
-    color: #999;
-    position: fixed;
-    top : 235mm;
-    text-align: center;
-    font-size: 0.6rem;
-    width: 100%;
-  }
-p.abstract {
-    display: none;
-  }
-
-.abstract a {
-    color: #999;
-    text-decoration: none;
-  }
 
 
 .footnotes {
@@ -353,7 +326,7 @@ p.abstract {
 .caption {
   break-inside: avoid;
   break-after: avoid;
-  font-size: 0.6rem;
+  font-size: var(--font-small);
   color: var(--text-color-normal);
   text-align: center;
 }
@@ -374,7 +347,7 @@ p.abstract {
 /* generated content */
 a[href^="http"]:not([class="uri"])::after {
   content: " (" attr(href) ")";
-  font-size: 90%;
+  font-size: var(--font-normal);
   hyphens: none;
   word-break: break-all;
 }
@@ -406,6 +379,8 @@ a[href^="http"]:not([class="uri"])::after {
   text-decoration: none;
   background: white;
   padding-right: 0.33em;
+  font-size: var(--font-small);
+
 }
 .toc a::after, .lot a::after, .lof a::after {
   /* content: leader(dotted) target-counter(attr(href), page); */
@@ -434,7 +409,7 @@ a[href^="http"]:not([class="uri"])::after {
 
 /* misc elements */
 .subtitle span {
-  font-size: .9rem;
+  font-size: var(--font-normal);
 }
 img {
   max-width: 100%;
@@ -482,7 +457,7 @@ tbody tr {
 }
 
 .footnotes {
-  font-size: 90%;
+  font-size: var(--font-small);
 }
 .footnotes hr::before {
   content: "Footnotes:";
@@ -589,4 +564,23 @@ font-size: var(--font-xsmall);
   /* create ability to insert pagebreaks with br.pagebreak */
 br.pageBreak {
     page-break-after: always;
+}
+
+.numeric-table td:last-child {
+  text-align: center;
+}
+
+.break {
+  break-before: always;
+}
+
+.number {
+  background-color: var(--primary-color-light);
+  padding: 2.5pt;
+  border-radius: 1.5pt;
+}
+
+.authorBlock {
+  font-size: var(--font-xsmall);
+  color:var(--text-color-light);
 }

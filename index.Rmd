@@ -1,0 +1,397 @@
+
+---
+title: Interim Review
+subtitle: Aaron Conway
+author: Aaron Conway
+date: "August 2021"
+---
+
+# CV 
+
+
+
+```{r setup, include=FALSE}
+library(tidyverse)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, results = "asis")
+library(rorcid)
+Sys.getenv("ORCID_TOKEN")
+```
+
+
+
+## Education {.break}
+```{r  results='asis'}
+edu <- rorcid::orcid_educations("0000-0002-9583-8636")
+edu <- edu$`0000-0002-9583-8636`$`affiliation-group`$summaries
+
+edu <- tibble(
+  organization = purrr::map_chr(edu, "education-summary.organization.name"),
+  title = purrr::map_chr(edu, "education-summary.role-title"),
+  start = purrr::map_chr(edu, "education-summary.start-date.year.value"),
+  end = purrr::map_chr(edu, "education-summary.end-date.year.value"),
+  city = purrr::map_chr(edu, "education-summary.organization.address.city"),
+  country = purrr::map_chr(edu, "education-summary.organization.address.country")
+)
+
+edu$time <- glue::glue("{edu$start} - {edu$end}")
+edu$location <- glue::glue("{edu$city}, {edu$country}")
+glue::glue('
+<ul style="list-style-type:none;">
+           <li>
+           <em>{edu$title}</em><br>{edu$organization}<br>{edu$location} <span style="float:right;color:#929598;">{edu$time}</span>
+           </li>
+           </ul>')
+```
+
+
+## Employment
+```{r}
+employ <- rorcid::orcid_employments("0000-0002-9583-8636")
+
+currentFunction <- function(x) {
+  if (!is.null(employ$`0000-0002-9583-8636`$`affiliation-group`$summaries[[x]]$`employment-summary.end-date`)) {
+    "Current"
+  } else {
+    employ$`0000-0002-9583-8636`$`affiliation-group`$summaries[[x]]$`employment-summary.end-date.year.value`
+  }
+}
+
+end_year <- vapply(seq(1, length(employ$`0000-0002-9583-8636`$`affiliation-group`$summaries), by = 1), currentFunction, "")
+
+employ <- employ$`0000-0002-9583-8636`$`affiliation-group`$summaries
+
+employ <- tibble(
+  organization = purrr::map_chr(employ, "employment-summary.organization.name"),
+  title = purrr::map_chr(employ, "employment-summary.role-title"),
+  start = purrr::map_chr(employ, "employment-summary.start-date.year.value"),
+  city = purrr::map_chr(employ, "employment-summary.organization.address.city"),
+  country = purrr::map_chr(employ, "employment-summary.organization.address.country")
+)
+
+employ$time <- glue::glue("{employ$start} - {end_year}")
+employ$location <- glue::glue("{employ$city}, {employ$country}")
+
+glue::glue('
+<ul style="list-style-type:none;">
+           <li>
+           <em>{employ$title}</em><br>{employ$organization}<br>{employ$location} <span style="float:right;color:#929598;">{employ$time}</span>
+           </li>
+           </ul>')
+```
+
+
+## Awards {.break}
+
+```{r}
+distinctions <- orcid_distinctions("0000-0002-9583-8636")
+distinctions <- distinctions$`0000-0002-9583-8636`$`affiliation-group`$summaries
+distinctions <- tibble(
+  organization = purrr::map_chr(distinctions, "distinction-summary.organization.name"),
+  title = purrr::map_chr(distinctions, "distinction-summary.role-title"),
+  time = purrr::map_chr(distinctions, "distinction-summary.start-date.year.value")
+)
+
+glue::glue('
+<ul style="list-style-type:none;">
+           <li>
+           <em>{distinctions$title}</em><br>{distinctions$organization} <span style="float:right;color:#929598;">{distinctions$time}</span>
+           </li>
+           </ul>')
+```
+
+
+## Service {.break}
+
+```{r}
+service <- orcid_services("0000-0002-9583-8636")
+
+currentFunction <- function(x) {
+  if (!is.null(service$`0000-0002-9583-8636`$`affiliation-group`$summaries[[x]]$`service-summary.end-date`)) {
+    "Current"
+  } else {
+    service$`0000-0002-9583-8636`$`affiliation-group`$summaries[[x]]$`service-summary.end-date.year.value`
+  }
+}
+
+end_year <- vapply(seq(1, length(service$`0000-0002-9583-8636`$`affiliation-group`$summaries), by = 1), currentFunction, "")
+
+
+service <- service$`0000-0002-9583-8636`$`affiliation-group`$summaries
+service <- tibble(
+  organization = purrr::map_chr(service, "service-summary.organization.name"),
+  title = purrr::map_chr(service, "service-summary.role-title"),
+  start = purrr::map_chr(service, "service-summary.start-date.year.value")
+)
+
+service$time <- glue::glue("{service$start} - {end_year}")
+
+service$time <- glue::glue("{service$start} - {end_year}")
+glue::glue('
+<ul style="list-style-type:none;">
+           <li>
+           <em>{service$title}</em><br>{service$organization} <span style="float:right;color:#929598;">{service$time}</span>
+           </li>
+           </ul>')
+```
+
+
+## Memberships
+
+```{r}
+membership <- orcid_memberships("0000-0002-9583-8636")
+
+currentFunction <- function(x) {
+  if (!is.null(membership$`0000-0002-9583-8636`$`affiliation-group`$summaries[[x]]$`membership-summary.end-date`)) {
+    "Current"
+  } else {
+    membership$`0000-0002-9583-8636`$`affiliation-group`$summaries[[x]]$`membership-summary.end-date.year.value`
+  }
+}
+
+end_year <- vapply(seq(1, length(membership$`0000-0002-9583-8636`$`affiliation-group`$summaries), by = 1), currentFunction, "")
+
+membership <- membership$`0000-0002-9583-8636`$`affiliation-group`$summaries
+
+membership <- tibble(
+  organization = purrr::map_chr(membership, "membership-summary.organization.name"),
+  title = purrr::map_chr(membership, "membership-summary.role-title"),
+  start = purrr::map_chr(membership, "membership-summary.start-date.year.value")
+)
+
+membership$time <- glue::glue("{membership$start} - {end_year}")
+glue::glue('
+<ul style="list-style-type:none;">
+           <li>
+           <em>{membership$title}</em><br>{membership$organization} <span style="float:right;color:#929598;">{membership$time}</span>
+           </li>
+           </ul>')
+```
+
+
+## Funding
+```{r}
+# options(digits=0)
+funding <- rorcid::orcid_fundings("0000-0002-9583-8636")
+pcodes <- vapply(funding[[1]]$group$`funding-summary`, "[[", 1, "put-code")
+out <- lapply(pcodes, function(z) orcid_fundings("0000-0002-9583-8636", put_code = z))
+amount <- vapply(out, function(w) w[[1]]$amount$value, "")
+amount <- str_replace_all(amount, "19000.0", "19000") 
+amount <- str_replace_all(amount, "63500.0", "63500 plus ~$60000 equipment") 
+amount <- str_replace_all(amount, "18356.0", "18356") 
+amount <- paste("$", amount, sep = "")
+funding <- funding$`0000-0002-9583-8636`$group$`funding-summary`
+funding <- tibble(
+  type = purrr::map_chr(funding, "type"),
+  funder = purrr::map_chr(funding, "organization.name"),
+  title = purrr::map_chr(funding, "title.title.value"),
+  start = purrr::map_chr(funding, "start-date.year.value"),
+  end = purrr::map_chr(funding, "end-date.year.value")
+) %>%
+  mutate(timeframe = glue::glue("{start} - {end}")) %>%
+  select(type, funder, title, timeframe, end)
+funding$type <- stringr::str_replace_all(funding$type, "SALARY_AWARD", "SALARY AWARD")
+funding <- funding %>%
+  mutate(Amount = amount) %>%
+  arrange(desc(as.numeric(end))) %>%
+  filter(end > 2012)
+
+
+glue::glue('
+<ul style="list-style-type:none;">
+           <li>
+           <em>{funding$title}</em><br>{funding$funder}<br>{funding$Amount} <span style="float:right;color:#929598;">{funding$timeframe}</span>
+           </li>
+           </ul>')
+```
+
+
+## Publications
+
+```{r}
+pubsdf <- bib2df::bib2df(here::here("publications.bib"))
+
+pubs <- pubsdf %>%
+  group_by(DOI) %>%
+  mutate(authors = paste(unlist(AUTHOR), collapse = " | ")) %>%
+  ungroup() %>%
+  mutate(authors = ifelse(BIBTEXKEY == "Brown_2019",
+  "Group author",
+  authors)) %>%
+  arrange(desc(YEAR)) %>%
+mutate(authors = str_replace_all(authors, "Aaron Conway", "<strong>Aaron Conway</strong>")) %>%
+mutate(TITLE = str_replace_all(TITLE, "\\{", "")) %>%
+mutate(TITLE = str_replace_all(TITLE, "\\}", "")) %>%
+mutate(JOURNAL = str_replace_all(JOURNAL, "\\{", "")) %>%
+mutate(JOURNAL = str_replace_all(JOURNAL, "\\}", "")) %>%
+mutate(authors = str_replace_all(authors, "\\{", "")) %>%
+mutate(authors = str_replace_all(authors, "\\}", "")) %>%
+mutate(authors = str_replace_all(authors, "~", " ")) %>%
+mutate(authors = str_replace_all(authors, "Thombs and", "Thombs")) %>%
+mutate(type = case_when(JOURNAL == "Angiology" ~ "letter",
+TITLE == "Reply to" ~ "letter",
+TITLE == "Capnography for Moderate Sedation During Routine EGD and Colonoscopy" ~ "letter",
+TITLE == "Utility of Dexmedetomidine in Sedation for Radiofrequency Ablation of Atrial Fibrillation" ~ "letter",
+TITLE == "Is sedation by non-anaesthetists really safe?" ~ "letter",
+TITLE == "Ensuring COVID-related innovation is sustained" ~ "editorial",
+TITLE == "Nurses should inform patients of the possibility of awareness during bronchoscopy performed with procedural sedation" ~ "editorial",
+TITLE == "Forced air warming to maintain normoTHERMIa during SEDation in the cardiac catheterization laboratory: protocol for the THERMISED pilot randomized controlled trial" ~ "protocol",
+TITLE == "Capnography monitoring during procedural sedation and analgesia: a systematic review protocol" ~ "protocol",
+TITLE == "Depth of anaesthesia monitoring during procedural sedation and analgesia: a systematic review protocol" ~ "protocol",
+TITLE == "Predicting prolonged apnea during nurse-administered procedural sedation: a machine learning study (Preprint)" ~ "preprint",
+TRUE ~ "article"))
+
+articles <- pubs %>%
+filter(type == "article")
+
+editorials <- pubs %>%
+filter(type == "editorial")
+
+letters <- pubs %>%
+filter(type == "letter")
+
+protocols <- pubs %>%
+filter(type == "protocol")
+
+preprints <- pubs %>%
+filter(type == "preprint")
+```
+
+### Journal articles [`r nrow(articles)`]{.number}
+
+<ul style="list-style-type:none;">
+```{r articles}
+glue::glue('
+           <li>
+           {articles$TITLE}
+           <br>
+           <em>{articles$JOURNAL}</em>
+           <span style="float:right;color:#929598;">{articles$YEAR}</span>
+           <br>
+           <span class="authorBlock">{articles$authors}</span>
+           </li>
+           <hr>')
+```
+
+</ul>
+
+### Editorials [`r nrow(editorials)`]{.number}
+
+<ul style="list-style-type:none;">
+```{r }
+glue::glue('
+           <li>
+           {editorials$TITLE}
+           <br>
+           <em>{editorials$JOURNAL}</em>
+           <span style="float:right;color:#929598;">{editorials$YEAR}</span>
+           <br>
+           <span class="authorBlock">{editorials$authors}</span>
+           </li>
+           <hr>')
+```
+</ul>
+
+### Letters [`r nrow(letters)`]{.number}
+
+<ul style="list-style-type:none;">
+```{r }
+glue::glue('
+           <li>
+           {letters$TITLE}
+           <br>
+           <em>{letters$JOURNAL}</em>
+           <span style="float:right;color:#929598;">{letters$YEAR}</span>
+           <br>
+           <span class="authorBlock">{letters$authors}</span>
+           </li>
+           <hr>')
+```
+</ul>
+
+
+### Protocols [`r nrow(protocols)`]{.number}
+
+<ul style="list-style-type:none;">
+```{r }
+glue::glue('
+           <li>
+           {protocols$TITLE}
+           <br>
+           <em>{protocols$JOURNAL}</em>
+           <span style="float:right;color:#929598;">{protocols$YEAR}</span>
+           <br>
+           <span class="authorBlock">{protocols$authors}</span>
+           </li>
+           <hr>')
+```
+</ul>
+
+### Preprints [`r nrow(preprints)`]{.number}
+
+<ul style="list-style-type:none;">
+```{r }
+glue::glue('
+           <li>
+           {preprints$TITLE}
+           <br>
+           <em>{preprints$JOURNAL}</em>
+           <span style="float:right;color:#929598;">{preprints$YEAR}</span>
+           <br>
+           <span class="authorBlock">{preprints$authors}</span>
+           </li>
+           <hr>')
+```
+</ul>
+
+
+### Book Chapters
+
+<ul style="list-style-type:none;">
+<li>
+Common quantitative methods
+<br>
+<em>Nursing and Midwifery Research: Methods and Appraisal for Evidence Based Practice.[6th ed.]</em>
+<span style="float:right;color:#929598;">2020</span>
+<br>
+<span class="authorBlock">
+<strong>Aaron Conway</strong> | Jed Duff
+</span>
+</li>
+<hr>
+</ul>
+
+## Software
+
+```{r}
+software <- tribble(
+  ~package, ~description, ~year,
+  "spiritR", "A workflow to enable direct upload of a clinical trial protocol to clinicaltrials.gov
+", 2019
+)
+
+glue::glue('
+  <ul style="list-style-type:none;">
+  <li>
+  <a href="https://spiritr.netlify.com"><em>{software$package}</em></a><br>{software$description} <span style="float:right;color:#929598;">{software$year}</span>
+  </li>
+  </ul>
+  <hr>')
+```
+
+## Peer reviews
+```{r}
+reviews <- jsonlite::fromJSON("publons.json")
+
+reviewsdf <- reviews$review$per_journal
+
+reviewdf <- reviewsdf %>%
+  arrange(desc(count))
+
+glue::glue('
+<ul style="list-style-type:none;">
+           <li>
+           <em>{reviewdf$name}</em><span style="float:right;color:#929598;">{reviewdf$count}</span>
+           </li>
+           </ul>')
+```
+

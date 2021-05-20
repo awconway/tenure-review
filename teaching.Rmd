@@ -1,0 +1,726 @@
+
+# Teaching portfolio
+
+## Approach to teaching {.first-h1}
+
+>[Teaching philosophy]{}
+    I believe the approach I have taken to teaching has been strongly shaped by my experience as a clinician and researcher. In my clinical practice, I deliver patient-centered evidence-based care. In my teaching, my goal is to deliver student-centered evidence-based learning opportunities. To achieve this goal, I assess learning needs, capabilities and student preferences in the design of my teaching strategies.
+
+
+### Teaching goals
+
+fjksdjdas
+
+### Teaching methods and strategies
+
+Online
+
+Interactive
+
+Engaging
+
+
+
+## Teaching and mentoring contributions
+
+Prior to my appointment at the University of Toronto I gained experience in teaching at the undergraduate and postgraduate level. I coordinated a large unit in the undergraduate nursing course at Queensland University of Technology (~ 300 students) in 2014. I was also a tutor for a postgraduate Masters unit at Australian Catholic University in 2013 and 2014 (HLSC640 - Interpreting Health Research - 20 students). During my post-doctoral fellowship, my teaching responsibilities involved supervision of Masters in Nursing (Thesis) students. I supervised 6 students over 4 semesters during the period from 2015 to 2017. 
+
+Since taking up the position of Assistant Professor at the University of Toronto, I have taught two core MN courses - NUR1027 and NUR1127. Please note that I have one course release each academic year associated with my appointment to the RBC Chair of Cardiovascular Nursing Research role at the Peter Munk Cardiac Centre.
+
+**Summary of courses taught in tenure-track position (2018-2021)**
+
+:::{.numeric-table}
+
+| Term, Year   | Course number | Course name                                                  | Level    | Class size |
+| ------------ | ------------- | ------------------------------------------------------------ | -------- | ---------- |
+| Fall, 2019   | NUR1027       | Integrated Approaches to Research Appraisal and Utilization, Part 1 | Graduate | 31  |
+| Winter, 2020 | NUR1127       | Integrated Approaches to Research Appraisal and Utilization, Part 2 | Graduate | 31  |
+| Fall, 2020   | NUR1027       | Integrated Approaches to Research Appraisal and Utilization, Part 1 | Graduate | 36  |
+| Winter, 2021 | NUR1127       | Integrated Approaches to Research Appraisal and Utilization, Part 2 | Graduate | 36  |
+
+:::
+
+
+### NUR1027 {.break}
+
+
+
+^[Brame, Cynthia J. “Effective Educational Videos: Principles and Guidelines for Maximizing Student Learning from Video Content.” CBE life sciences education vol. 15,4 (2016): es6. doi:10.1187/cbe.16-03-0125]
+
+*Course changes*
+
+Analysis of 6.9m video sessions in edX showed median engagement time for videos less than 6 minutes long was close to 100%
+
+
+
+Dropped to 50% by the 9 minute mark
+
+
+
+
+- Kept videos between 2-5 minutes
+
+
+
+### NUR1127 {.break}
+
+Summary Course changes
+
+
+### Guest lectures {.break}
+
+I was invited to deliver lectures in a graduate course based on my skills in advanced data analytics and research experience related to critical care. 75% of the students attending my seminar on Nursing Perspectives in Resuscitation Science Research rated the quality of the presentation as excellent. 
+
+| Term, Year   | Course number | Course name                                   | Level    | Class size | Content                                                |
+| ------------ | ------------- | --------------------------------------------- | -------- | ---------- | ------------------------------------------------------ |
+| Winter, 2020 | NUR1059       | Informatics and technology                    | Graduate | 17         | Data Visualization                                     |
+| Winter, 2020 | NUR1059       | Informatics and technology                    | Graduate | 17         | Data transformation                                    |
+| Winter, 2020 | MSC4001H      | Foundations in Resuscitation Science Research | Graduate | 20         | Nursing Perspectives in Resuscitation Science Research |
+
+
+
+### Student supervision {.break}
+
+#### Doctoral student supervision
+
+I have been the primary supervisor for one PhD student for the past 2 years and will commence supervision of a new student in the fall of 2021.
+
+| Student name          | Program                                        | Year start | Year finish | Role       |
+| --------------------- | ---------------------------------------------- | ---------- | ----------- | ---------- |
+| Navpreet Kamboj       | PhD - Bloomberg Nursing, University of Toronto | 2019       | 2023        | Supervisor |
+| Mohammad Goudarzi-Rad | PhD - Bloomberg Nursing, University of Toronto | 2021       | 2025        | Supervisor |
+
+
+**Navpreet Kamboj**
+
+*Lawrence S. Bloomberg Faculty of Nursing*
+
+Navpreet was accepted into the program in 2019. She previously complete a MN (Thesis) degree at Western University and workds clinically at Trillium. Navpreet's research aims at using machine learning to predict changes in blood pressure after nitroglycerin dose titrations. Her research builds upon her nursing experience in the coronary care unit. Navpreet is on track to meet her milestones for PhD completion. She has a systematic review currently under review in the journal *Intensive & Critical Care Nursing*.
+
+**Mohammad Goudarzi-Rad**
+
+*Lawrence S. Bloomberg Faculty of Nursing*
+
+Mohammad is an international student who has just been accepted into the PhD Program. Mohammad has extensive nursing experience in cardiovascular care along with a developing track record in research. He has co-authored several articles with colleagues in Iran and recently published results of the research he undertook for his Masters thesis. Mohammad is interested in exploring nurses' perceptions of using information about predictions from machine learning models in the clinical decision-making process.
+
+#### Masters student supervision
+
+**Litong Zheng**
+
+*Mechanical & Industrial Engineering, University of Toronto*
+
+Litong is a MASc student commencing in the Fall of 2021 in the Toronto Intelligent Decision and Engineering Lab with Prof. Christopher Beck. I am collaborating with Prof. Beck on a program of research related to automating pre-procedure fasting instructions. The student will use state-of-the-art machine learning methods to predict the time 2 and 6 hours before actual procedure start times using predictor variables drawn from the hospital scheduling and intra-procedure monitoring systems. Prof. Beck's research focuses on the interface between Artificial Intelligence (AI) and Operations Research (OR), two domains that address the challenges of efficient allocation and use of scarce resources over time. 
+
+
+#### Undergraduate supervision
+
+| Student name      | Program                 | Year start | Year finish | Role |
+| -------------- | ----------------------- | ---------- | ----------- | ---- |
+| Dan Phan       | BScN work study program | Fall, 2019 | Winter, 2020 | Supervisor |
+| Megan Bittner  | BScN work study program | Fall, 2019 | Winter, 2020 | Supervisor |
+| Dan Phan | BScN work study program | Summer, 2019 | Summer, 2019 | Supervisor |
+| Megan Bittner | BScN Summer Research Program – Nursing, University of Toronto | Summer, 2019 | Summer, 2019 | Supervisor |
+| Kevin Auw-Yang | UTSC Co-op | Fall, 2019 | Spring, 2020 | Supervisor |
+
+
+**Megan Bitner, Undergraduate Summer Research Placement, Summer 2019**
+
+During the Undergraduate Summer Research Placement, Megan worked on a research project related to transcutaneous carbon dioxide monitoring for detection of respiratory depression during sedation. I provided Megan with targeted education and guidance around building skills related to using R for data analysis. The goals, activities and resources I prepared for Megan are presented [here](https://awconway.github.io/USSRP.html). Megan also contributed to a systematic review during here summer research placement, which was subsequently published in the [Journal of Clinical Monitoring and Computing](http://link.springer.com/article/10.1007/s10877-020-00543-6).
+
+**Dan Phan, BScN Work Study Program, Summer 2019**
+
+One aspect of my research involved temperature management. Dan worked assisted with undertaking a systematic review of zero heat flux thermometers. The goals, activitied and resources I provided to support Dan during this learning experience are provided [here](https://awconway.github.io/ZHF-review.html). The systematic review was subsequently published in the [Journal of Clinical Monitoring and Computing](http://link.springer.com/article/10.1007/s10877-020-00543-6).
+
+**Megan Bitner and Dan Phan, BScN Work Study Program, Fall 2019/Winter 2020**
+
+After a successful work term over the summer, I decided to hire both Megan and Dan during the fall. This work study placement involved data collection for a prospective study conducted at the Peter Munk Cardiac Centre, aiming to validate a scale to measure thirst discomfort before cardiac procedures. The responsibilities for Megan and Dan during this term included liaising with clinical staff to identify potentially eligible participants, explanation of the study to potential participants, and completion of a questionnaire for those who agreed to participate. From November 2019 to March 2020, Megan and Dan screened 203 patients for inclusion in the study. 194 of the 198 eligible participated in the study. The results of this study were subsequently published in the Journal of Radiology Nursing <https://www.sciencedirect.com/science/article/pii/S1546084320301814>. 
+
+**Kevin Auw-Yang, UTSC Co-op placement, Fall 2019 - Spring 2020**
+
+Kevin was a student enrolled in a BSc degree program at UTSC. Kevin aspired for a career in health, potentially in the field of medicine. I initially hired Kevin through the UTSC Co-op program to assist with a randomized controlled trial of high flow nasal oxygen in the cath lab at the Peter Munk Cardiac Centre. After a number of weeks of training to undertake tasks related to data collection for this trial, I decided that Kevin would not be able to undertake these activities without constant, direct supervision. As such, I decided to re-assign Kevin's primary duties to undertaking data entry, cleaning and assisting with reporting. 
+
+## Evidence of teaching effectiveness
+
+### NUR1027 Integrated Approaches to Research Appraisal and Utilization, Part 1
+
+After teaching NUR1027 for the first time in the fall of 2019, I reviewed student evaluations and subsequently made adjustments based on this feedback. The quantitative scores improved noticeably in the evaluation period for the fall of 2020. All of the core institutional and divisional items improved from a median score of 4 to 5 (on a 5-point scale), demonstrating that my teaching effectiveness improved. 
+
+```{r echo=FALSE}
+library(tidyverse)
+data <- tribble(
+  ~number, ~question, ~rating, ~year,
+  1, "I found the course intellectually stimulating", 4, "2019",
+  1, "I found the course intellectually stimulating", 5, "2020",
+  2, "The course provided me with a deeper understanding of the subject matter.", 4, "2019",
+  2, "The course provided me with a deeper understanding of the subject matter.", 5, "2020",
+  3, "The instructor created an atmosphere that was conducive to my learning.", 4, "2019",
+  3, "The instructor created an atmosphere that was conducive to my learning.", 5, "2020",
+  4, "Course projects, assignments, tests, and/or exams improved my understanding of the course material.", 4, "2019",
+  4, "Course projects, assignments, tests, and/or exams improved my understanding of the course material.", 5, "2020",
+  5, "Course projects, assignments, tests and/or exams provided opportunity for me to demonstrate an understanding of the course material.", 4, "2019",
+  5, "Course projects, assignments, tests and/or exams provided opportunity for me to demonstrate an understanding of the course material.", 5, "2020",
+  6, "Overall, the quality of my learning experience in this course was….", 4, "2019",
+  6, "Overall, the quality of my learning experience in this course was….", 5, "2020",
+  9, "This course helped me progress toward achievement of my educational goals.", 4, "2019",
+  9, "This course helped me progress toward achievement of my educational goals.", 5, "2020",
+  10, "The course environment promoted a supportive community for learning.", 4, "2019",
+  10, "The course environment promoted a supportive community for learning.", 5, "2020",
+)
+library(showtext)
+font_add_google(
+  name = "Work Sans", ## Name of the font on the Google Fonts site
+  family = "worksans"
+)
+showtext_auto()
+data %>%
+  ggplot(aes(y = reorder(question, -number), x = rating, fill = year)) +
+  geom_col(position = "dodge") +
+  scale_fill_manual(values = c("#CCE2FF", "#002a60")) + ## light is hsl(214,100%,90%)
+  theme_minimal() +
+  theme(
+    legend.position = "bottom",
+    legend.title = element_blank(),
+    axis.title.y = element_blank(),
+    axis.title.x = element_blank(),
+    plot.caption = element_text(hjust = 0, face = "italic"),
+    plot.title.position = "plot",
+    plot.caption.position = "plot",
+    text = element_text(family = "worksans")
+  ) +
+  scale_y_discrete(labels = function(x) str_wrap(x, width = 40)) +
+  labs(
+    caption = "1=Poor/Not at all, 2=Fair/Somewhat, 3=Good/Moderately, 4=Very Good/Mostly, 5=Excellent/A great deal",
+    subtitle = "Median scores for core and divisional items in 2019 (n=22) and 2020 (n=23)"
+  )
+```
+
+
+#### Fall 2019 {.break}
+
+Comments from students on the overall quality of the course are listed below. As this was an online course, most comments related to the choice for delivery of course content (videos/discussion boards). Not all comments from the course are included.
+
+**Comments on the overall quality of the instruction in this course:**
+
+:::{.quote}
+The instructor was helpful and willing to answer any confusion about course materials.
+:::
+
+:::{.quote}
+The overall quality of instruction in this course was excellent. Aaron incorporates unique video lectures as well as activities that facilitate learning. In addition, he also uses discussion boards to enhance understanding of concepts.
+:::
+
+:::{.quote}
+ I was not a fan of the video style lectures – too fast & skipped a lot of content from the readings
+:::
+
+:::{.quote}
+  Professor Aaron Conway supported learning of course material through a variety of different learning techniques, such as interactive modules and guest lectures, which helped to clarify course content.  Aaron was present throughout the week on the discussion board, responding to posts and encouraging dialogue between peers.
+:::
+
+:::{.quote}
+  Dr. Aaron Conway is a great instructor. The lectures and exercises were very helpful to learn the material.
+:::
+
+:::{.quote}
+The introduction for certain research concepts were confusing (especially quantitative). After completing learning modules and readings, I did not feel confident that I was able to completely understand the concepts taught for that week. I had to look up concepts in other source online to assist my learning. I think it would be helpful in the future to teach the concepts as if it were being taught to a novice learner, as many students took a statistic/research course several years ago. I think it would also be helpful to provide several examples of application. Discussion posts each week were related to applying concepts to a research study, which was helpful leading up the final assignment. However not all questions were answered and if they were it was uncertain if that student answered it correctly. It would be helpful if Dr. Conway is able to comment on all student's posts to give them good/bad feedback. May also be helpful to post a summary of each week on the discussion board so it is clear how the concepts should be applied and what the correct answers are.
+:::
+
+:::{.quote}
+  Overall the quality was good. Would have been helpful if some of the weeks which did not have a discussion board could have aligned with weeks where assignments were due. I found it difficult to provide the same quality of responses on those weeks.
+:::
+
+:::{.quote}
+  The quality of the content was great and I really enjoyed the delivery. It was a huge amount of very technical reading which was overwhelming at times however.
+:::
+
+:::{.quote}
+  Overall, I think Aaron is a good instructor. The lectures were clear and easy to understand. What I would have liked to see more of is Aaron demonstrating how to apply the concepts instead of just having the students discuss on the discussion boards. For example, when discussing statistics, I would have liked to see how the instructor would have answered the discussion questions and how he arrived to those answers. 
+  Unfortunately, I did not find the sections of the lecture that included coding very useful. I did not find that it helped advance my knowledge of the course concepts. I felt lost in trying to figure out coding that I have never been exposed to in the past.
+:::
+
+:::{.quote}
+  Instruction was excellent. This course may be enhanced by adding another final sample paper that was quantitative; therefore, students can see papers of both quantitative and qualitative methodologies.
+:::
+
+:::{.quote}
+  Instruction in this course was good, it is difficult material to work through online but was presented in a way that broke it down well and made it easier to digest.
+:::
+
+:::{.quote}
+  Aaron was always quick to respond to my emails. The in–person appointment I had with Aaron increased my understanding of research concepts drastically. I believe, due to the nature of research concepts (p–value, confidence interval, odds ratio), the online learning environment was challenging. Aaron could improve this by hosting more BBCollab to clarify any concepts that students continue to have difficulties understanding despite going through weekly readings and course content. Aaron's video provided a humanistic touch to an online learning environment. Aaron could also provide more examples in his videos related to concepts (especially the challenging concepts) to increase students' understanding of the concepts. The embedded learning activities in between Aaron's videos were very confusing and difficult to understand. Overall, it was a pleasure to have Aaron as my prof!
+:::
+
+:::{.quote}
+  More built in multiple choice and hands–on activities. Enjoyed working through the built in exercises in the weekly course material.
+:::
+
+:::{.quote}
+  The learning activities embedded in the weekly content did not support my learning and I found it to be distracting to try to understand how to use the programs/coding systems to run the examples. I found myself googling a lot of the content. Understandably this is complicated material but I do not feel it was made clear by just the lecture alone.
+:::
+
+:::{.quote}
+  The learning activities embedded in the weekly content did not support my learning and I found it to be distracting to try to understand how to use the programs/coding systems to run the examples. I found myself googling a lot of the content. Understandably this is complicated material but I do not feel it was made clear by just the lecture alone.
+Thank you Aaron for recording your office hours. I found it helpful to be able to listen to what was discussed when I was not able to join the session at the scheduled time. 
+The first and third assignments were unclear as to what was required. A sample of the third assignment was available however, it did not correspond with the rubric. 
+The activities in the weekly modules, specifically quantitative research modules, did not work majority of the time. I became frustrated at times because the codes I entered were correct but the result kept reading “error”. When I clicked on “solution” or “answer”, the correct answer was exactly what I entered. 
+Overall, the course was good. Aaron was fair and encouraged us to respond to each other’s post and he often joined in the discussions as well. I felt he created a stimulating and impartial learning environment.
+:::
+
+
+
+**Comments on any assistance available to support student learning in this course:**
+
+
+
+:::{.quote}
+  Aaron provided assistance via email, discussion board, and in–person. Aaron takes the time to answer questions clearly and provides a nonjudgmental environment that facilitates learning.
+:::
+
+:::{.quote}
+  Aaron provided the opportunity for office hours sessions to be attended prior to the due dates of the major assignments. I appreciated that he also provided summary notes/ key points from these sessions, in the case that students were unable to attend. Aaron was also easily accessible to reach via email to provide clarification to questions if needed.
+:::
+
+:::{.quote}
+  I asked for feedback from Aaron about my posts and my first paper. He was very very open in offering his time in person and via email. He gave me some really great advice and it really made a world of difference for my semester.
+:::
+
+:::{.quote}
+  Aaron was readily accessible when needed. The learning modules were very supportive (aside from the coding activities). The readings were suited to the topics and course objectives. The discussion posts were helpful in preparing for assignments.
+:::
+
+
+#### Fall 2020
+
+Comments from students in the Fall 2020 cohort reflected the quantitative scores, indicating a high level of satisfaction with the course structure, learning resources and instructor support.
+
+**Comments on the overall quality of the instruction in this course:**
+
+:::{.quote}
+  I like the way the course was organized clear guidelines for assignments and prompt feedback - very understanding prof!
+:::
+
+:::{.quote}
+  Great structure. Very engaging
+:::
+
+:::{.quote}
+  Loved this Course! The discussion board and assignment all facilitated learning. Aaron used a variety of teaching methods which was provided variety and interest in modules.
+:::
+
+:::{.quote}
+  I enjoyed the multidimensional instruction provided (videos, readings, activity)
+:::
+
+:::{.quote}
+  The modules of this course were VERY organized and clear. The readings were relevant to the discussion posts, and the assignments were reasonable and appropriate given the content. Both the course instructor and the TA were very responsive to email, and were active participants in the weekly discussions. It was very apparent that the instructor appreciated that his students are novice researchers and did his best to simplify complex subject matter and make it applicable to our current and future careers. I feel very fortunate to have Professor Conway as an instructor in the winter semester as well. It is obvious that this is a subject he is passionate about.
+:::
+
+:::{.quote}
+  The quality was great – the use website used to host our weekly content was very engaging and easy to use
+:::
+
+
+:::{.quote}
+The course content was challenging, but extremely good. I though that Aaron and Danielle (the TA) worked well together to answer and elucidate understanding of course content on the forums. Both were very open and responsive to answering questions via video chat, which was much appreciated. I found that the course content was excellently structured, with enough readings (but not too many!) to help me figure out how to learn what I needed to learn. I thought the session by the library, Mikaela Gray, was excellent and a huge benefit in learning how to search databases. 
+I appreciated the drop in sessions as well for the assignments. As well, the word limits on forums (while hard to observe at times) were useful in controlling how long people's posts were. 
+A few ideas for improvement:
+- having drop in sessions throughout the year for students to discuss research concepts (especially during statistics weeks because many students struggled with that?)
+- the discussion forums were a great place to learn from other students. However, I think sometimes it felt like you had to have the right answer when you weren't actually very clear on some of the concepts for that week. It might be nice to have a disclaimer that while forums count for marks, it's also a place to share if you are having a good understanding of the concepts or if you need clarification on something. It makes the online community feel more collegial and honest. 
+Thank you to the instructor and TA for a wonderful course! I can tell that a lot of work and time went into structuring it and creating it.
+:::
+
+:::{.quote}
+I really liked the powerpoint/video format where the instructor appeared like he was actually teaching us.
+:::
+
+
+:::{.quote}
+  This course provided a very practical approach to learning about appraising research. I have increased confidence in appraising research as well as other skills such as literature searching. The course format was effective to teach the course concepts.
+:::
+
+
+:::{.quote}
+  I really enjoyed your approach to teaching. You understand and meet the needs of adult learners with different learning styles. This was demonstrated by the beautifully designed learning modules, videos, discussion questions, and podcasts. I enjoyed the variety of learning tools. It helped to keep me engaged. Returning to school for my nursing masters I was worried about boring, endless readings, but this was not the case. You made learning fun! Thank you for this!
+:::
+
+
+:::{.quote}
+  The weekly content varied with the format of the information presented. Some weeks included more video content that made the concepts easier to understand. Some weeks included text words only, which made the content more difficult to grasp.
+:::
+
+
+:::{.quote}
+  Everyone has different learning styles, while I appreciate that discussion posts are meant to ensure that students are accountable for weekly readings and to assess learning, they are something I have always found challenging and impersonal. Reflecting on my comprehension and being able to fit it into 250–300 words is especially difficult. I prefer to write short papers or engage in face to face discussion, which I recognize is not reasonable given the asyncronous nature of the HSLA stream. Working full–time on a rotating schedule made it difficult for me to truly engage in the weekly discussions, and I found myself only having enough time to do the minimum expectation (posting once and commenting once) as I didn't have enough time to truly engage in the ongoing discussion. I recognize that this more has to do with my dense work schedule than the actual discussions' content.
+:::
+
+
+**Comments on any assistance that was available to support your learning in this course:**
+
+
+
+:::{.quote}
+  Dr. Conway held office hours prior to assignments and was very responsive to emails and posts on the discussion board
+:::
+
+:::{.quote} 
+  Aaron was very available for questions on Quercus and gave helpful tips and tricks in the assignment description that was extremely important in furthering my understanding of what was required for each assignment.
+:::
+
+:::{.quote}
+  Dr. Conway was very approachable and made it clear that assistance was available if required.
+
+
+:::
+
+:::{.quote}
+  No suggestions. Outstanding professor! Feedback and guidance on discussion board posts, quick response to emails, and grading papers adding to my learning and was truly appreciated!
+:::
+
+
+:::{.quote}
+  Professor Aaron was very quick to respond to emails, and answered any questions posted on Quercus or via email
+:::
+
+
+### NUR1127 Integrated Approaches to Research Appraisal and Utilization, Part 2 {.break}
+
+After teaching NUR1127 for the first time in the Winter of 2020, I reviewed student evaluations and subsequently made adjustments based on this feedback. The quantitative scores remained consistent in the evaluation period for the Windter of 2021. All of the core institional and divisional items maintained a median score of 4 or 5 (on a 5-point scale), demonstrating that my teaching achieved a high level of satisfaction from students in both terms. It should be noted that the Winter 2020 term was considerably affected by the first wave of COVID-19. In line with recommendations from the Masters Program Coordinator, students were provided with the option to forgoe the last assignment and have their grades from the previous assessments in the course re-distributed. The vast majority of students elected for this offer, reflecting the extraordinary demands on time due to increased clinical responsibilities.
+
+
+```{r echo=FALSE}
+library(tidyverse)
+data <- tribble(
+  ~number, ~question, ~rating, ~year,
+  1, "I found the course intellectually stimulating", 4, "2021",
+  1, "I found the course intellectually stimulating", 4, "2020",
+  2, "The course provided me with a deeper understanding of the subject matter.", 5, "2021",
+  2, "The course provided me with a deeper understanding of the subject matter.", 5, "2020",
+  3, "The instructor created an atmosphere that was conducive to my learning.", 5, "2021",
+  3, "The instructor created an atmosphere that was conducive to my learning.", 5, "2020",
+  4, "Course projects, assignments, tests, and/or exams improved my understanding of the course material.", 5, "2021",
+  4, "Course projects, assignments, tests, and/or exams improved my understanding of the course material.", 5, "2020",
+  5, "Course projects, assignments, tests and/or exams provided opportunity for me to demonstrate an understanding of the course material.", 5, "2021",
+  5, "Course projects, assignments, tests and/or exams provided opportunity for me to demonstrate an understanding of the course material.", 4, "2020",
+  6, "Overall, the quality of my learning experience in this course was….", 4, "2021",
+  6, "Overall, the quality of my learning experience in this course was….", 4, "2020",
+  9, "This course helped me progress toward achievement of my educational goals.", 4, "2021",
+  9, "This course helped me progress toward achievement of my educational goals.", 4, "2020",
+  10, "The course environment promoted a supportive community for learning.", 5, "2021",
+  10, "The course environment promoted a supportive community for learning.", 5, "2020",
+)
+library(showtext)
+font_add_google(
+  name = "Work Sans", ## Name of the font on the Google Fonts site
+  family = "worksans"
+)
+showtext_auto()
+data %>%
+  ggplot(aes(y = reorder(question, -number), x = rating, fill = year)) +
+  geom_col(position = "dodge") +
+  scale_fill_manual(values = c("#CCE2FF", "#002a60")) + ## light is hsl(214,100%,90%)
+  theme_minimal() +
+  theme(
+    legend.position = "bottom",
+    legend.title = element_blank(),
+    axis.title.y = element_blank(),
+    axis.title.x = element_blank(),
+    plot.caption = element_text(hjust = 0, face = "italic"),
+    plot.title.position = "plot",
+    plot.caption.position = "plot",
+    text = element_text(family = "worksans")
+  ) +
+  scale_y_discrete(labels = function(x) str_wrap(x, width = 40)) +
+  labs(
+    caption = "1=Poor/Not at all, 2=Fair/Somewhat, 3=Good/Moderately, 4=Very Good/Mostly, 5=Excellent/A great deal",
+    subtitle = "Median scores for core and divisional items in 2020 (n=13) and 2021 (n=19)"
+  )
+```
+
+#### Winter 2020
+
+Comments from students on the overall quality of the course are listed below. These qualitative responses provide substantive evidence that the various modes of teaching I used throughout this course, including lectures, webinar demonstrations of risk of bias assessments, and moderation of discussion board online participation activities, were effective approaches for supporting student learning.
+
+**Comments on the overall quality of the instruction in this course:**
+
+:::{.quote}
+
+I found Aaron had an amazing ability to share and teach content that is quite complex. There were times I had to re–watch lectures, but that was more due to the pace of the course rather than Aaron's style. He was very helpful when I had questions and I always found him very willing to offer help. He has an extremely detailed rubric system that gave me a clearer understanding of where to start.
+
+:::
+
+:::{.quote}
+
+I think the content taught was very relevant and current. The course did a great job of teaching us the skills requires to appraise evidence.
+
+:::
+
+:::{.quote}
+
+I thought the material was applicable to my practice and would be difficult to grasp without the excellent instruction offered in this course.
+
+:::
+
+:::{.quote}
+
+Throughout the year, Aaron was a fantastic instructor for both research courses. He is very clear in the concepts throughout the course, explaining how they link to realistic applications in practice. He is very approachable, fair and transparent with his students.
+
+:::
+
+:::{.quote}
+
+Aaron is knowledgeable and an excellent communicator. I was so pleased to have him back for another semester.
+Aaron's lectures are well organized and clear, and his evaluations capture the learned material very well.
+
+:::
+
+:::{.quote}
+
+Overall I felt that the course was effective. Aaron Conway always asked if the student had any questions and made sure to address all questions before proceeding with material.
+
+:::
+
+:::{.quote}
+
+Material was presented in a clear manner. Helped me to think about material deeper through his thoughtful and knowledgable responses to discussion posts. I felt that some of the testing questions were worded sightly confusing and I could interpret a few of the questions in a couple of ways. I also felt that for the amount of information covered (and studied), the test did not fully represent the material. I would have liked a more comprehensive test/more questions.
+
+:::
+
+:::{.quote}
+
+It was difficult to understand the concepts in depth from the online lectures and I found myself spending a lot of my own time googling or watching youtube videos to understand the concepts. It may have been helpful to go into more depth within the lectures of the concepts as I think for many of us these were new concepts all together and it felt like we needed some background in these topics to be able to understand the lectures.
+
+:::
+
+:::{.quote}
+
+Assignment guidelines and evaluative criteria were clear and easy to understand. Instruction on learning to be done each week was also clear and very organized.
+
+:::
+
+**Comments on any assistance that was available to support your learning in this course:**
+
+:::{.quote}
+
+I had several question related to course content that I had difficulty sorting out on my own. Aaron was helpful in applying alternate explanations.
+
+:::
+
+:::{.quote}
+
+I liked the course website. I liked the learning activities. The video lectures in this course with the slides attached were conducive to my learning style. Thank you for sharing your research experience with us in the course. Your knowledge and expertise were apparent. It was good to learn what it is actually done in practice. Thank you. Also, you always responded to inquires promptly and were clear and fair in your expectations.
+
+:::
+
+:::{.quote}
+
+I found the instructor to be consistently responsive and helpful.
+
+:::
+
+:::{.quote}
+
+As a professor, Aaron was always available and willing to help students. Prior to assignments, he provided opportunity for online questions via BB Collaborate. He was also willing to meet with students in person to clarify concepts that were unclear.
+
+:::
+
+:::{.quote}
+
+Having had to manage establishing covid policies and procedures while at my job, I was so relieved to have Aaron and the university's support to have the final assignment as optional.
+
+:::
+
+:::{.quote}
+
+Aaron was very responsive to emails and questions asked on the discussion boards
+
+:::
+
+:::{.quote}
+
+Yes, the professor was also open to office hours, helping students who did not understand concepts, and would spend time further explaining course concepts.
+
+:::
+
+:::{.quote}
+
+Aaron and the TA were active on the discussion board if any students required clarifications. As well, they were readily available via email.
+
+:::
+
+:::{.quote}
+
+Aaron is very approachable and willing to help with all questions.
+
+:::
+
+:::{.quote}
+
+I enjoyed the live webinars where we were able to watch Aaron apply critical appraisal tools. That was very helpful to see the rationale behind how certain options were selected. 
+
+:::
+
+:::{.quote}
+
+The discussion board posts is a huge tool that I used to try and understand/apply concepts learned for the week. Some concepts remained unclear, even as I seeked clarification from the weekly lecture notes and assigned readings. When I notice that other students are inquiring about the same concepts, I continue to follow up for answers provided by Aaron or Danielle. Thank you Aaron for providing a lot of clarification and responding to our posts to help us learn the content for the week.
+
+:::
+
+#### Winter 2021
+
+Again in this course, comments from students generally supported the quantitative scores, indicating a high level of satisfaction and supporting evidence of effective teaching. Constructive feedback regarding the amount of reading associated with GRADE comments were received, and will be considered in future terms.
+
+**Comments on the overall quality of the instruction in this course:**
+
+:::{.quote}
+Dr. Conway was an excellent professor for this course. He always provided extra support when certain concepts were more difficult to grasp. There were many opportunities for further engagement (webinars), and discussion with peers in weekly discussion groups. 
+
+Dr. Conway was also very receptive to concerns the class had around the structure of the course. Specifically he accommodated student's concerns that the weekly discussions were extremely time consuming. In response, Dr. Conway made the discussion posts optional for the class.
+:::
+
+:::{.quote}
+As always, professor conway is an excellent instructor and very accommodating to students needs.
+:::
+:::{.quote}
+Course eval was adjusted based on student feedback to reduce workload and I really appreciated that.
+
+:::
+:::{.quote}
+Aaron really made the time to ensure I understood the course content. I especially appreciated his patience. He is an excellent instructor!
+:::
+:::{.quote}
+Dr. Conway's expectations within the course were reasonable. I really appreciated his willingness to be flexible with his grading scheme. It was especially challenging to balance full–time nursing work during the second wave where my unit was running especially short staffed and the course content was quite heavy to balance
+
+:::
+:::{.quote}
+I feel that this course has enhanced my knowledge and ability to critically appraise evidence that is relevant to practice. The assignments provide an opportunity to apply the knowledge in a way that will enhance my ability to appraise research in my practice.
+
+:::
+:::{.quote}
+Overall this course was an excellent addition to my learning journey. I found the build of the course content on the topics covered in the first semester was done with care and consideration. The assignments were valuable and allowed me to make sense of and prove my understanding of the course content.
+
+:::
+:::{.quote}
+Aaron is extremely approachable, he offers a mix of Webinars and course weekly learning content that cover the material well. He offers quick and thorough replies as well.
+
+:::
+:::{.quote}
+Aaron is able to explain the material in a relatively simple way as much as possible!
+He is great!
+:::
+:::{.quote}
+I found this course quite heavy. Often in the modules a concept would be taught and then we would be responsible for reading an article or chapter to gain further understanding of the concept. Although this was sometimes effective, I found that with some of the heavier concepts and with some of the readings (which were upwards of 20 pages sometimes) this was hard to manage and I would often have 5,6,7 questions for the discussion board or in an email to the instructor/TA to actually understand the concepts. I also found that this course was particularly heavy during the group presentations. During the group presentations, we were responsible for reviewing the presentation (learning/ understanding the new content within the presentation) and contributing to the discussion, while also completing new course lecture content and completing one's own group assignment. With some more "down" time in the later weeks of the course, i think it would have been useful to have this spread out a bit more– I think that would have given me a bit more time to learn and understand some of the concepts, rather than re–learning some of the information during the last assignment.
+
+:::
+:::{.quote}
+This was an amazing course! I learned so much and I feel like it will be useful.
+
+:::
+:::{.quote}
+I really enjoyed this course. Aaron's focus on pragmatic application and synthesis of course content is a great strategy for teaching the material. It was really great to learn from Aaron. He was available whenever needed and very prompt in replies. I would recommend this course (even though it's mandatory haha) to anyone! it was very high–quality and Aaron is a top–notch instructor.
+
+:::
+:::{.quote}
+I found a lot of the material very interesting, but the course structure was a bit challenging to follow. It was hard to wrap my head around the material for each week while also working on the presentation in the first few weeks. However, that may just be a consequence of being in graduate school during a pandemic and not being able to put all of my energy into trying to understand GRADE and ROB vs ROBINS–I. Also, coming up on the end of the semester it's hard to see the big picture of why we're learning some of these things, but again, that may be pandemic fatigue setting in. 
+
+The exam was also surprisingly stressful, again possibly a consequence of trying to study during the pandemic while working – a list of key terms would have at least provided a small foundation of what to memorize. Overall, I feel like I have a solid understanding of how to appraise literature but would like more practical examples of how a manager or educator might use these guidelines in practice.
+
+:::
+:::{.quote}
+Content could be heavy at times, and there wasn’t always an opportunity to develop an understanding without rushing through the content
+
+:::
+
+**Comments on any assistance that was available to support your learning in this course:**
+
+:::{.quote}
+– Email support from Dr. Conway, anytime of the day. 
+– Quercus discussion boards where students could post questions about the course or specific assignments.
+:::
+:::{.quote}
+Aaron was always available to answer questions on the discussion board or by email. Very approachable.
+
+:::
+:::{.quote}
+The prof was available and provided feedback where necessary
+
+:::
+:::{.quote}
+Aaron is always available to answer questions and help address areas of confusion. During the group project, my group reached out a few times for clarification and Aaron was very helpful in enhancing our understanding of the course content.
+
+:::
+:::{.quote}
+Discussion board is helpful and both the instructor/ TAs were very helpful with answering questions and emails promptly.
+
+:::
+:::{.quote}
+Dr. Conway was an amazing support during this course
+
+:::
+:::{.quote}
+Flexibility with COVID was helpful
+
+:::
+:::{.quote}
+The instructor was very engaging and accessible through email and discussion posts if there were any concerns.
+
+:::
+
+
+## Professional development
+
+
+
+## Service to the university
+
+Over the past three years I have served on a number of committees related to teaching service to the University. These include: 
+
+- Curriculum Committee (2019-2020)
+- Admissions Committee (2018-2021)
+- Awards Committee (2020-2021)
+
+I have served on ad hoc committees including a working group of the Masters Program Committee focused on reviewing the results of quality assurance/improvement survey. I also provided an informal presentation to the Masters Program Committee on the process I used to create videos for NUR1027.
+
+## Teaching reflections
+
+
+
+## Appendices
+
+```{r}
+library(bs4cards)
+card_grid(list(
+  card(
+    title = "Syllabus for Fall 2019",
+    text = "Integrated Approaches to Research Appraisal and Utilization, Part 1",
+    link = "https://awconway.github.io/NUR1027/syllabus/Syllabus.html",
+    image = "images/nur1027logo.png",
+    margin = bs_mar(1)
+  ),
+  card(
+    title = "Syllabus for Fall 2020",
+    text = "Integrated Approaches to Research Appraisal and Utilization, Part 1",
+    link = "https://nur1027syllabus.netlify.app",
+    image = "images/nur1027logo.png",
+    margin = bs_mar(1)
+  ),
+  card(
+    title = "Syllabus for Winter 2020",
+    text = "Integrated Approaches to Research Appraisal and Utilization, Part 2",
+    link = "https://awconway.github.io/NUR1127/Syllabus/Syllabus.html",
+    image = "images/nur1127logo.png",
+    margin = bs_mar(1)
+  ),
+  card(
+    title = "Syllabus for Winter 2021",
+    text = "Integrated Approaches to Research Appraisal and Utilization, Part 2",
+    link = "https://nur1127syllabus.netlify.app",
+    image = "images/nur1127logo.png",
+    margin = bs_mar(1)
+  ),
+  card(title = "Peer evaluation",
+image = "star.svg",
+text = "Letter from Dr. Charlene Chu with an evaluation of the guest workshop I provided on data visualiztion for NUR1059",
+link = "",
+margin = bs_mar(1))
+))
+```
