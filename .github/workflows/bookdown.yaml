@@ -45,6 +45,8 @@ jobs:
         shell: Rscript {0}
 
       - name: Build site
+        env:
+          ORCID_TOKEN: ${{ secrets.ORCID_TOKEN }}
         run: Rscript -e 'bookdown::render_book(".", quiet = TRUE)'
 
 
