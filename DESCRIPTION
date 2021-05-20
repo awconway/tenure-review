@@ -20,6 +20,10 @@ Suggests:
     bslib,
     downlit,
     pagedown,
-    tidyverse
+    tidyverse,
+    rorcid,
+    bs4cards,
+    showtext
 Remotes: 
-    rstudio/pagedown
+    rstudio/pagedown,
+    djnavarro/bs4cards
