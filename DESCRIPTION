@@ -23,9 +23,12 @@ Suggests:
     dplyr,
     stringr,
     ggplot2,
+    purrr,
+    glue,
     rorcid,
     bs4cards,
-    showtext
+    showtext,
+    bib2df
 Remotes: 
     rstudio/pagedown,
     djnavarro/bs4cards
