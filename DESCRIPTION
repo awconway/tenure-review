@@ -25,6 +25,7 @@ Suggests:
     ggplot2,
     purrr,
     glue,
+    tibble,
     rorcid,
     bs4cards,
     showtext,

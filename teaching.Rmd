@@ -146,7 +146,6 @@ Kevin was a student enrolled in a BSc degree program at UTSC. Kevin aspired for 
 After teaching NUR1027 for the first time in the fall of 2019, I reviewed student evaluations and subsequently made adjustments based on this feedback. The quantitative scores improved noticeably in the evaluation period for the fall of 2020. All of the core institutional and divisional items improved from a median score of 4 to 5 (on a 5-point scale), demonstrating that my teaching effectiveness improved. 
 
 ```{r echo=FALSE}
-library(tidyverse)
 data <- tribble(
   ~number, ~question, ~rating, ~year,
   1, "I found the course intellectually stimulating", 4, "2019",
@@ -388,7 +387,6 @@ After teaching NUR1127 for the first time in the Winter of 2020, I reviewed stud
 
 
 ```{r echo=FALSE}
-library(tidyverse)
 data <- tribble(
   ~number, ~question, ~rating, ~year,
   1, "I found the course intellectually stimulating", 4, "2021",
