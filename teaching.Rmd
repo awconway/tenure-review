@@ -693,32 +693,32 @@ card_grid(list(
     title = "Syllabus for Fall 2019",
     text = "Integrated Approaches to Research Appraisal and Utilization, Part 1",
     link = "https://awconway.github.io/NUR1027/syllabus/Syllabus.html",
-    image = "images/nur1027logo.png",
+    image = "https://res.cloudinary.com/awcoway/image/upload/v1621535406/nur1027logo_ddnx3b.png",
     margin = bs_mar(1)
   ),
   card(
     title = "Syllabus for Fall 2020",
     text = "Integrated Approaches to Research Appraisal and Utilization, Part 1",
     link = "https://nur1027syllabus.netlify.app",
-    image = "images/nur1027logo.png",
+    image = "https://res.cloudinary.com/awcoway/image/upload/v1621535406/nur1027logo_ddnx3b.png",
     margin = bs_mar(1)
   ),
   card(
     title = "Syllabus for Winter 2020",
     text = "Integrated Approaches to Research Appraisal and Utilization, Part 2",
     link = "https://awconway.github.io/NUR1127/Syllabus/Syllabus.html",
-    image = "images/nur1127logo.png",
+    image = "https://res.cloudinary.com/awcoway/image/upload/v1621535407/nur1127logo_kfb7ly.png",
     margin = bs_mar(1)
   ),
   card(
     title = "Syllabus for Winter 2021",
     text = "Integrated Approaches to Research Appraisal and Utilization, Part 2",
     link = "https://nur1127syllabus.netlify.app",
-    image = "images/nur1127logo.png",
+    image = "https://res.cloudinary.com/awcoway/image/upload/v1621535407/nur1127logo_kfb7ly.png",
     margin = bs_mar(1)
   ),
   card(title = "Peer evaluation",
-image = "star.svg",
+image = "svgs/star.svg",
 text = "Letter from Dr. Charlene Chu with an evaluation of the guest workshop I provided on data visualiztion for NUR1059",
 link = "",
 margin = bs_mar(1))

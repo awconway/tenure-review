@@ -20,7 +20,9 @@ Suggests:
     bslib,
     downlit,
     pagedown,
-    tidyverse,
+    dplyr,
+    stringr,
+    ggplot2,
     rorcid,
     bs4cards,
     showtext
