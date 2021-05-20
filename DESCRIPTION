@@ -19,6 +19,7 @@ Suggests:
     bookdown,
     bslib,
     downlit,
-    pagedown
+    pagedown,
+    tidyverse
 Remotes: 
     rstudio/pagedown
