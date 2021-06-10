@@ -4,3 +4,5 @@ bookdown::bs4_book:
     secondary: "hsl(214, 100%, 94%)"
   css: 
     - css/styles.css
+  bibliography: references.bib
+

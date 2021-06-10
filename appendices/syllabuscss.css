@@ -97,18 +97,18 @@ li {
   overflow: hidden;
 }
 .running-h1-title:before {
-  content: string(h1-text);
+  content: none;
 }
 
 @page chapter {
   @bottom-right {
-    content: counter(page);
+    content: none;
     font-size: var(--font-small);
     color: var(--text-color-light);
   }
 
   @bottom-left {
-    content: string(subtitle) " |";
+    content: none;
     white-space: nowrap !important;
     font-size: var(--font-xsmall);
     color: var(--text-color-light);
@@ -127,7 +127,7 @@ li {
   /* We would want to write: */
   /* content: string(h2-text, start); */
   /* However, this is yet unsupported by Paged.js, see https://gitlab.pagedmedia.org/tools/pagedjs/issues/38 */
-  content: string(h2-text);
+  content: none;
 }
 
 .running-h1-title {
@@ -137,7 +137,7 @@ li {
   overflow: hidden;
 }
 .running-h1-title:before {
-  content: string(h1-text);
+  content: none;
 }
 
 /* New chapter page */
@@ -149,31 +149,7 @@ li {
     content: none;
   }
   @bottom-right {
-    content: counter(page);
-  }
-}
-
-/* Report first page */
-@page :first {
-
-  margin: 0 0 0 0;
-  background-color: #ffffff;
-  background-image:
-    url('https://res.cloudinary.com/awconway/image/upload/v1621536105/bloomberg_cg93z9.png'), 
-    /* https://bgjar.com */
-    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='793.7' height='1000' preserveAspectRatio='none' viewBox='0 0 793.7 1000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1043%26quot%3b)' fill='none'%3e%3crect width='793.7' height='1000' x='0' y='0' fill='url(%23SvgjsLinearGradient1044)'%3e%3c/rect%3e%3cpath d='M44 1000L1044 0L1431 0L431 1000z' fill='url(%23SvgjsLinearGradient1045)'%3e%3c/path%3e%3cpath d='M744.7 1000L-255.29999999999995 0L-480.29999999999995 0L519.7 1000z' fill='url(%23SvgjsLinearGradient1046)'%3e%3c/path%3e%3cpath d='M222.78842424175855 1000L793.7 429.0884242417585L793.7 1000z' fill='url(%23SvgjsLinearGradient1045)'%3e%3c/path%3e%3cpath d='M0 1000L570.9115757582415 1000L 0 429.0884242417585z' fill='url(%23SvgjsLinearGradient1046)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1043'%3e%3crect width='793.7' height='1000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='-6.5%25' y1='5.16%25' x2='106.5%25' y2='94.84%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1044'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1045'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1046'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
-  background-repeat: no-repeat,no-repeat;
-  background-position: 10px 20px, bottom right;
-  background-size: 30%, 793.7px 1000px;
-
-@top-center {
     content: none;
-  }
-  @top-right {
-    content: none;
-  }
-  @bottom-right {
-    content: none !important;
   }
 }
 
@@ -181,19 +157,19 @@ li {
 /* Front matter */
 @page frontmatter:left {
   @top-left {
-    content: counter(page, lower-roman);
+    content: none;
   }
   @top-right {
-    content: element(runningH1Title);
+    content: none;
     white-space: nowrap !important;
   }
 }
 @page frontmatter:right {
   @top-right {
-    content: counter(page, lower-roman);
+    content: none;
   }
   @top-left {
-    content: element(runningH1Title);
+    content: none;
     white-space: nowrap !important;
   }
 }
@@ -205,7 +181,7 @@ li {
     content: none;
   }
   @bottom-right {
-    content: counter(page, lower-roman);
+    content: none;
   }
 }
 
@@ -231,7 +207,6 @@ a {
 }
 
 h1 {
-  break-before: always;
   break-after: avoid;
   color: var(--primary-color);
   font-size: var(--font-xlarge);
@@ -602,7 +577,7 @@ br.pageBreak {
 
 @page appendix:first {
 
-  background-image: url("https://res.cloudinary.com/awconway/image/upload/v1623088419/background_vy0tjb.svg");  
+  background-image: url("background.svg");  
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 794px 1124px;
@@ -619,7 +594,7 @@ br.pageBreak {
 }
 
 @page appendix {
-  background-image: url("https://res.cloudinary.com/awconway/image/upload/v1623088419/background_vy0tjb.svg");
+  background-image: url("background.svg");
 background-position: bottom right;
 background-size: 794px 1124;
 background-repeat: no-repeat;

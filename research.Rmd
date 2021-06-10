@@ -1,15 +1,25 @@
 
 # Scholarly work
 
-## test
+## Summary of research
 
-I'm baby tumeric cornhole squid slow-carb quinoa retro scenester chambray keffiyeh tilde godard banh mi synth letterpress. Venmo offal skateboard next level dreamcatcher, hammock vape hoodie viral raw denim air plant cliche man bun mustache. Kitsch typewriter DIY tousled everyday carry raclette gluten-free cred unicorn. Edison bulb coloring book pinterest jean shorts cronut shaman copper mug tattooed neutra, glossier fashion axe hexagon.
+My research aims to improve outcomes for patients undergoing procedures with sedation. This program of research was heavily influenced by my clinical experience working as a nurse in the cardiac catheterization laboratory. Prior to joining Bloomberg Nursing and the Peter Munk Cardiac Centre in my role as RBC Chair in Cardiovascular Nursing Research in September 2018, I practiced as a Registered Nurse in the cardiac catheterization laboratory (CCL) setting in Australia for more than 10 years. I was actively involved in clinical research throughout this time. Through my clinical and research experience, I have developed an in-depth understanding of challenges associated with operational issues as well as practical insights into feasible and effective approaches to the conduct of nursing research within this setting. This first-hand practical knowledge and experience ensures the research I undertake is pragmatically designed to optimize participant recruitment, data collection and outcome measurement procedures. 
 
-Salvia flexitarian butcher, hell of distillery jianbing cliche pop-up tilde wayfarers organic food truck street art iceland. Messenger bag franzen palo santo sustainable kitsch beard cold-pressed helvetica lo-fi hot chicken church-key kinfolk. Pug kombucha try-hard, lo-fi affogato jean shorts blue bottle migas sriracha. Thundercats leggings sriracha freegan. Hella iPhone cornhole mumblecore church-key synth affogato.
+Since my arrival in Canada, I have established new collaborations with researchers and clinicians who posses the complementary expertise required to make significant contributions to the evidence base underlying procedural sedation and analgesia. These include clinical collaborators within the discipline of nursing, as well as in the field of radiology and anesthesiology, but also academic collaborators from computer science and engineering departments at the University of Toronto. Collaborating with these researchers from diverse fields has enabled me to pursue  
 
-Af authentic flexitarian, sriracha edison bulb shaman etsy unicorn marfa coloring book VHS meggings palo santo. Synth bespoke sriracha offal jean shorts, godard bicycle rights franzen hell of blog street art. Gluten-free salvia bespoke, trust fund blue bottle cronut readymade succulents offal live-edge. Messenger bag migas tacos narwhal 3 wolf moon ennui gochujang taxidermy viral XOXO wolf vegan. Bespoke normcore tousled kickstarter, stumptown art party pabst.
+![Overview of research](research-map.svg){width="100%"}
 
-Post-ironic farm-to-table forage lyft sustainable shaman listicle brooklyn pour-over ugh bicycle rights. Unicorn dreamcatcher man bun poke. Mustache flexitarian activated charcoal before they sold out, fixie williamsburg la croix pork belly plaid you probably haven't heard of them. Wayfarers hella tote bag, readymade mixtape YOLO vinyl raw denim. Letterpress ugh gochujang thundercats blog. Synth street art polaroid subway tile, vegan chia bicycle rights pour-over craft beer distillery cardigan. Selvage hell of vice, drinking vinegar tilde yuccie actually hot chicken.
 
-Truffaut narwhal bicycle rights, vape ennui vaporware hoodie synth meh. Salvia jianbing 8-bit shoreditch artisan single-origin coffee. Health goth you probably haven't heard of them vice, lyft portland vexillologist chicharrones polaroid pickled cardigan ethical jianbing. Chambray hashtag lyft fingerstache snackwave cronut bitters organic put a bird on it bespoke master cleanse forage literally. Migas shabby chic swag celiac cliche biodiesel copper mug kickstarter four dollar toast hella meggings squid fam meditation vaporware.
+To date, my knowledge dissemination activities include 50 peer-reviewed full-length journal articles, two editorials and a book chapter. As of June 8, 2021, I have 533 citations of my work listed in the Scopus database with a *h*-index of 12. Google scholar metrics include 1016 citations to my work with a *h*-index of 16.  
 
+To summarize, 
+
+<div class='cardContainer break' onclick="window.open('#testlink','_self');">
+<div class='cardRow'>
+<div class='cardImage'>
+<img src='https://res.cloudinary.com/awconway/image/upload/v1623088130/award_ptqghx.svg' width='100%'/>
+</div>
+<div class='cardP'>Award</div>
+<div class='cardSubhead'>Lawrence S. Bloomberg Faculty of Nursing Early Career Teaching Award. This award recognizes consistent outstanding performance in teaching and is peer nominated.</div>
+</div>
+</div>

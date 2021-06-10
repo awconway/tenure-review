@@ -1,75 +1,89 @@
 
-# Teaching portfolio
+# Teaching portfolio {.first-h1}
 
-## Approach to teaching {.first-h1}
+## Approach to teaching 
 
 >[Teaching philosophy]{}
-    I believe the approach I have taken to teaching has been strongly shaped by my experience as a clinician and researcher. In my clinical practice, I deliver patient-centered evidence-based care. In my teaching, my goal is to deliver student-centered evidence-based learning opportunities. To achieve this goal, I assess learning needs, capabilities and student preferences in the design of my teaching strategies.
+    I believe the approach I have taken to teaching has been strongly shaped by my experience as a clinician and researcher. In my clinical practice, I deliver patient-centered, evidence-based care. As a teacher, my goal is to deliver learner-centered, evidence-based educational opportunities for students. To achieve this goal, I assess learning needs, capabilities and student preferences in the design and delivery of my teaching strategies.
 
+I recognize the student as a partner in providing relevant knowledge and integrating learning based on respect for the student's preferences, values and needs. In practice, this means that I ensure students' know that I am available and accessible to listen to and answer their questions, as well as provide them with the sense that I am a willing partner in helping them learn. I achieve this through scheduling office hours, providing individual appointments and responding to emails in a timely manner, which is often the most convenient mode of communication for the student profile of my online courses. 
 
-### Teaching goals
+As I do in my clinical practice, for teaching I rely heavily on evidence from the literature about the performance of specific teaching strategies to inform my curriculum development and instructional activities. I have found that, due to the fact that my courses have been delivered online during my employment at the University of Toronto, my focus has been on finding ways to make content interactive and engaging within the constraints of a disconnected learning environment. Bringing examples from my own research and providing opportunities for students to directly engage with a variety of interactive activities, including data analysis, risk of bias assessment has been an effective way to build their experience and skill in the core course learning objectives.
 
-fjksdjdas
-
-### Teaching methods and strategies
-
-Online
-
-Interactive
-
-Engaging
-
+I also recognize that achieving the goal of delivering a truly learner-centered education experience is difficult and requires continual improvement. Approaches I use to improve my teaching include reflecting upon student feedback, comparing strategies with my peers, participating in continuing professional development activities, and experimenting with novel approaches that align with my interest in technology. I look forward to new teaching experiences and further developing my abilities as an educator as I progress in my role as a nursing academic.
 
 
 ## Teaching and mentoring contributions
 
-Prior to my appointment at the University of Toronto I gained experience in teaching at the undergraduate and postgraduate level. I coordinated a large unit in the undergraduate nursing course at Queensland University of Technology (~ 300 students) in 2014. I was also a tutor for a postgraduate Masters unit at Australian Catholic University in 2013 and 2014 (HLSC640 - Interpreting Health Research - 20 students). During my post-doctoral fellowship, my teaching responsibilities involved supervision of Masters in Nursing (Thesis) students. I supervised 6 students over 4 semesters during the period from 2015 to 2017. 
+Prior to my appointment at the University of Toronto I gained experience in teaching at the undergraduate and postgraduate level. I coordinated a large unit in the undergraduate nursing course at Queensland University of Technology (\~ 300 students) in 2014. I was also a tutor for a postgraduate Masters unit at Australian Catholic University in 2013 and 2014 (HLSC640 - Interpreting Health Research - 20 students). During my post-doctoral fellowship, my teaching responsibilities involved supervision of Masters in Nursing (Thesis) students.
+I supervised 6 students over 4 semesters during the period from 2015 to 2017.
 
-Since taking up the position of Assistant Professor at the University of Toronto, I have taught two core MN courses - NUR1027 and NUR1127. Please note that I have one course release each academic year associated with my appointment to the RBC Chair of Cardiovascular Nursing Research role at the Peter Munk Cardiac Centre.
+Since taking up the position of Assistant Professor at the University of Toronto, I have taught two core MN courses - NUR1027 and NUR1127.
+Please note that I have one course release each academic year associated with my appointment to the RBC Chair of Cardiovascular Nursing Research role at the Peter Munk Cardiac Centre.
 
 **Summary of courses taught in tenure-track position (2018-2021)**
 
-:::{.numeric-table}
-
-| Term, Year   | Course number | Course name                                                  | Level    | Class size |
-| ------------ | ------------- | ------------------------------------------------------------ | -------- | ---------- |
-| Fall, 2019   | NUR1027       | Integrated Approaches to Research Appraisal and Utilization, Part 1 | Graduate | 31  |
-| Winter, 2020 | NUR1127       | Integrated Approaches to Research Appraisal and Utilization, Part 2 | Graduate | 31  |
-| Fall, 2020   | NUR1027       | Integrated Approaches to Research Appraisal and Utilization, Part 1 | Graduate | 36  |
-| Winter, 2021 | NUR1127       | Integrated Approaches to Research Appraisal and Utilization, Part 2 | Graduate | 36  |
-
+::: {.numeric-table}
+| Term, Year   | Course number | Course name                                                         | Level    | Class size |
+|------------- | ------------- | ------------------------------------------------------------------- | -------- | ---------- |
+| Fall, 2019   | NUR1027       | Integrated Approaches to Research Appraisal and Utilization, Part 1 | Graduate | 31         |
+| Winter, 2020 | NUR1127       | Integrated Approaches to Research Appraisal and Utilization, Part 2 | Graduate | 31         |
+| Fall, 2020   | NUR1027       | Integrated Approaches to Research Appraisal and Utilization, Part 1 | Graduate | 36         |
+| Winter, 2021 | NUR1127       | Integrated Approaches to Research Appraisal and Utilization, Part 2 | Graduate | 36         |
 :::
-
 
 ### NUR1027 {.break}
 
+This course is the first in a two-part series designed to develop knowledge, skill, and judgment related to research competencies for advanced practice nurses as outlined in the Canadian Nurses' Association document "Advanced Practice Nursing: A Pan-Canadian Framework (2019)". The focus of NUR1027 is on critical examination and reflection on research and evidence-informed practice, with an emphasis on integration of theory and research to guide practice.
+
+NUR1027 is delivered completely online using an asynchronous schedule. I used a variety of innovative techniques to engage students in the teaching material, which were received well by students. Quantitative scores and qualitative responses from the student evaluation reports indicated that these strategies effectively facilitated student learning of complex concepts.
+
+#### Interactive exercises using real research data
+
+One innovative strategy I used to facilitate student learning of the concepts related to measurement and statistics in quantitative research was interactive online exercises where students executed basic analyses themselves using data from real clinical research. It has been recommended that education related to statistics in graduate courses should *use real data*, *foster active learning* and *use technology to explore concepts and analyze data*.^[Carver, R., Everson, M., Gabrosek, J., Horton, N., Lock, R., Mocko, M., Rossman, A., Roswell, G.H., Velleman, P., Witmer, J. and Wood, B., 2016. Guidelines for assessment and instruction in statistics education (GAISE) college report 2016.] Also, 'statistics anxiety' is a phenomenon known to negatively impact performance.^[Onwuegbuzie A. (2004). Academic procrastination and statistics anxiety. Assessment & Evaluation in Higher Education, 29(1), 1–19.] In an effort to meet these recommendations as well as to attenuate the perception of 'statistics anxiety', I designed a course webpage that was capable of interspersing 'traditional' learning content, such as text and video, with interactive components that can run statistical analyses *in the browser*. The interactive components link the webpage where the learning content is presented to a virtual machine running a program that externally computes the analysis using the student's input and then sends the result back where it is presented in the 'output' box in the exercise. A total of 22 interactive exercises were created and interspersed within the learning material covering the topics of 'Measurement in Research (Week 7)', 'Statistical Testing in Research and Critical Appraisal (Week 8)', and 'Descriptive Quantitative Research (Week 9)'. This particular teaching strategy allowed me to showcase aspects of my clinically focused research program, incorporating data from my own studies.
+
+To demonstrate, Figure \@ref(fig:exercise-example) is a screenshot of one of the interactive exercises.^[Can be accessed [here - section 15](https://nur1027.netlify.app/07measure)] This particular exercise was designed to improve students' confidence and ability in interpreting visual representations of quantitative data and to better discern bivariate associations. 
+
+```{r exercise-example, echo=FALSE, fig.cap='Interactive exercise example', out.width='90%', fig.align='center'}
+knitr::include_graphics('https://res.cloudinary.com/awconway/image/upload/v1623087595/exercise-example_g8fgug.png')
+```
+
+Based on evaluation data, I believe this teaching strategy was a mostly effective way to reinforce learning of concepts in statistics that are notoriously difficult to understand, such as p-values.^[Greenland, S., Senn, S. J., Rothman, K. J., Carlin, J. B., Poole, C., Goodman, S. N., & Altman, D. G. (2016). Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations. European journal of epidemiology, 31(4), 337-350.] One important piece of feedback I received from students in the Fall of 2019 about the course was that it was frustrating when encountering technical issues related to the interactive exercises. As the exercises are run on a remote server instance that is free, there can be circumstances where loading times are longer than usual, and connection problems unfortunately cannot be avoided. Due to the fact that the 'backend' of the website uses free computing resources on a public server, I had limited options for resolving this issue completely without moving to a completely different solution, which would likely have required funding to cover server costs to provide a more reliable service. As a compromise, for the Fall 2020 offering of the course, I enabled a ‘solutions’ toggle, which allowed the students to see the answer without having to run the exercises on the server if there were connection problems. Based on student feedback, this effectively resolved the issue. There were several student comments indicting that they appreciated the variety of learning resources. For example: 
+
+:::{.quote}
+You understand and meet the needs of adult learners with different learning styles. This was demonstrated by the beautifully designed learning modules, videos, discussion questions, and podcasts. I enjoyed the variety of learning tools. It helped to keep me engaged. Returning to school for my nursing masters I was worried about boring, endless readings, but this was not the case. You made learning fun! Thank you for this! 
+:::
 
 
-^[Brame, Cynthia J. “Effective Educational Videos: Principles and Guidelines for Maximizing Student Learning from Video Content.” CBE life sciences education vol. 15,4 (2016): es6. doi:10.1187/cbe.16-03-0125]
+#### 'Greenscreen' videos
 
-*Course changes*
+It is a requirement for a course delivered asynchronously that instructional content is recorded and either delivered in an audio or video format. Evidence suggests that student engagement in learning material presented in the video format drops dramatically after even a seemingly small amount of time. Analysis of 6.9m video sessions in edX showed median engagement time for videos less than 6 minutes long was close to 100%, by *dropped to 50%* by the 9 minute mark.^[Brame, Cynthia J. “Effective Educational Videos: Principles and Guidelines for Maximizing Student Learning from Video Content.” CBE life sciences education vol. 15,4 (2016): es6. doi:10.1187/cbe.16-03-0125] Given this evidence, the other 'innovative' teaching strategy I incorporated into NUR1027 was an alternative to the traditional long-form 'lecture'. As can be seen in the [course webpage](https://nur1027.netlify.app), the learning material in most weeks was structured with a series of brief videos ranging from 2-6 minutes, with interspersed learning activities and readings. The videos were purposefully designed to introduce and explain concepts related to the learning objectives. I paid particular attention to the 'production value' of these videos, in an effort to enhance student engagement and satisfaction in a course that is delivered completely online. In this regard, I used 'greenscreen' technology to edit videos in such a way that it appeared I was teaching in a more 'real' environment. Evidence also indicates that eye contact with the lecturer is an important social cue that enhances learning performance.^[Beege, Maik, et al. "Social entities in educational videos: Combining the effects of addressing and professionalism." Computers in Human Behavior 93 (2019): 40-52.] To achieve the effect of 'eye-contact' through video, I used a script and tele-prompting equipment to ensure that my gaze was fixed at the camera during recording. Student feedback indicated the videos achieved the intended effect:
 
-Analysis of 6.9m video sessions in edX showed median engagement time for videos less than 6 minutes long was close to 100%
+:::{.quote}
+...the instructor appeared like he was actually teaching us
+:::
 
-
-
-Dropped to 50% by the 9 minute mark
-
-
-
-
-- Kept videos between 2-5 minutes
+:::{.quote}
+...video provided a humanistic touch to an online learning environment
+:::
 
 
+### NUR1127
 
-### NUR1127 {.break}
+My goal in teaching NUR1127 was to develop students' ability to identify clinical questions that are important to their practice and better equip them to use evidence to inform decision-making regarding those questions. In other words, I strived to ensure the students, being (future or current) ‘health systems leaders and administrators’, were able to make evidence-informed ‘recommendations’ for practice. My teaching focused around building students' understanding that evidence comes with a gradient of trustworthiness, and that well-developed methods of differentiating the more or less trust- worthy are available (i.e. risk of bias assessments).
 
-Summary Course changes
+Prior to Winter 2020 when I took over NUR1127, the learning material had relied on the Critical Appraisal Skills Program suite of tools. On taking over the course, I restructured the core concepts for the course, including assessments, around the GRADE framework. The GRADE framework stands for ‘Grading of Recommendations Assessment, Developed and Evaluation’. At it’s core, GRADE provides a structured, systematic approach to assess the quality of evidence, and then, based on this quality assessment, provide recommendations for practice that are classified according to a continuum from weak to strong. One  advantage of the GRADE framework is that it moves away from thinking about ‘hierarchies’ of evidence without consideration for quality. Using GRADE allowed me to provide a clear structure for students to move from an assessment of the evidence to a decision so that the vital course objective, being to 'Synthesize research evidence to inform nursing and healthcare leadership practice', was achieved.
+
+I operationalized these concepts into my teaching through webinars demonstrating risk of bias assessments for different types of research designs, and creating opportunity for formative assessments. Unsolicited feedback from a student in the course confirmed to me that, although challenging, the final assignment where students are required to apply the GRADE framework to make a recommendation for practice using evidence from multiple sources was an effective way to: 1) evaluate student's progress towards the course objectives; and 2) solidify student learning of concepts learnt across the full year of content related to research appraisal and utilization in NUR1027 and NUR1127.
+
+:::{.quote}
+It took me quite some time to develop the summary of findings table - because A. I needed to have a concrete and comprehensive understanding of the outcome findings and B. I had to go back to 1st semester contents to better understand some of the research concepts, like RR, CI, etc and apply that into interpreting the outcome results, and C. GRADE assessment was another complex process that required careful evaluation - I read all the series of 'GRADE guidelines' articles before I finally got to my GRADE assessment on each outcome - though it was more for my own learning and I wanted to take my time. But, definitely having my SOF table completed with all my outcome results and GRADE assessment, naturally guided me into developing my final recommendation. I found GRADE guidelines 15: going from evidence to recommendation article very helpful. Your lecture video on 'making recommendation for practice' solidified my understanding of some of the concepts/ideas and reassured me that I was on the right track. 
+:::
 
 
 ### Guest lectures {.break}
 
-I was invited to deliver lectures in a graduate course based on my skills in advanced data analytics and research experience related to critical care. 75% of the students attending my seminar on Nursing Perspectives in Resuscitation Science Research rated the quality of the presentation as excellent. 
+I was invited to deliver lectures in a graduate course based on my skills in advanced data analytics and research experience related to critical care. 75% of the students attending my seminar on Nursing Perspectives in Resuscitation Science Research rated the quality of the presentation as excellent ([Appendix]()). Dr Charlene Chu, course instructor for NUR1059, provided a peer evaluation of my teaching performance for the workshops I delivered on data visualization for her course, NUR1059: Informatics and Technology ([Appendix]()). 
 
 | Term, Year   | Course number | Course name                                   | Level    | Class size | Content                                                |
 | ------------ | ------------- | --------------------------------------------- | -------- | ---------- | ------------------------------------------------------ |
@@ -79,7 +93,7 @@ I was invited to deliver lectures in a graduate course based on my skills in adv
 
 
 
-### Student supervision {.break}
+### Student supervision
 
 #### Doctoral student supervision
 
@@ -139,7 +153,7 @@ After a successful work term over the summer, I decided to hire both Megan and D
 
 Kevin was a student enrolled in a BSc degree program at UTSC. Kevin aspired for a career in health, potentially in the field of medicine. I initially hired Kevin through the UTSC Co-op program to assist with a randomized controlled trial of high flow nasal oxygen in the cath lab at the Peter Munk Cardiac Centre. After a number of weeks of training to undertake tasks related to data collection for this trial, I decided that Kevin would not be able to undertake these activities without constant, direct supervision. As such, I decided to re-assign Kevin's primary duties to undertaking data entry, cleaning and assisting with reporting. 
 
-## Evidence of teaching effectiveness
+## Evidence of teaching effectiveness {.break}
 
 ### NUR1027 Integrated Approaches to Research Appraisal and Utilization, Part 1
 
@@ -196,7 +210,7 @@ data %>%
 
 #### Fall 2019 {.break}
 
-Comments from students on the overall quality of the course are listed below. As this was an online course, most comments related to the choice for delivery of course content (videos/discussion boards). Not all comments from the course are included.
+Comments from students on the overall quality of the course are listed below. As this was an online course, most comments related to the choice for delivery of course content (videos/discussion boards). All comments from the course related to my teaching are included. Some comments that addressed generic services (e.g. writing support) or Teaching Assistant performance are not included.
 
 **Comments on the overall quality of the instruction in this course:**
 
@@ -205,11 +219,11 @@ The instructor was helpful and willing to answer any confusion about course mate
 :::
 
 :::{.quote}
-The overall quality of instruction in this course was excellent. Aaron incorporates unique video lectures as well as activities that facilitate learning. In addition, he also uses discussion boards to enhance understanding of concepts.
+I was not a fan of the video style lectures – too fast & skipped a lot of content from the readings
 :::
 
 :::{.quote}
- I was not a fan of the video style lectures – too fast & skipped a lot of content from the readings
+The overall quality of instruction in this course was excellent. Aaron incorporates unique video lectures as well as activities that facilitate learning. In addition, he also uses discussion boards to enhance understanding of concepts.
 :::
 
 :::{.quote}
@@ -218,6 +232,10 @@ The overall quality of instruction in this course was excellent. Aaron incorpora
 
 :::{.quote}
   Dr. Aaron Conway is a great instructor. The lectures and exercises were very helpful to learn the material.
+:::
+
+:::{.quote}
+Aaron's lectures were clear and informative.
 :::
 
 :::{.quote}
@@ -230,6 +248,10 @@ The introduction for certain research concepts were confusing (especially quanti
 
 :::{.quote}
   The quality of the content was great and I really enjoyed the delivery. It was a huge amount of very technical reading which was overwhelming at times however.
+:::
+
+:::{.quote}
+  I really appreciated this basic overview of research methods in nursing. This course seemed more applicable than the one I took in my undergraduate education.
 :::
 
 :::{.quote}
@@ -258,7 +280,14 @@ The introduction for certain research concepts were confusing (especially quanti
 :::
 
 :::{.quote}
+Throughout this course, I found that it was difficult to follow and understand the weekly content in the modules. For example, how the materials were organized was not straight forward and I had to pause many times to take notes from the videos. It would have been more effective for learning if there was an outline for the pertinent materials each week and a break down of the concepts on powerpoint or a physical copy for students to print/download and follow. Further, I did not find the stats stimulations in some weeks helpful in learning about quantitative concepts as I experienced trouble inputing codes etc. Learning about quantitative analyses was the most challenging materials from this course, and unfortunately, I had to use many external sources to understand the quantitative content. Further, on top of the weekly assigned readings, I found that the additional readings embedded in the module added more workload to this course and it was not very effective and engaging for learning. I did enjoy how the TA presented the material on week 11 as the material was detailed and straight forward. Given the exam that comes with this course next semester, I hope that improvements will be made to create a better learning experience.
+:::
+
+:::{.quote}
   The learning activities embedded in the weekly content did not support my learning and I found it to be distracting to try to understand how to use the programs/coding systems to run the examples. I found myself googling a lot of the content. Understandably this is complicated material but I do not feel it was made clear by just the lecture alone.
+:::
+
+:::{.quote}
 Thank you Aaron for recording your office hours. I found it helpful to be able to listen to what was discussed when I was not able to join the session at the scheduled time. 
 The first and third assignments were unclear as to what was required. A sample of the third assignment was available however, it did not correspond with the rubric. 
 The activities in the weekly modules, specifically quantitative research modules, did not work majority of the time. I became frustrated at times because the codes I entered were correct but the result kept reading “error”. When I clicked on “solution” or “answer”, the correct answer was exactly what I entered. 
@@ -280,6 +309,12 @@ Overall, the course was good. Aaron was fair and encouraged us to respond to eac
 :::
 
 :::{.quote}
+
+Dr. Aaron Conway was readily available to answer questions over the phone or in person when needed.
+
+:::
+
+:::{.quote}
   I asked for feedback from Aaron about my posts and my first paper. He was very very open in offering his time in person and via email. He gave me some really great advice and it really made a world of difference for my semester.
 :::
 
@@ -290,7 +325,7 @@ Overall, the course was good. Aaron was fair and encouraged us to respond to eac
 
 #### Fall 2020
 
-Comments from students in the Fall 2020 cohort reflected the quantitative scores, indicating a high level of satisfaction with the course structure, learning resources and instructor support.
+Comments from students in the Fall 2020 cohort reflected the quantitative scores, indicating a high level of satisfaction with the course structure, learning resources and instructor support. All comments from the course related to my teaching are included. Some comments that addressed generic services (e.g. writing support) or Teaching Assistant performance are not included.
 
 **Comments on the overall quality of the instruction in this course:**
 
@@ -311,7 +346,27 @@ Comments from students in the Fall 2020 cohort reflected the quantitative scores
 :::
 
 :::{.quote}
+
+I thought the instructions were clear. Professor Conway provided feedbacks that were very helpful.
+
+:::
+:::{.quote}
+
+ Instruction quality was clear with weekly learning content quite clear. The examples and practice questions, and activities helped to cement my knowledge.
+
+:::
+:::{.quote}
+
+Great course, excellent support from prof
+
+:::
+
+:::{.quote}
   The modules of this course were VERY organized and clear. The readings were relevant to the discussion posts, and the assignments were reasonable and appropriate given the content. Both the course instructor and the TA were very responsive to email, and were active participants in the weekly discussions. It was very apparent that the instructor appreciated that his students are novice researchers and did his best to simplify complex subject matter and make it applicable to our current and future careers. I feel very fortunate to have Professor Conway as an instructor in the winter semester as well. It is obvious that this is a subject he is passionate about.
+:::
+
+:::{.quote}
+  The course delivery was very good despite it’s asynchronous nature.
 :::
 
 :::{.quote}
@@ -342,6 +397,15 @@ I really liked the powerpoint/video format where the instructor appeared like he
   I really enjoyed your approach to teaching. You understand and meet the needs of adult learners with different learning styles. This was demonstrated by the beautifully designed learning modules, videos, discussion questions, and podcasts. I enjoyed the variety of learning tools. It helped to keep me engaged. Returning to school for my nursing masters I was worried about boring, endless readings, but this was not the case. You made learning fun! Thank you for this!
 :::
 
+:::{.quote}
+
+The quality of instruction in this course from Dr. Aaron Conway and Danielle Just (TA) was incredible. As an asynchronous course, I was unsure of how well I would be able to understand the material and communicate any issues to the teaching staff, but both Aaron and Danielle were amazing. The course material provided a good foundation for my understanding of the core concepts, and instructors were available through various means of communication. They were highly responsive and did a great job of taking the time to explain concepts when I was facing difficulties.
+
+:::
+
+:::{.quote}
+  Professor Conway is approachable, helpful and fair.
+:::
 
 :::{.quote}
   The weekly content varied with the format of the information presented. Some weeks included more video content that made the concepts easier to understand. Some weeks included text words only, which made the content more difficult to grasp.
@@ -358,6 +422,12 @@ I really liked the powerpoint/video format where the instructor appeared like he
 
 
 :::{.quote}
+  Prof extended deadlines where needed gave prompt feedback on assignments.
+:::
+:::{.quote}
+  Quick to respond and both Aaron and Danielle were very helpful.
+:::
+:::{.quote}
   Dr. Conway held office hours prior to assignments and was very responsive to emails and posts on the discussion board
 :::
 
@@ -367,8 +437,6 @@ I really liked the powerpoint/video format where the instructor appeared like he
 
 :::{.quote}
   Dr. Conway was very approachable and made it clear that assistance was available if required.
-
-
 :::
 
 :::{.quote}
@@ -377,7 +445,7 @@ I really liked the powerpoint/video format where the instructor appeared like he
 
 
 :::{.quote}
-  Professor Aaron was very quick to respond to emails, and answered any questions posted on Quercus or via email
+  Professor Aaron was very quick to respond to emails, and answered any questions posted on Quercus or via email.
 :::
 
 
@@ -436,7 +504,7 @@ data %>%
 
 #### Winter 2020
 
-Comments from students on the overall quality of the course are listed below. These qualitative responses provide substantive evidence that the various modes of teaching I used throughout this course, including lectures, webinar demonstrations of risk of bias assessments, and moderation of discussion board online participation activities, were effective approaches for supporting student learning.
+Comments from students on the overall quality of the course are listed below. These qualitative responses provide substantive evidence that the various modes of teaching I used throughout this course, including lectures, webinar demonstrations of risk of bias assessments, and moderation of discussion board online participation activities, were effective approaches for supporting student learning. All comments from the course related to my teaching are included. Some comments that addressed generic services (e.g. writing support) or Teaching Assistant performance are not included.
 
 **Comments on the overall quality of the instruction in this course:**
 
@@ -471,6 +539,11 @@ Aaron's lectures are well organized and clear, and his evaluations capture the l
 
 :::
 
+:::{.quote}
+
+The course material was presented well.
+
+:::
 :::{.quote}
 
 Overall I felt that the course was effective. Aaron Conway always asked if the student had any questions and made sure to address all questions before proceeding with material.
@@ -663,10 +736,49 @@ The instructor was very engaging and accessible through email and discussion pos
 
 :::
 
+## Evidence of leadership in teaching
 
-## Professional development
+I have contributed to the improvement of teaching beyond my direct interactions with students enrolled in the courses I teach by writing chapters for textbooks. I co-authored a textbook chapter on quantitative methods with an academic from the University of Newcastle (Associate Professor Jed Duff). This book chapter is highly aligned with the content I teach for NUR1027, covering research design and interpretation considerations for quantitative research methods. The textbook is used for teaching introductory research methods and evidence-based practice Masters level courses, particularly in Australia.
+
+<ul style="list-style-type:none;">
+<li>
+Common quantitative methods
+<br>
+<em>Nursing and Midwifery Research: Methods and Appraisal for Evidence Based Practice.[6th ed.]</em>
+<span style="float:right;color:#929598;">2020</span>
+<br>
+<span class="authorBlock">
+<strong>Aaron Conway</strong> | Jed Duff
+</span>
+</li>
+<hr>
+</ul>
 
 
+I also co-authored a chapter for a textbook focused on outlining the need for development of new knowledge and skills related to digital technologies, artificial intelligence and data analytics in the nursing profession. I contributed the content related to the 'nurse as analyst'. This content included a demonstration of the the nurse as analyst role using a public data set as a case study. The chapter has been submitted and is in editorial review phase. The textbook is targeted at the graduate level for courses related to nursing informatics.
+
+<ul style="list-style-type:none;">
+<li>
+Looking at the impact of digital technologies, artificial intelligence and data analytics on nursing informatics: new skills and knowledge needed.<br>
+<em>Nursing and Informatics for the 21st Century: Embracing a Digital World, 3rd ed.</em>
+<span style="float:right;color:#929598;">2021</span>
+<br>
+<span class="authorBlock">
+Charlene Chu | <strong>Aaron Conway</strong> | Lindsay Jibb | Sheroz Khan | Charlene Ronquillo
+</span>
+</li>
+<hr>
+</ul>
+
+## Professional development {.break}
+
+Continuing education activities I have completed since taking up my appointment at the University of Toronto include:
+
+- New Faculty Orientation, Office of Teaching Advancement - Fall 2018
+- Quercus Training Session (LSBFON)
+-	Connecting and Interacting with Your Students Online (CTSI)
+-	Organizing your Course Content (CTSI)
+-	Teaching online remotely (CTSI - self-guided)
 
 ## Service to the university
 
@@ -678,47 +790,72 @@ Over the past three years I have served on a number of committees related to tea
 
 I have served on ad hoc committees including a working group of the Masters Program Committee focused on reviewing the results of quality assurance/improvement survey. I also provided an informal presentation to the Masters Program Committee on the process I used to create videos for NUR1027.
 
-## Teaching reflections
+## Appendices {.appendix}
 
+:::{.appendixTOC}
+Syllabi
 
+Peer evaluation
 
-## Appendices
+Teaching award
+:::
 
-```{r}
-library(bs4cards)
-card_grid(list(
-  card(
-    title = "Syllabus for Fall 2019",
-    text = "Integrated Approaches to Research Appraisal and Utilization, Part 1",
-    link = "https://awconway.github.io/NUR1027/syllabus/Syllabus.html",
-    image = "https://res.cloudinary.com/awcoway/image/upload/v1621535406/nur1027logo_ddnx3b.png",
-    margin = bs_mar(1)
-  ),
-  card(
-    title = "Syllabus for Fall 2020",
-    text = "Integrated Approaches to Research Appraisal and Utilization, Part 1",
-    link = "https://nur1027syllabus.netlify.app",
-    image = "https://res.cloudinary.com/awcoway/image/upload/v1621535406/nur1027logo_ddnx3b.png",
-    margin = bs_mar(1)
-  ),
-  card(
-    title = "Syllabus for Winter 2020",
-    text = "Integrated Approaches to Research Appraisal and Utilization, Part 2",
-    link = "https://awconway.github.io/NUR1127/Syllabus/Syllabus.html",
-    image = "https://res.cloudinary.com/awcoway/image/upload/v1621535407/nur1127logo_kfb7ly.png",
-    margin = bs_mar(1)
-  ),
-  card(
-    title = "Syllabus for Winter 2021",
-    text = "Integrated Approaches to Research Appraisal and Utilization, Part 2",
-    link = "https://nur1127syllabus.netlify.app",
-    image = "https://res.cloudinary.com/awcoway/image/upload/v1621535407/nur1127logo_kfb7ly.png",
-    margin = bs_mar(1)
-  ),
-  card(title = "Peer evaluation",
-image = "svgs/star.svg",
-text = "Letter from Dr. Charlene Chu with an evaluation of the guest workshop I provided on data visualiztion for NUR1059",
-link = "",
-margin = bs_mar(1))
-))
-```
+<div class='cardContainer break' id="nur1027syllabus2019" onclick="window.open('https://awconway.github.io/NUR1027/syllabus/Syllabus.html','mywindow');">
+<div class='cardRow'>
+<div class='cardImage'>
+<img src='https://res.cloudinary.com/awconway/image/upload/v1621535406/nur1027logo_ddnx3b.png' width='100%'/>
+</div>
+<div class='cardP'>Syllabus for Fall 2019</div>
+<div class='cardSubhead'>Integrated Approaches to Research Appraisal and Utilization, Part 1</div>
+</div>
+</div>
+
+<div class='cardContainer break' onclick="window.open('https://nur1027syllabus.netlify.app','mywindow');">
+<div class='cardRow'>
+<div class='cardImage'>
+<img src='https://res.cloudinary.com/awconway/image/upload/v1621535406/nur1027logo_ddnx3b.png' width='100%'/>
+</div>
+<div class='cardP'>Syllabus for Fall 2020</div>
+<div class='cardSubhead'>Integrated Approaches to Research Appraisal and Utilization, Part 1</div>
+</div>
+</div>
+
+<div class='cardContainer break' onclick="window.open('https://awconway.github.io/NUR1127/Syllabus/Syllabus.html','mywindow');">
+<div class='cardRow'>
+<div class='cardImage'>
+<img src='https://res.cloudinary.com/awconway/image/upload/v1621535407/nur1127logo_kfb7ly.png' width='100%'/>
+</div>
+<div class='cardP'>Syllabus for Winter 2020</div>
+<div class='cardSubhead'>Integrated Approaches to Research Appraisal and Utilization, Part 2</div>
+</div>
+</div>
+
+<div class='cardContainer break' onclick="window.open('https://nur1127syllabus.netlify.app','mywindow');">
+<div class='cardRow'>
+<div class='cardImage'>
+<img src='https://res.cloudinary.com/awconway/image/upload/v1621535407/nur1127logo_kfb7ly.png' width='100%'/>
+</div>
+<div class='cardP'>Syllabus for Winter 2021</div>
+<div class='cardSubhead'>Integrated Approaches to Research Appraisal and Utilization, Part 2</div>
+</div>
+</div>
+
+<div class='cardContainer break' id="nur1059eval" onclick="window.open('https://res.cloudinary.com/awconway/image/upload/v1622894604/NUR1059_tyfh1v.pdf','mywindow');">
+<div class='cardRow'>
+<div class='cardImage'>
+<img src='https://res.cloudinary.com/awconway/image/upload/v1623088170/star_gmsowt.svg' width='100%'/>
+</div>
+<div class='cardP'>Peer evaluation</div>
+<div class='cardSubhead'>Letter from Dr. Charlene Chu with an evaluation of the guest workshop I provided on data visualization for NUR1059</div>
+</div>
+</div>
+
+<div class='cardContainer break' onclick="window.open('https://res.cloudinary.com/awconway/image/upload/v1623078163/Early-Career-Teaching-Award-2020_xy8lco.jpg','mywindow');">
+<div class='cardRow'>
+<div class='cardImage'>
+<img src='https://res.cloudinary.com/awconway/image/upload/v1623088130/award_ptqghx.svg' width='100%'/>
+</div>
+<div class='cardP'>Award</div>
+<div class='cardSubhead'>Lawrence S. Bloomberg Faculty of Nursing Early Career Teaching Award. This award recognizes consistent outstanding performance in teaching and is peer nominated.</div>
+</div>
+</div>

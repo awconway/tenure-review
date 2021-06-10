@@ -101,7 +101,7 @@ blockquote{
 
 @media (min-width: 992px) {
 header {
-  background-image: url('https://res.cloudinary.com/awcoway/image/upload/v1621536105/bloomberg_cg93z9.png');
+  background-image: url('https://res.cloudinary.com/awconway/image/upload/v1621536105/bloomberg_cg93z9.png');
   background-size: 90%;
   background-repeat: no-repeat;
   background-position: center;
@@ -111,3 +111,71 @@ header {
 footer p {
   display: none;
 }
+
+
+.cardContainer {
+  text-decoration: none;
+  cursor: pointer;
+position: relative;
+border: 1px solid hsl(214, 100%, 19%, 15%);
+box-shadow: 2px 2px 6px 0px hsl(214, 100%, 19%, 15%);
+border-radius:5px;
+margin: 0px 10px 20px 0px;
+}
+/* .cardContainer:hover {
+
+  background-color: var(--primary-color-light);
+  font-style: italic;
+  font-weight: 600;
+} */
+
+.cardRow{
+  text-decoration: none;
+  display: grid;
+  gap: 0.25rem;
+  border: none;
+  padding: 1rem;
+   grid-template-columns: 3fr 1fr;
+}
+
+.cardP {
+  color: var(--text-color-normal);
+  display: grid;
+  margin: 0;
+  font-weight: 600;
+  align-self: center;
+    grid-column: 1;
+    grid-row: 1;
+    text-decoration: none;
+
+}
+  
+
+.cardSubhead {
+    display: grid;
+    text-decoration: none;
+    text-align: start;
+    font-weight: 400;
+      grid-column: 1;
+      grid-row: 2;
+      color: var(--text-color-light);
+  }
+
+
+.cardDate {
+  display: grid;
+  text-align: start;
+  font-weight: 200;
+  font-style: italic;
+    grid-column: 1;
+    grid-row: 3;
+    }
+
+.cardImage {
+  display: grid;
+  align-items: center;
+    margin-bottom: 20px;
+    grid-column: 2;
+    grid-row: 1/4;
+    }
+
