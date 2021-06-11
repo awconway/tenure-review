@@ -47,6 +47,8 @@ jobs:
       - name: Build site
         env:
           ORCID_TOKEN: ${{ secrets.ORCID_TOKEN }}
+        run: Rscript -e 'pak::pkg_install(".")'
+        run: Rscript -e 'targets::tar_make()'
         run: Rscript -e 'bookdown::render_book(".", quiet = TRUE)'
 
 
