@@ -56,11 +56,6 @@ jobs:
           targets::tar_make()
         shell: Rscript {0}
 
-      - name: Build site
-        run: |
-          bookdown::render_book(".", quiet = TRUE)
-        shell: Rscript {0}
-
       - name: Deploy to Netlify
         if: contains(env.isExtPR, 'false')
         id: netlify-deploy
