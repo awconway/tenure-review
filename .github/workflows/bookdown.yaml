@@ -44,13 +44,22 @@ jobs:
           pak::local_install_dev_deps(upgrade = TRUE)
         shell: Rscript {0}
 
+      - name: Install local package
+        run: |
+          pak::pkg_install(".")
+        shell: Rscript {0}
+
+      - name: Run targets
+        run: |
+          targets::tar_make()
+        shell: Rscript {0}
+
       - name: Build site
         env:
           ORCID_TOKEN: ${{ secrets.ORCID_TOKEN }}
-        run: Rscript -e 'pak::pkg_install(".")'
-        run: Rscript -e 'targets::tar_make()'
-        run: Rscript -e 'bookdown::render_book(".", quiet = TRUE)'
-
+        run: |
+          bookdown::render_book(".", quiet = TRUE)
+        shell: Rscript {0}
 
       - name: Deploy to Netlify
         if: contains(env.isExtPR, 'false')
