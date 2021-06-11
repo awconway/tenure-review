@@ -1,12 +1,11 @@
 library(targets)
 library(tarchetypes)
+library(dplyr)
 Sys.getenv("ORCID_TOKEN")
-
-options(tidyverse.quiet = TRUE)
 
 
 tar_option_set(packages = c(
-  "tidymodels", "tidyverse", "interimReview"
+  "interimReview"
 ))
 list(
   tar_target(papers, get_papers("publications.bib")),
