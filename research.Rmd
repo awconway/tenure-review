@@ -1,7 +1,8 @@
 
 ```{r echo=FALSE}
 targets::tar_load(papers)
-library(tidyverse)
+library(dplyr)
+library(magrittr)
 ```
 # Scholarly work {.first-h1}
 
