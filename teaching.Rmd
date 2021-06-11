@@ -738,7 +738,7 @@ The instructor was very engaging and accessible through email and discussion pos
 
 ## Evidence of leadership in teaching
 
-I have contributed to the improvement of teaching beyond my direct interactions with students enrolled in the courses I teach by writing chapters for textbooks. I co-authored a textbook chapter on quantitative methods with an academic from the University of Newcastle (Associate Professor Jed Duff). This book chapter is highly aligned with the content I teach for NUR1027, covering research design and interpretation considerations for quantitative research methods. The textbook is used for teaching introductory research methods and evidence-based practice Masters level courses, particularly in Australia.
+I have contributed to the improvement of teaching beyond my direct interactions with students enrolled in the courses I teach by writing chapters for textbooks and a systematic review related to teaching evidence-based healthcare. I co-authored a textbook chapter on quantitative methods with an academic from the University of Newcastle (Associate Professor Jed Duff). This book chapter is highly aligned with the content I teach for NUR1027, covering research design and interpretation considerations for quantitative research methods. The textbook is used for teaching introductory research methods and evidence-based practice Masters level courses, particularly in Australia.
 
 <ul style="list-style-type:none;">
 <li>
@@ -766,6 +766,24 @@ Looking at the impact of digital technologies, artificial intelligence and data 
 <span class="authorBlock">
 Charlene Chu | <strong>Aaron Conway</strong> | Lindsay Jibb | Sheroz Khan | Charlene Ronquillo
 </span>
+</li>
+<hr>
+</ul>
+
+I co-authored a systematic review of theory-based strategies for teaching evidence-based practice to undergraduate health students. Athough further research is indicated, this review identified that approaches to teaching evidence-based practice that are grounded in theory were found to produce a small but positive effect on student attitudes.
+
+```{r results='asis', echo=FALSE} 
+articles <- papers %>% filter(TITLE=="Theory-based strategies for teaching evidence-based practice to undergraduate health students: a systematic review")
+```
+<ul style="list-style-type:none;">
+<li>
+`r articles$TITLE`
+<br>
+*`r articles$JOURNAL`*
+<br>
+[View publication](`r articles$URL`)
+<br>
+[`r articles$authors`]{.authorBlock}
 </li>
 <hr>
 </ul>

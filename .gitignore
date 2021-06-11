@@ -1,5 +1,11 @@
 .DS_Store
 ?Icon
-*.pdf
 *.html
 _book
+.Rproj.user
+_targets
+_bookdown_files
+index.pdf
+research.pdf
+teaching.pdf
+*.pdf

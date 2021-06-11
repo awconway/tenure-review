@@ -1,25 +1,688 @@
 
-# Scholarly work
+```{r echo=FALSE}
+targets::tar_load(papers)
+library(tidyverse)
+```
+# Scholarly work {.first-h1}
 
-## Summary of research
+## Overview
 
 My research aims to improve outcomes for patients undergoing procedures with sedation. This program of research was heavily influenced by my clinical experience working as a nurse in the cardiac catheterization laboratory. Prior to joining Bloomberg Nursing and the Peter Munk Cardiac Centre in my role as RBC Chair in Cardiovascular Nursing Research in September 2018, I practiced as a Registered Nurse in the cardiac catheterization laboratory (CCL) setting in Australia for more than 10 years. I was actively involved in clinical research throughout this time. Through my clinical and research experience, I have developed an in-depth understanding of challenges associated with operational issues as well as practical insights into feasible and effective approaches to the conduct of nursing research within this setting. This first-hand practical knowledge and experience ensures the research I undertake is pragmatically designed to optimize participant recruitment, data collection and outcome measurement procedures. 
 
-Since my arrival in Canada, I have established new collaborations with researchers and clinicians who posses the complementary expertise required to make significant contributions to the evidence base underlying procedural sedation and analgesia. These include clinical collaborators within the discipline of nursing, as well as in the field of radiology and anesthesiology, but also academic collaborators from computer science and engineering departments at the University of Toronto. Collaborating with these researchers from diverse fields has enabled me to pursue  
+Since my arrival in Canada, I have established new collaborations with researchers and clinicians who posses the complementary expertise required to make significant contributions to the evidence base underlying procedural sedation and analgesia. These include clinical collaborators within the discipline of nursing, as well as in the field of radiology and anesthesiology, but also academic collaborators from computer science and engineering departments at the University of Toronto. Notably, collaborating with these researchers from diverse fields has enabled me to pursue several new projects that leverage machine learning to create innovative solutions for the common problems encountered in procedural sedation. 
 
-![Overview of research](research-map.svg){width="100%"}
+In my research career to date, I have published 50 peer-reviewed, full-length journal articles, two editorials and a book chapter. I am the principal author for a large majority of these research outputs. As of June 8, 2021, I have 533 citations of my work listed in the Scopus database with a *h*-index of 12. Google scholar metrics include 1016 citations to my work with a *h*-index of 16. My research has produced high quality evidence to support clinician's decision-making regarding approaches for procedural sedation. This includes two randomized controlled trials, as well as multiple systematic reviews with meta-analyses, including a Cochrane review.
 
 
-To date, my knowledge dissemination activities include 50 peer-reviewed full-length journal articles, two editorials and a book chapter. As of June 8, 2021, I have 533 citations of my work listed in the Scopus database with a *h*-index of 12. Google scholar metrics include 1016 citations to my work with a *h*-index of 16.  
+## Scholarly work undertaken at the University of Toronto
 
-To summarize, 
+Since I joined the University of Toronto in September 2018, I have published 20 journal articles, one editorial and one book chapter. Notable publications in highly-ranked journals include a randomized controlled trial in the *European Journal of Anaesthesiology* and a meta-analysis in *Thorax*. The scholarly work I have undertaken, which is directed at improving outcomes for patients receiving procedural sedation and analgesia, is organized into the categories of respiratory monitoring and management, sedation monitoring and management and pre-procedure fasting. Below is a summary of my research in these areas, including publications to date, as well as directions for future research.
 
-<div class='cardContainer break' onclick="window.open('#testlink','_self');">
-<div class='cardRow'>
-<div class='cardImage'>
-<img src='https://res.cloudinary.com/awconway/image/upload/v1623088130/award_ptqghx.svg' width='100%'/>
-</div>
-<div class='cardP'>Award</div>
-<div class='cardSubhead'>Lawrence S. Bloomberg Faculty of Nursing Early Career Teaching Award. This award recognizes consistent outstanding performance in teaching and is peer nominated.</div>
-</div>
-</div>
+### Respiratory monitoring and management
+
+#### High flow nasal oxygen
+
+:::{.summaryContainer}
+:::{.summaryTitle}
+High flow nasal oxygen during procedural sedation for cardiac implantable electronic device procedures: A randomised controlled trial. <br>
+:::
+:::{.summaryStatus .completed}
+![](https://res.cloudinary.com/awconway/image/upload/v1623443508/check-circle_wrpeol.svg) Completed
+:::
+:::{.summaryColOne}
+Role
+:::
+:::{.summaryColTwo}
+Principal Investigator
+:::
+:::{.summaryColOne}
+Collaborators
+:::
+:::{.summaryColTwo}
+**Dr Matteo Parotto** <br>
+Consultant Anesthesiologist | Department of Anesthesiology | University of Toronto and Toronto General Hospital
+:::
+:::{.summaryColOne}
+Description
+:::
+:::{.summaryColTwo}
+High flow nasal oxygen (HFNO) is increasingly regarded as a promising technology for oxygen delivery in critical care and anesthetic management. The 2018 guidelines from the American Society of Anesthesiology for procedural sedation stated that there is insufficient evidence regarding which methods of supplemental oxygen administration (e.g., nasal cannula, face mask, or specialized devices such as HFNO) are more effective. This trial addressed this limitation in the evidence base specifically in regard to the efficacy of using HFNO during conscious sedation in the cardiac catheterisation laboratory.
+:::
+:::{.summaryColOne}
+Funding:
+:::
+:::{.summaryColTwo}
+Connaught New Researcher Award - $19,000
+:::
+:::{.summaryColOne}
+Publications
+:::
+:::{.summaryColTwo}
+```{r results='asis', echo=FALSE} 
+articles <- papers %>% filter(TITLE=="High flow nasal oxygen during procedural sedation for cardiac implantable electronic device procedures")
+```
+`r articles$TITLE`
+<br>
+*`r articles$JOURNAL`*
+<br>
+[View publication](`r articles$URL`)
+<br>
+[`r articles$authors`]{.authorBlock}
+:::
+:::{.summaryColOne}
+Future directions
+:::
+:::{.summaryColTwo}
+:::
+:::
+
+#### Capnography
+
+I am undertaking a twin-pronged program of research focused on optimizing the use of capnography for monitoring respiratory depression. One arm is focused on evaluating implementation approaches for currently available capnography monitoring devices. The other investigates the potential for using machine learning to predict duration of respiratory depression as a way to improve alarm performance characteristics, decrease alarm fatigue and improve patient safety. Below are summaries of current and completed projects, which I have worked on during my appointment at the University of Toronto. 
+
+:::{.summaryContainer}
+:::{.summaryTitle}
+A parallel cluster-randomized trial of the Integrated Pulmonary Index for nurse-administered procedural sedation
+:::
+:::{.summaryStatus .progress}
+![](https://res.cloudinary.com/awconway/image/upload/v1623443458/spinner_qfwiw3.svg) In progress
+:::
+:::{.summaryColOne}
+Role
+:::
+:::{.summaryColTwo}
+Principal Investigator
+:::
+:::{.summaryColOne}
+Collaborators
+:::
+:::{.summaryColTwo}
+**Dr Matteo Parotto** <br>
+Consultant Anesthesiologist | Department of Anesthesiology | University of Toronto and Toronto General Hospital
+<br>
+**Dr Sebastian Mafeld** <br> 
+Interventional Radiologist | Joint Department of Medical Imaging | University of Toronto & Toronto General Hospital
+:::
+:::{.summaryColOne}
+Description
+:::
+:::{.summaryColTwo}
+Aim: To determine if smart alarm guided treatment of respiratory depression using the Integrated Pulmonary Index is an effective way to implement capnography during nurse-administered sedation.
+
+Design: A parallel cluster randomized trial design will be used. Capnography monitoring will be implemented as standard practice for all patients undergoing procedures with nurse-administered sedation in the four departments participating in the study. Nurses working in the departments will be invited to participate in the randomized controlled trial component of the study. If they choose to participate, they will be randomized to use capnography either with or without the Integrated Pulmonary Index (IPI) enabled. 
+
+Setting: Participants will be enrolled from four departments across UHN. The departments include the Cardiac Catheterisation Laboratory and Interventional Radiology departments at the Toronto General Hospital, as well as the Interventional Radiology departments at the Toronto Western Hospital and Mt Sinai Hospital. 
+
+Sample size: 400 participants.
+
+Publication plan: It is anticipated that there would be at least two publications in academic journals. One would be focused on the main comparisons in alarm metrics between departments randomized to having IPI enabled or disabled. The other publication would be focused on the insights gained from the intensive facilitated implementation process.
+:::
+:::{.summaryColOne}
+Funding
+:::
+:::{.summaryColTwo}
+Funding has been received from the Medtronic External Research Program. A total of $63,500 to support direct research costs and ~$60,000 worth of equipment has been awarded.
+:::
+:::{.summaryColOne}
+Current progress
+:::
+:::{.summaryColTwo}
+The ethics application is currently under review. Anticipated start date Fall, 2021. 
+:::
+:::
+
+:::{.summaryContainer}
+:::{.summaryTitle}
+Predicting prolonged apnea during nurse-administered procedural sedation
+:::
+:::{.summaryStatus .completed}
+![](https://res.cloudinary.com/awconway/image/upload/v1623443508/check-circle_wrpeol.svg) Complete
+:::
+:::{.summaryColOne}
+Role
+:::
+:::{.summaryColTwo}
+Principal Investigator
+:::
+:::{.summaryColOne}
+Collaborators
+:::
+:::{.summaryColTwo}
+**Dr Matteo Parotto** <br>
+Consultant Anesthesiologist | Department of Anesthesiology | University of Toronto and Toronto General Hospital
+<br>
+**Dr Sebastian Mafeld** <br> 
+Interventional Radiologist | Joint Department of Medical Imaging | University of Toronto & Toronto General Hospital
+:::
+:::{.summaryColOne}
+Description
+:::
+:::{.summaryColTwo}
+Deciphering which capnography waveform abnormalities deserve intervention, and therefore alarms to signal the event to clinicians, from those that do not is an essential step towards successfully implementing this technology into practice. It is possible that capnography alarm management may be improved by using machine learning to create a ‘smart alarm’ that can alert clinicians for apneic events that are predicted to be prolonged. The aim of this study was to determine the accuracy of machine learning models for predicting, at the 15-second time point, if apnea will be prolonged (defined as apnea that persisted for 30 seconds or more). A secondary analysis of an observational study was conducted. Decision curve analysis indicated that using a random forest model would lead to a better outcome (in terms of the balance between false positive and negative predictions) for capnography alarm management compared to an aggressive strategy where alarms are triggered after 15 seconds of apnea. The model would not be superior to the conservative strategy, where alarms are only triggered after 30 seconds.
+:::
+:::{.summaryColOne}
+Funding
+:::
+:::{.summaryColTwo}
+Bertha Rosenstadt Small Research Grant ($5,000)
+Data collection was undertaken in Australia, during my term as a Research Fellow at QUT, which was funded by a NHMRC Early Career Fellowship. The analyses and writing components were undertaken at UofT.
+:::
+:::{.summaryColOne}
+Publications
+:::
+:::{.summaryColTwo}
+```{r results='asis', echo=FALSE} 
+articles <- papers %>% filter(TITLE=="Predicting prolonged apnea during nurse-administered procedural sedation: a machine learning study (Preprint)")
+```
+`r articles$TITLE`
+<br>
+*Under review*
+<br>
+[View publication](`r articles$URL`)
+<br>
+[`r articles$authors`]{.authorBlock}
+```{r results='asis', echo=FALSE} 
+articles <- papers %>% filter(TITLE == "Sequence analysis of capnography waveform abnormalities during nurse-administered procedural sedation and analgesia in the cardiac catheterization laboratory")
+```
+`r articles$TITLE`
+<br>
+*`r articles$JOURNAL`*
+<br>
+[View publication](`r articles$URL`)
+<br>
+[`r articles$authors`]{.authorBlock}
+```{r results='asis', echo=FALSE} 
+articles <- papers %>% filter(TITLE=="Pre-apneic capnography waveform abnormalities during procedural sedation and analgesia")
+```
+`r articles$TITLE`
+<br>
+*`r articles$JOURNAL`*
+<br>
+[View publication](`r articles$URL`)
+<br>
+[`r articles$authors`]{.authorBlock}
+:::
+:::{.summaryColOne}
+Future directions
+:::
+:::{.summaryColTwo}
+Results from these analyses are promising. Longer term plans for this program of research are to undertake a similar analysis using a larger sample in a different population (outlined below) to confirm that predictions of apnea duration are accurate enough to optimize capnography alarm conditions. These preliminary analyses focus on evaluating the clinical impact that using a model as input for capnography alarm management would have on the number of alarms triggered (i.e. false positives/negatives). As with any intervention in healthcare, efficacy needs to be assessed prior to broader implementation. Evaluation of efficacy in this context would involve determining whether using the model as input for capnography alarm management improves patient safety. As such, it is planned to build this program of research towards a point where it is possible to undertake a randomized controlled trial. Randomized controlled trials testing alarm conditions that have integrated predictions from machine learning models have been conducted previously in similar contexts, such as intra-operative blood pressure management.
+:::
+:::
+
+:::{.summaryContainer}
+:::{.summaryTitle}
+Improving capnography alarm management on inpatient wards by predicting the duration of apnea
+:::
+:::{.summaryStatus .progress}
+![](https://res.cloudinary.com/awconway/image/upload/v1623443458/spinner_qfwiw3.svg) In progress
+:::
+:::{.summaryColOne}
+Role
+:::
+:::{.summaryColTwo}
+Principal Investigator
+:::
+:::{.summaryColOne}
+Collaborators
+:::
+:::{.summaryColTwo}
+**Dr Carla Junquist** <br> 
+Associate Professor | The University at Buffalo <br>
+**Dr Matteo Parotto** <br>
+Consultant Anesthesiologist | Department of Anesthesiology | University of Toronto and Toronto General Hospital
+:::
+:::{.summaryColOne}
+Description
+:::
+:::{.summaryColTwo}
+Based on results from our preliminary work, it seems that using information about the history of previous respiratory states may be a promising solution in regards to predicting durations of apneic periods. We now plan to build on these preliminary findings about the associations between apneic events and the history of previous respiratory states by building a predictive model from a larger sample of participants. In this study, data collected as part of an international prospective observational trial of opioid-induced respiratory depression on inpatient wards (the PRODIGY study) will be analysed. PRODIGY was a prospective trial conducted at 16 clinical sites in the United States, Europe, and Asia. It was performed between April 2017 and May 2018 (ClinicalTrials.gov: NCT02811302) and was funded by Medtronic. This study aims to develop and validate a model for predicting the duration of apnea in patients receiving opioids on inpatient wards. The prediction goal is the duration of apneic events. It is proposed that these predictions could be useful for clinical practice if operationalized as a smart-alarm by triggering an alert if an apneic event is predicted to last for more than 20 seconds. The predictions will be compared against a _default_ alarm setting for capnography monitors, which triggers an alarm at 30 seconds of apnea. A _correct_ prediction for both settings will be when apnea continues for a further 20 seconds or more after the alert is triggered.
+:::
+:::{.summaryColOne}
+Current progress
+:::
+:::{.summaryColTwo}
+Dr Carla Jungquist, who was a PI on the PRODIGY study, has received a contract from Medtronic permitting our use of data from the study for the proposed secondary analysis. It is planned for the analyses to be completed within one year (estimated completion date completion Summer 2022).
+:::
+:::
+
+
+
+#### Transcutaneous carbon dioxide
+
+- Meta-analysis
+- Capnostim
+
+
+
+### Sedation monitoring and management
+
+:::{.summaryContainer}
+:::{.summaryTitle}
+Automating sedation state assessment
+:::
+:::{.summaryStatus .progress}
+![](https://res.cloudinary.com/awconway/image/upload/v1623443458/spinner_qfwiw3.svg) In progress
+:::
+:::{.summaryColOne}
+Role
+:::
+:::{.summaryColTwo}
+Principal Investigator
+:::
+:::{.summaryColOne}
+Collaborators
+:::
+:::{.summaryColTwo}
+**Dr Babak Taati** <br>
+Scientist | KITE | Toronto Rehabilitation Institute <br>
+Assistant Professor | Department of Computer Science | Institute of Biomedical Engineering (BME) | University of Toronto <br>
+**Dr Sebastian Mafeld** <br> 
+Interventional Radiologist | Joint Department of Medical Imaging | University of Toronto & Toronto General Hospital
+:::
+:::{.summaryColOne}
+Description
+:::
+:::{.summaryColTwo}
+With the recent advances in machine learning technology, it may be possible to automate all, or particular aspects, of procedural state assessments in real-time. Such a system would have multiple potential benefits and possibilities for future investigation. If the sedation state assessment technology is sufficiently accurate to implement into clinical practice, with time, enough data may be accrued to build predictive models for the timing of state transitions. Predictions about the probability of an impending state transition could be operationalized into real-time clinical decision-making support systems. Receiving an alert that there is a high probability of an impending state transition would allow clinicians to initiate interventions, such as titration of sedation or analgesia, and potentially prevent the occurrence of a ‘problem’ state, thus increasing the time spent in an ‘ideal’ sedation state. In this research, we will conduct a pilot study to investigate the feasibility of developing an automated sedation state assessment system from audiovisual recordings made during procedures performed with sedation in Interventional Radiology. We will use these preliminary findings in further research to develop technology that facilitates automated sedation state assessment during procedures.
+
+We specifically plan to: 
+
+1. Collect a dataset comprising patients' facial expressions along with the ambient noise during procedures in interventional radiology;
+1. Determine if existing computer vision algorithms will work reliably and with sufficient accuracy to detect pain in what may be a challenging setting (oxygen masks obscuring patients' faces, potentially poor ambient lighting, single camera angle); 
+1. Determine if existing natural language processing algorithms will work reliably and with sufficient accuracy to detect patient movement that is interfering with the progress of procedures.
+:::
+:::{.summaryColOne}
+Progress
+:::
+:::{.summaryColTwo}
+This study is currently in progress. We were able to recruit 5 participants (100% recruitment rate) prior to clinical research being shut down at Toronto General Hospital for the third COVID wave. It is anticipated that once clinical research restarts, we would be able to complete data collection within a period of 6 months.
+:::
+:::{.summaryColOne}
+Future direction
+:::
+:::{.summaryColTwo}
+I am planning to use results from the pilot study described above to demonstrate feasibility of the data collection processes in an application for a **CIHR project grant in Fall 2021** to conduct a larger study.
+:::
+:::
+
+
+
+### Automating pre-procedure fasting instructions
+
+Instructions about when to stop eating and drinking before a medical procedure performed with sedation or anaesthesia are not usually updated to account for delays and rescheduling, so most patients go without eating or drinking for much longer than is required. This project focuses on enabling compassionate healthcare using digital technology integrated with AI by setting up a real-time instruction system. It will predict procedure start time and automate the instructions sent to patients about when they should stop eating or drinking before their procedure. Specific objectives are to: 
+
+- Build a model using state-of-the-art machine learning methods to predict the time 2 and 6 hours before actual procedure start times using predictor variables drawn from the hospital scheduling and intra-procedure monitoring systems.
+
+- Identify design specifications for the user-facing components of an automated fasting instruction system that is optimally suited to patient and clinician requirements.
+
+This approach will ensure the alert system is optimally suited to patient and healthcare team requirements for providing the automated pre-procedural fasting instructions. Long-term, it is planned to evaluate the effectiveness of this automated system in a randomized controlled trial prior to broader implementation.
+
+Although funding applications for this project have been unsuccessful to date (details below), I have arranged to move forward using resources provided by my appointment as RBC Chair of Cardiovascular Nursing, and through a collaboration with Prof Chris Beck. Dr. Beck is perfectly situated to collaborate on this research. He is an expert in Artificial Intelligence and Operations Research focused primarily on the algorithms, mathematics, and applications of scheduling and planning. Dr. Beck's research seeks to combine insights from combinatorial optimization, AI, and operations research to develop theoretical and application-based techniques to improve schedule performance and reduce resource usage across domains including healthcare, energy, cloud systems, transportation, and manufacturing. A student with appropriate expertise has been accepted by Professor Christopher Beck to join his lab, the Toronto Intelligent Decision and Engineering Laboratory, in the fall of 2021 to work on this project.
+
+|Date|Role| Grant scheme | Amount|Status|
+| --- | --- | --- | --- | --- |
+| Spring 2020 | PI | CIHR Project Grant | $260,000 | Unsuccessful |
+| Fall 2020 | PI | NFRF Exploration 2020 | $225,000 | Unsuccessful |
+| Spring 2021 | PI | AMS Healthcare Small Grant in Compassion and Artificial Intelligence  | $20,000 | Submitted |
+
+Outlined below are completed and current studies related to this broad research aim.
+
+:::{.summaryContainer}
+:::{.summaryTitle}
+Validating the Peri-operative Thirst Discomfort Scale
+:::
+:::{.summaryStatus .completed}
+![](https://res.cloudinary.com/awconway/image/upload/v1623443508/check-circle_wrpeol.svg) Completed
+:::
+:::{.summaryColOne}
+Role
+:::
+:::{.summaryColTwo}
+Principal Investigator
+:::
+:::{.summaryColOne}
+Collaborators
+:::
+:::{.summaryColTwo}
+
+:::
+:::{.summaryColOne}
+Description
+:::
+:::{.summaryColTwo}
+This preliminary project was undertaken 
+:::
+:::{.summaryColOne}
+Publications
+:::
+:::{.summaryColTwo}
+```{r results='asis', echo=FALSE} 
+articles <- papers %>% filter(TITLE=="Validating the Peri-operative Thirst Discomfort Scale for Measuring Thirst Discomfort Prior to Procedures")
+```
+`r articles$TITLE`
+<br>
+*`r articles$JOURNAL`*
+<br>
+[View publication](`r articles$URL`)
+<br>
+[`r articles$authors`]{.authorBlock}
+:::
+
+:::
+:::{.summaryContainer}
+:::{.summaryTitle}
+Co-designing an Automated Pre-Procedure Fasting Instruction System
+:::
+:::{.summaryStatus .progress}
+![](https://res.cloudinary.com/awconway/image/upload/v1623443458/spinner_qfwiw3.svg) In Progress
+:::
+:::{.summaryColOne}
+Role
+:::
+:::{.summaryColTwo}
+Principal Investigator
+:::
+:::{.summaryColOne}
+Collaborators
+:::
+:::{.summaryColTwo}
+
+**Julie Vizza**<br>
+Patient partner | Patient partner program | University Health Network
+:::
+:::{.summaryColOne}
+Description
+:::
+:::{.summaryColTwo}
+
+:::
+:::{.summaryColOne}
+Progress
+:::
+:::{.summaryColTwo}
+Data collection has commenced, with 4 patient participants recruited to date. Unfortunately, progress was considerably impacted due to clinical disruption at Toronto General Hospital for COVID-19. 
+:::
+:::{.summaryColOne}
+Future direction
+:::
+:::{.summaryColTwo}
+It is planned to apply for funding to conduct a randomized controlled trial of the automated pre-procedure fasting instruction system.
+:::
+:::
+
+
+:::{.summaryContainer}
+:::{.summaryTitle}
+Predicting procedure start time
+:::
+:::{.summaryStatus .progress}
+![](https://res.cloudinary.com/awconway/image/upload/v1623443458/spinner_qfwiw3.svg) In Progress
+:::
+:::{.summaryColOne}
+Role
+:::
+:::{.summaryColTwo}
+Principal Investigator
+:::
+:::{.summaryColOne}
+Collaborators
+:::
+:::{.summaryColTwo}
+**Prof Chris Beck**<br>
+Professor | Department of Mechanical & Industrial Engineering | University of Toronto <br>
+**Dr Bo Wang**<br>
+Lead Scientist | Artificial Intelligence | Peter Munk Cardiac Centre | Toronto General Hospital <br>
+Assistant Professor | Faculty of Medicine | University of Toronto <br>
+**Julie Vizza**<br>
+Patient partner | Patient partner program | University Health Network
+:::
+:::{.summaryColOne}
+Description
+:::
+:::{.summaryColTwo}
+
+:::
+:::{.summaryColOne}
+Publications
+:::
+:::{.summaryColTwo}
+```{r results='asis', echo=FALSE} 
+articles <- papers %>% filter(TITLE=="Validating the Peri-operative Thirst Discomfort Scale for Measuring Thirst Discomfort Prior to Procedures")
+```
+`r articles$TITLE`
+<br>
+*`r articles$JOURNAL`*
+<br>
+[View publication](`r articles$URL`)
+<br>
+[`r articles$authors`]{.authorBlock}
+:::
+:::{.summaryColOne}
+Funding
+:::
+:::{.summaryColTwo}
+|Date|Role| Grant scheme | Amount|Status|
+| --- | --- | --- | --- | --- |
+| Spring 2020 | PI | CIHR Project Grant | $260,000 | Unsuccessful |
+| Fall 2020 | PI | NFRF Exploration 2020 | $225,000 | Unsuccessful |
+| Spring 2021 | PI | AMS Healthcare Small Grant in Compassion and Artificial Intelligence  | $20,000 | Submitted |
+:::
+:::{.summaryColOne}
+Progress
+:::
+:::{.summaryColTwo}
+We have received ethics approval for all components of the study. A trainee (MASc Engineering) with appropriate expertise has been accepted by Co-Investigator Professor Christopher Beck to join his lab, the Toronto Intelligent Decision and Engineering Laboratory, in the fall of 2021 and work on this project.  Data collection for Phase 2 has commenced, with 4 patient participants recruited to date (progress considerably impacted due to clinical disruption at Toronto General Hospital for COVID-19). 
+:::
+:::{.summaryColOne}
+Future direction
+:::
+:::{.summaryColTwo}
+It is planned to apply for funding to conduct a randomized controlled trial of the automated pre-procedure fasting instruction system.
+:::
+:::
+
+
+
+### Research output from other scholarly work
+
+Below is a list of publications from scholarly work undertaken at the University of Toronto that are supplementary to, or not exactly aligned with my main priorities for on-going research. The work not aligned with my main research focus in procedural sedation stems from prior research I have undertaken or collaborations with the broader cardiovascular nursing research community.
+
+#### Procedural sedation
+
+```{r results='asis', echo=FALSE} 
+articles <- papers %>% filter(TITLE=="Development and validation of the nursing confidence in managing sedation complications scale")
+```
+<ul style="list-style-type:none;">
+<li>
+`r articles$TITLE`
+<br>
+*`r articles$JOURNAL`*
+<span style="float:right;color:#929598;">`r articles$YEAR`</span>
+<br>
+[View publication](`r articles$URL`)
+<br>
+[`r articles$authors`]{.authorBlock}
+</li>
+<hr>
+</ul>
+```{r results='asis', echo=FALSE} 
+articles <- papers %>% filter(TITLE=="Midazolam for sedation before procedures in adults and children: a systematic review update")
+```
+<ul style="list-style-type:none;">
+<li>
+`r articles$TITLE`
+<br>
+*`r articles$JOURNAL`*
+<span style="float:right;color:#929598;">`r articles$YEAR`</span>
+<br>
+[View publication](`r articles$URL`)
+<br>
+[`r articles$authors`]{.authorBlock}
+</li>
+<hr>
+</ul>
+```{r results='asis', echo=FALSE} 
+articles <- papers %>% filter(TITLE=="Preprocedural Assessment for Patients Anticipating Sedation")
+```
+<ul style="list-style-type:none;">
+<li>
+`r articles$TITLE`
+<br>
+*`r articles$JOURNAL`*
+<span style="float:right;color:#929598;">`r articles$YEAR`</span>
+<br>
+[View publication](`r articles$URL`)
+<br>
+[`r articles$authors`]{.authorBlock}
+</li>
+<hr>
+</ul>
+```{r results='asis', echo=FALSE} 
+articles <- papers %>% filter(TITLE=="Avoiding and Managing Error in Interventional Radiology Practice: Tips and Tools")
+```
+<ul style="list-style-type:none;">
+<li>
+`r articles$TITLE`
+<br>
+*`r articles$JOURNAL`*
+<span style="float:right;color:#929598;">`r articles$YEAR`</span>
+<br>
+[View publication](`r articles$URL`)
+<br>
+[`r articles$authors`]{.authorBlock}
+</li>
+<hr>
+</ul>
+
+#### Cardiac rehabilitation
+
+```{r results='asis', echo=FALSE} 
+articles <- papers %>% filter(TITLE=="Effectiveness of nurse-led clinics in the early discharge period after percutaneous coronary intervention: A systematic review")
+```
+<ul style="list-style-type:none;">
+<li>
+`r articles$TITLE`
+<br>
+*`r articles$JOURNAL`*
+<span style="float:right;color:#929598;">`r articles$YEAR`</span>
+<br>
+[View publication](`r articles$URL`)
+<br>
+[`r articles$authors`]{.authorBlock}
+</li>
+<hr>
+</ul>
+
+#### Temperature monitoring and management
+```{r}
+articles <- papers %>% filter(TITLE=="Accuracy and precision of zero-heat-flux temperature measurements with the 3M™️ Bair Hugger™️ Temperature Monitoring System: a systematic review and meta-analysis")
+```
+<ul style="list-style-type:none;">
+<li>
+`r articles$TITLE`
+<br>
+*`r articles$JOURNAL`*
+<span style="float:right;color:#929598;">`r articles$YEAR`</span>
+<br>
+[View publication](`r articles$URL`)
+<br>
+[`r articles$authors`]{.authorBlock}
+</li>
+<hr>
+</ul>
+```{r}
+articles <- papers %>% filter(TITLE=="Costs of inadvertent perioperative hypothermia in Australia: A cost-of-illness study")
+```
+<ul style="list-style-type:none;">
+<li>
+`r articles$TITLE`
+<br>
+*`r articles$JOURNAL`*
+<span style="float:right;color:#929598;">`r articles$YEAR`</span>
+<br>
+[View publication](`r articles$URL`)
+<br>
+[`r articles$authors`]{.authorBlock}
+</li>
+<hr>
+</ul>
+```{r}
+articles <- papers %>% filter(TITLE=="Implementing a thermal care bundle for inadvertent perioperative hypothermia: A cost-effectiveness analysis")
+```
+<ul style="list-style-type:none;">
+<li>
+`r articles$TITLE`
+<br>
+*`r articles$JOURNAL`*
+<span style="float:right;color:#929598;">`r articles$YEAR`</span>
+<br>
+[View publication](`r articles$URL`)
+<br>
+[`r articles$authors`]{.authorBlock}
+</li>
+<hr>
+</ul>
+
+
+#### Depression screening
+
+I was invited to contribute data I collected as part of a study on depression screening for heart transplant recipients to the DEPRESSD project. DEPRESSD is an international collaborative project involving experts in health policy, psychiatry and statistics as well as investigators who have collected depression screening data.
+
+```{r results='asis', echo=FALSE} 
+articles <- papers %>% filter(TITLE=="Accuracy of the PHQ-2 Alone and in Combination With the PHQ-9 for Screening to Detect Major Depression")
+```
+<ul style="list-style-type:none;">
+<li>
+`r articles$TITLE`
+<br>
+*`r articles$JOURNAL`*
+<span style="float:right;color:#929598;">`r articles$YEAR`</span>
+<br>
+[View publication](`r articles$URL`)
+<br>
+Group author
+</li>
+<hr>
+</ul>
+```{r results='asis', echo=FALSE} 
+articles <- papers %>% filter(TITLE=="Probability of Major Depression Classification Based on the SCID, CIDI, and MINI Diagnostic Interviews: A Synthesis of Three Individual Participant Data Meta-Analyses")
+```
+<ul style="list-style-type:none;">
+<li>
+`r articles$TITLE`
+<br>
+*`r articles$JOURNAL`*
+<span style="float:right;color:#929598;">`r articles$YEAR`</span>
+<br>
+[View publication](`r articles$URL`)
+<br>
+Group author
+</li>
+<hr>
+</ul>
+
+#### COVID-19
+
+I was invited to contribute to an editorial with Dr Rochelle Wynne and Prof Patricia Davidson on the innovations in care that were stimulated by the COVID-19 pandemic.
+
+```{r results='asis', echo=FALSE} 
+articles <- papers %>% filter(TITLE=="Ensuring COVID-related innovation is sustained")
+```
+<ul style="list-style-type:none;">
+<li>
+`r articles$TITLE`
+<br>
+*`r articles$JOURNAL`*
+<span style="float:right;color:#929598;">`r articles$YEAR`</span>
+<br>
+[View publication](`r articles$URL`)
+<br>
+Group author
+</li>
+<hr>
+</ul>
+
+## Service
+
+### Peer review

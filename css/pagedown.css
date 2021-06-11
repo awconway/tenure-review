@@ -1,6 +1,6 @@
 /* @import 'https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&display=swap'; */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 :root {
   --background: whitesmoke;
   --pagedjs-width: 6in;
@@ -9,8 +9,8 @@
   --color-mbox: rgba(0, 0, 0, 0.2);
   --running-title-width: 2.5in;
   --screen-pages-spacing: 5mm;
-  --primary-color: 	hsl(214, 100%, 19%);
-  --primary-color-light: 	hsl(214, 100%, 19%, var(--lighten));
+  --primary-color: hsl(214, 100%, 19%);
+  --primary-color-light: hsl(214, 100%, 19%, var(--lighten));
   --font-normal: 12pt;
   --font-small: 10pt;
   --font-xsmall: 9pt;
@@ -29,31 +29,34 @@ body {
   /* font-family: 'BioRhyme', serif; */
   font-family: 'Work Sans', sans-serif;
 }
-ol,ul {
+
+ol, ul {
   font-size: var(--font-normal);
-}
-/* references */
-.csl-entry {
-  font-size: var(--font-small);
-  padding-left: 22px ;
-  text-indent: -22px ;
 }
 
-blockquote{
+/* references */
+
+.csl-entry {
+  font-size: var(--font-small);
+  padding-left: 22px;
+  text-indent: -22px;
+}
+
+blockquote {
   font-size: var(--font-normal);
-  width:100%;
-  margin:30px auto;
-  font-style:italic;
+  width: 100%;
+  margin: 30px auto;
+  font-style: italic;
   color: #555555;
-  padding:25px;
-  border-left:8px solid var(--primary-color) ;
+  padding: 25px;
+  border-left: 8px solid var(--primary-color);
   position: relative;
   background: hsl(214, 100%, 94%);
 }
 
-blockquote span{
-  display:block;
-  color:#333333;
+blockquote span {
+  display: block;
+  color: #333333;
   font-style: normal;
   font-weight: bold;
   padding-bottom: 10px;
@@ -72,15 +75,16 @@ li {
 }
 
 /* page size */
+
 @page {
   /* size: 6in 9in; var(--pagedjs-width) doesn't work in browser when printing */
   size: A4 !important;
 }
-@page :blank {
 
-}
+@page :blank {}
 
 /* store some string variables */
+
 .shorttitle1 {
   string-set: h1-text content(text);
 }
@@ -90,12 +94,14 @@ li {
 }
 
 /* left page */
+
 .running-h1-title {
   position: running(runningH1Title);
   width: var(--running-title-width);
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 .running-h1-title:before {
   content: string(h1-text);
 }
@@ -106,7 +112,6 @@ li {
     font-size: var(--font-small);
     color: var(--text-color-light);
   }
-
   @bottom-left {
     content: string(subtitle) " |";
     white-space: nowrap !important;
@@ -117,12 +122,14 @@ li {
 }
 
 /* right page */
+
 .running-h2-title {
   position: running(runningH2Title);
   width: var(--running-title-width);
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 .running-h2-title:before {
   /* We would want to write: */
   /* content: string(h2-text, start); */
@@ -136,11 +143,13 @@ li {
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 .running-h1-title:before {
   content: string(h1-text);
 }
 
 /* New chapter page */
+
 @page chapter:first {
   @top-left {
     content: none;
@@ -154,19 +163,16 @@ li {
 }
 
 /* Report first page */
-@page :first {
 
+@page :first {
   margin: 0 0 0 0;
   background-color: #ffffff;
-  background-image:
-    url('https://res.cloudinary.com/awconway/image/upload/v1621536105/bloomberg_cg93z9.png'), 
-    /* https://bgjar.com */
-    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='793.7' height='1000' preserveAspectRatio='none' viewBox='0 0 793.7 1000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1043%26quot%3b)' fill='none'%3e%3crect width='793.7' height='1000' x='0' y='0' fill='url(%23SvgjsLinearGradient1044)'%3e%3c/rect%3e%3cpath d='M44 1000L1044 0L1431 0L431 1000z' fill='url(%23SvgjsLinearGradient1045)'%3e%3c/path%3e%3cpath d='M744.7 1000L-255.29999999999995 0L-480.29999999999995 0L519.7 1000z' fill='url(%23SvgjsLinearGradient1046)'%3e%3c/path%3e%3cpath d='M222.78842424175855 1000L793.7 429.0884242417585L793.7 1000z' fill='url(%23SvgjsLinearGradient1045)'%3e%3c/path%3e%3cpath d='M0 1000L570.9115757582415 1000L 0 429.0884242417585z' fill='url(%23SvgjsLinearGradient1046)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1043'%3e%3crect width='793.7' height='1000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='-6.5%25' y1='5.16%25' x2='106.5%25' y2='94.84%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1044'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1045'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1046'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
-  background-repeat: no-repeat,no-repeat;
+  background-image: url('https://res.cloudinary.com/awconway/image/upload/v1621536105/bloomberg_cg93z9.png'), /* https://bgjar.com */
+  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='793.7' height='1000' preserveAspectRatio='none' viewBox='0 0 793.7 1000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1043%26quot%3b)' fill='none'%3e%3crect width='793.7' height='1000' x='0' y='0' fill='url(%23SvgjsLinearGradient1044)'%3e%3c/rect%3e%3cpath d='M44 1000L1044 0L1431 0L431 1000z' fill='url(%23SvgjsLinearGradient1045)'%3e%3c/path%3e%3cpath d='M744.7 1000L-255.29999999999995 0L-480.29999999999995 0L519.7 1000z' fill='url(%23SvgjsLinearGradient1046)'%3e%3c/path%3e%3cpath d='M222.78842424175855 1000L793.7 429.0884242417585L793.7 1000z' fill='url(%23SvgjsLinearGradient1045)'%3e%3c/path%3e%3cpath d='M0 1000L570.9115757582415 1000L 0 429.0884242417585z' fill='url(%23SvgjsLinearGradient1046)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1043'%3e%3crect width='793.7' height='1000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='-6.5%25' y1='5.16%25' x2='106.5%25' y2='94.84%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1044'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1045'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1046'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat, no-repeat;
   background-position: 10px 20px, bottom right;
   background-size: 30%, 793.7px 1000px;
-
-@top-center {
+  @top-center {
     content: none;
   }
   @top-right {
@@ -177,8 +183,8 @@ li {
   }
 }
 
-
 /* Front matter */
+
 @page frontmatter:left {
   @top-left {
     content: counter(page, lower-roman);
@@ -188,6 +194,7 @@ li {
     white-space: nowrap !important;
   }
 }
+
 @page frontmatter:right {
   @top-right {
     content: counter(page, lower-roman);
@@ -197,6 +204,7 @@ li {
     white-space: nowrap !important;
   }
 }
+
 @page frontmatter:first {
   @top-left {
     content: none;
@@ -209,15 +217,15 @@ li {
   }
 }
 
-
 /* page breaks; aka CSS fragmentation */
+
 .level1 {
   break-before: page;
   page: chapter;
 }
 
-
 /* put in 2 columns... */
+
 /* .level4 {
   columns: 2;
 } */
@@ -237,23 +245,22 @@ h1 {
   font-size: var(--font-xlarge);
 }
 
-
 .title {
-    break-before: avoid;
-    text-align: center;
-    color:#ffffff;
-    font-weight: bold;
-    margin-top: 100mm;
-    bookmark-level: none;
-    margin-right: 8mm;
-    margin-left: 8mm;
-    font-size: var(--font-xlarge);
-  }
+  break-before: avoid;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 100mm;
+  bookmark-level: none;
+  margin-right: 8mm;
+  margin-left: 8mm;
+  font-size: var(--font-xlarge);
+}
 
 .subtitle {
   break-before: avoid;
   text-align: center;
-  color:#ffffff;
+  color: #ffffff;
   font-weight: bold;
   margin-top: 8mm;
   line-height: 50pt;
@@ -264,27 +271,26 @@ h1 {
 }
 
 .author {
-    break-before: avoid;
-    color:#ffffff;
-    text-align: center;
-    font-size: var(--font-normal);
-    text-transform: none;
-    bookmark-level: none;
-    margin-right: 8mm;
-    margin-left: 8mm;
-  }
+  break-before: avoid;
+  color: #ffffff;
+  text-align: center;
+  font-size: var(--font-normal);
+  text-transform: none;
+  bookmark-level: none;
+  margin-right: 8mm;
+  margin-left: 8mm;
+}
 
 .date {
-    break-before: avoid;
-    color:#ffffff;
-    text-align: center;
-    text-transform: none;
-    bookmark-level: none;
-    margin-right: 8mm;
-    margin-left: 8mm;
-    font-size: var(--font-normal);
-
-  }
+  break-before: avoid;
+  color: #ffffff;
+  text-align: center;
+  text-transform: none;
+  bookmark-level: none;
+  margin-right: 8mm;
+  margin-left: 8mm;
+  font-size: var(--font-normal);
+}
 
 h2 {
   break-after: avoid;
@@ -305,11 +311,11 @@ p {
 }
 
 /* code snippet directly within the text */
+
 p code {
   background-color: #f7f7f9;
   color: #e01e5a;
 }
-
 
 .footnotes {
   break-before: always;
@@ -317,12 +323,12 @@ p code {
 }
 
 /* for charts  */
+
 .figure {
   break-inside: avoid;
   position: relative;
   padding-top: 4;
 }
-
 
 .caption {
   break-inside: avoid;
@@ -333,66 +339,77 @@ p code {
 }
 
 /* reset page numbering after front matter */
+
 .front-matter-container+.level1 h1 {
   counter-reset: page;
 }
+
 .toc-title {
   break-before: avoid;
 }
+
 .first-h1 {
   break-before: avoid;
 }
 
-
-
 /* generated content */
+
 a[href^="http"]:not([class="uri"])::after {
   content: " (" attr(href) ")";
   font-size: var(--font-normal);
   hyphens: none;
   word-break: break-all;
 }
+
 .references a[href^=http]:not([class=uri])::after {
   content: none;
 }
+
 .main a[href^="#"]:not([class^="footnote-"]):not([href*=":"])::after {
   content: " (page " target-counter(attr(href), page) ")";
 }
+
 .main a.front-matter-ref[href^="#"]:not([class^="footnote-"]):not([href*=":"])::after {
   content: " (page " target-counter(attr(href), page, lower-roman) ")";
 }
+
 /* do not include page references in code blocks */
-.sourceCode a[href^="#"]:not([class^="footnote-"]):not([href*=":"])::after,
-.sourceCode a.front-matter-ref[href^="#"]:not([class^="footnote-"]):not([href*=":"])::after {
+
+.sourceCode a[href^="#"]:not([class^="footnote-"]):not([href*=":"])::after, .sourceCode a.front-matter-ref[href^="#"]:not([class^="footnote-"]):not([href*=":"])::after {
   content: unset;
 }
 
 /* TOC, LOT, LOF */
+
 .toc ul, .lot ul, .lof ul {
   list-style: none;
   padding-left: 0;
   overflow-x: hidden;
 }
+
 .toc li li {
   padding-left: 1em;
 }
+
 .toc a, .lot a, .lof a {
   text-decoration: none;
   background: white;
   padding-right: 0.33em;
   font-size: var(--font-small);
-
 }
+
 .toc a::after, .lot a::after, .lof a::after {
   /* content: leader(dotted) target-counter(attr(href), page); */
   content: target-counter(attr(href), page);
   float: right;
   background: white;
 }
+
 .toc a.front-matter-ref::after, .lot a.front-matter-ref::after, .lof a.front-matter-ref::after {
   /* content: leader(dotted) target-counter(attr(href), page, lower-roman); */
   content: target-counter(attr(href), page, lower-roman);
 }
+
 .toc .leaders::before, .lot .leaders::before, .lof .leaders::before {
   float: left;
   width: 0;
@@ -401,26 +418,33 @@ a[href^="http"]:not([class="uri"])::after {
 }
 
 /* Chapter name */
-.chapter > h1 > .header-section-number::before, .chapter-ref > .toc-section-number::before {
+
+.chapter>h1>.header-section-number::before, .chapter-ref>.toc-section-number::before {
   content: var(--chapter-name-before, "Chapter ");
 }
-.chapter > h1 > .header-section-number::after, .chapter-ref > .toc-section-number::after {
+
+.chapter>h1>.header-section-number::after, .chapter-ref>.toc-section-number::after {
   content: var(--chapter-name-after, "");
 }
 
 /* misc elements */
+
 .subtitle span {
   font-size: var(--font-normal);
 }
+
 img {
   max-width: 100%;
 }
+
 pre {
   padding: 1rem;
 }
+
 pre[class] {
   background: #f9f9f9;
 }
+
 abbr {
   text-decoration: none;
 }
@@ -433,24 +457,26 @@ abbr {
     text-decoration: unset !important;
   }
 }
+
 pre.numberSource a.sourceLine {
   left: 0 !important;
   text-indent: -5em
 }
+
 pre.numberSource {
   margin-left: 0 !important;
 }
+
 table {
   break-inside: avoid;
   break-after: avoid;
   margin: auto;
   font-size: var(--font-xsmall);
   border-collapse: collapse;
-
 }
+
 thead tr {
   background: #eee;
-
 }
 
 tbody tr {
@@ -460,23 +486,29 @@ tbody tr {
 .footnotes {
   font-size: var(--font-small);
 }
+
 .footnotes hr::before {
   content: "Footnotes:";
 }
+
 .footnotes hr {
   border: none;
 }
+
 .footnote-break {
   width: 1in;
 }
+
 body {
   hyphens: manual;
 }
+
 code {
   hyphens: none;
 }
 
 /* two pages in a row if possible on screen */
+
 @media screen {
   body {
     background-color: var(--background);
@@ -499,6 +531,7 @@ code {
 }
 
 /* when a row can hold two pages, start first page on the right */
+
 @media screen and (min-width: 12.32in) {
   .pagedjs_page {
     margin: auto 0 var(--screen-pages-spacing) 0;
@@ -509,24 +542,21 @@ code {
 }
 
 /* use a fixed width body for mobiles */
-@media screen and (max-width:1180px)  {
+
+@media screen and (max-width:1180px) {
   body {
     width: calc(var(--pagedjs-width) + 2 * var(--screen-pages-spacing));
   }
 }
 
-
 .quote {
-  position: relative; 
-  text-align: center;
+  position: relative;
+  text-align: left;
   padding: 16px 20px;
-  width: 90%;  /* create space for the quotes */
+  width: 90%;
+  /* create space for the quotes */
   margin: 16px auto;
-  background:
-  linear-gradient(to right, var(--primary-color-light) 4px, transparent 4px) 0 100%,
-  linear-gradient(to left, var(--primary-color-light) 4px, transparent 4px) 100% 0,
-  linear-gradient(to bottom, var(--primary-color-light) 4px, transparent 4px) 100% 0,
-  linear-gradient(to top, var(--primary-color-light) 4px, transparent 4px) 0 100%;
+  background: linear-gradient(to right, var(--primary-color-light) 4px, transparent 4px) 0 100%, linear-gradient(to left, var(--primary-color-light) 4px, transparent 4px) 100% 0, linear-gradient(to bottom, var(--primary-color-light) 4px, transparent 4px) 100% 0, linear-gradient(to top, var(--primary-color-light) 4px, transparent 4px) 0 100%;
   background-repeat: no-repeat;
   background-size: var(--font-normal) var(--font-normal);
   font-style: italic;
@@ -534,37 +564,39 @@ code {
   break-inside: avoid;
 }
 
-.quote p{
-color: var(--text-color-light);
-font-size: var(--font-xsmall);
+.quote p {
+  color: var(--text-color-light);
+  font-size: var(--font-xsmall);
 }
-  
+
 /* -- create the quotation marks -- */
-.quote:before,
-.quote:after{
+
+.quote:before, .quote:after {
   font-family: FontAwesome;
   position: absolute;
   color: var(--primary-color);
   font-size: var(--font-normal);
 }
 
-.quote:before{
+.quote:before {
   content: "\f10d";
   top: 0px;
   margin-right: -5px;
   right: 99%;
 }
-.quote:after{
+
+.quote:after {
   content: "\f10e";
   margin-left: -20px;
-  left: 102%;  
+  left: 102%;
   top: auto;
   bottom: 0px;
 }
 
-  /* create ability to insert pagebreaks with br.pagebreak */
+/* create ability to insert pagebreaks with br.pagebreak */
+
 br.pageBreak {
-    page-break-after: always;
+  page-break-after: always;
 }
 
 .numeric-table td:last-child {
@@ -583,9 +615,8 @@ br.pageBreak {
 
 .authorBlock {
   font-size: var(--font-xsmall);
-  color:var(--text-color-light);
+  color: var(--text-color-light);
 }
-
 
 .appendix {
   text-align: left;
@@ -599,15 +630,12 @@ br.pageBreak {
   color: var(--primary-color)
 }
 
-
 @page appendix:first {
-
-  background-image: url("https://res.cloudinary.com/awconway/image/upload/v1623088419/background_vy0tjb.svg");  
+  background-image: url("https://res.cloudinary.com/awconway/image/upload/v1623088419/background_vy0tjb.svg");
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 794px 1124px;
-
-@top-center {
+  @top-center {
     content: none;
   }
   @top-right {
@@ -620,19 +648,18 @@ br.pageBreak {
 
 @page appendix {
   background-image: url("https://res.cloudinary.com/awconway/image/upload/v1623088419/background_vy0tjb.svg");
-background-position: bottom right;
-background-size: 794px 1124;
-background-repeat: no-repeat;
-
-@top-center {
-  content: none;
-}
-@top-right {
-  content: none;
-}
-@bottom-right {
-  content: none !important;
-}
+  background-position: bottom right;
+  background-size: 794px 1124;
+  background-repeat: no-repeat;
+  @top-center {
+    content: none;
+  }
+  @top-right {
+    content: none;
+  }
+  @bottom-right {
+    content: none !important;
+  }
 }
 
 .appendixTOC {
@@ -643,20 +670,20 @@ background-repeat: no-repeat;
 .cardContainer {
   text-decoration: none;
   cursor: pointer;
-position: relative;
-border: 1px solid hsl(214, 100%, 19%, 15%);
-box-shadow: 2px 2px 6px 0px hsl(214, 100%, 19%, 15%);
-border-radius:5px;
-background-color: #ffffff;
+  position: relative;
+  border: 1px solid hsl(214, 100%, 19%, 15%);
+  box-shadow: 2px 2px 6px 0px hsl(214, 100%, 19%, 15%);
+  border-radius: 5px;
+  background-color: #ffffff;
 }
 
-.cardRow{
+.cardRow {
   text-decoration: none;
   display: grid;
   gap: 0.25rem;
   border: none;
   padding: 1rem;
-   grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr 1fr;
 }
 
 .cardP {
@@ -665,37 +692,101 @@ background-color: #ffffff;
   margin: 0;
   font-weight: 600;
   align-self: center;
-    grid-column: 1;
-    grid-row: 1;
-    text-decoration: none;
-
+  grid-column: 1;
+  grid-row: 1;
+  text-decoration: none;
 }
-  
 
 .cardSubhead {
-    display: grid;
-    text-decoration: none;
-    text-align: start;
-    font-weight: 400;
-      grid-column: 1;
-      grid-row: 2;
-      color: var(--text-color-light);
-  }
-
+  display: grid;
+  text-decoration: none;
+  text-align: start;
+  font-weight: 400;
+  grid-column: 1;
+  grid-row: 2;
+  color: var(--text-color-light);
+}
 
 .cardDate {
   display: grid;
   text-align: start;
   font-weight: 200;
   font-style: italic;
-    grid-column: 1;
-    grid-row: 3;
-    }
+  grid-column: 1;
+  grid-row: 3;
+}
 
 .cardImage {
   display: grid;
   align-items: center;
-    margin-bottom: 20px;
-    grid-column: 2;
-    grid-row: 1/4;
-    }
+  margin-bottom: 20px;
+  grid-column: 2;
+  grid-row: 1/4;
+}
+
+.summaryContainer {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 0.25rem;
+  padding: 1rem;
+  border: 1px solid hsl(214, 100%, 19%, 15%);
+  box-shadow: 2px 2px 6px 0px hsl(214, 100%, 19%, 15%);
+  border-radius: 5px;
+  margin: 0px 10px 20px 0px;
+}
+
+.summaryTitle {
+  display: grid;
+  grid-column: 1/3;
+  font-weight: 800;
+}
+
+.summaryTitle p {
+  margin: 0;
+}
+
+.summaryColOne {
+  color: var(--text-color-normal);
+  display: grid;
+  margin: 0;
+  font-weight: 600;
+  grid-column: 1;
+}
+
+.summaryColTwo {
+  color: var(--text-color-light);
+  display: grid;
+  margin: 0;
+  font-weight: 400;
+  align-self: center;
+  grid-column: 2;
+}
+
+.summaryStatus {
+  display: grid;
+  grid-column: 1/3;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.summaryStatus img {
+  display: inline;
+  height: 18px;
+  margin-right: 20px;
+}
+
+.summaryStatus p {
+  margin: 0;
+}
+
+.completed {
+  background-color: #f3faf7;
+  color: #63c191;
+}
+
+.progress {
+  background-color: #fdfdec;
+  color: #d9a339;
+  height: inherit;
+  font-size: inherit;
+}

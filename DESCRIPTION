@@ -1,4 +1,4 @@
-Package: interim-review
+Package: interimReview
 Title: Repository for Interim Review Report
 Version: 0.0.0.9000
 Authors@R: 
@@ -27,9 +27,11 @@ Suggests:
     glue,
     tibble,
     rorcid,
-    bs4cards,
     showtext,
-    bib2df
+    bib2df,
+    targets,
+    tarchetypes
 Remotes: 
     rstudio/pagedown,
-    djnavarro/bs4cards
+    ropensci/targets,
+    ropensci/tarchetypes
