@@ -50,13 +50,13 @@ jobs:
         shell: Rscript {0}
 
       - name: Run targets
+        env:
+          ORCID_TOKEN: ${{ secrets.ORCID_TOKEN }}
         run: |
           targets::tar_make()
         shell: Rscript {0}
 
       - name: Build site
-        env:
-          ORCID_TOKEN: ${{ secrets.ORCID_TOKEN }}
         run: |
           bookdown::render_book(".", quiet = TRUE)
         shell: Rscript {0}
