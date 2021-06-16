@@ -5,4 +5,3 @@ bookdown::bs4_book:
   css: 
     - css/styles.css
   bibliography: references.bib
-

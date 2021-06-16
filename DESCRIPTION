@@ -27,7 +27,6 @@ Suggests:
     glue,
     tibble,
     rorcid,
-    showtext,
     bib2df,
     targets,
     tarchetypes

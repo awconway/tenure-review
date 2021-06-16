@@ -361,6 +361,7 @@ a[href^="http"]:not([class="uri"])::after {
   word-break: break-all;
 }
 
+
 .references a[href^=http]:not([class=uri])::after {
   content: none;
 }
@@ -620,7 +621,6 @@ br.pageBreak {
 
 .appendix {
   text-align: left;
-  font-weight: bold;
   break-before: always;
   page: appendix;
 }
@@ -701,7 +701,7 @@ br.pageBreak {
   display: grid;
   text-decoration: none;
   text-align: start;
-  font-weight: 400;
+  /* font-weight: 400; */
   grid-column: 1;
   grid-row: 2;
   color: var(--text-color-light);
@@ -724,15 +724,22 @@ br.pageBreak {
   grid-row: 1/4;
 }
 
+
 .summaryContainer {
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 0.25rem;
-  padding: 1rem;
   border: 1px solid hsl(214, 100%, 19%, 15%);
   box-shadow: 2px 2px 6px 0px hsl(214, 100%, 19%, 15%);
   border-radius: 5px;
+  padding: 1rem;
   margin: 0px 10px 20px 0px;
+}
+.detailsContainer {
+  display: grid; 
+  grid-template-columns: 1fr 3fr; 
+  gap: 0.25rem;
+
 }
 
 .summaryTitle {
@@ -741,12 +748,11 @@ br.pageBreak {
   font-weight: 800;
 }
 
-.summaryTitle p {
+.summaryTitle h3 {
   margin: 0;
 }
 
 .summaryColOne {
-  color: var(--text-color-normal);
   display: grid;
   margin: 0;
   font-weight: 600;
@@ -754,13 +760,16 @@ br.pageBreak {
 }
 
 .summaryColTwo {
-  color: var(--text-color-light);
   display: grid;
   margin: 0;
-  font-weight: 400;
   align-self: center;
   grid-column: 2;
 }
+
+.summaryColTwo a[href^="http"]:not([class="uri"])::after {
+  content: none;
+}
+
 
 .summaryStatus {
   display: grid;
@@ -789,4 +798,126 @@ br.pageBreak {
   color: #d9a339;
   height: inherit;
   font-size: inherit;
+}
+
+
+.researchSection {
+  text-align: left;
+  break-before: always;
+  page: researchSection;
+}
+
+.researchSection h1 {
+  font-size: 22pt;
+  color: var(--primary-color);
+  border: 1px solid hsl(214, 100%, 19%, 15%);
+  box-shadow: 2px 2px 6px 0px hsl(214, 100%, 19%, 15%);
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+  width: fit-content
+}
+
+@page researchSection:first {
+  background-image: url("https://res.cloudinary.com/awconway/image/upload/v1623088419/background_vy0tjb.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 794px 1124px;
+  @top-center {
+    content: none;
+  }
+  @top-right {
+    content: none;
+  }
+  @bottom-right {
+    content: none !important;
+  }
+  @bottom-left {
+    content: none !important;
+  }
+}
+@page researchSection {
+  @bottom-right {
+    content: counter(page);
+    font-size: var(--font-small);
+    color: var(--text-color-light);
+  }
+  @bottom-left {
+    content: string(subtitle) " |";
+    white-space: nowrap !important;
+    font-size: var(--font-xsmall);
+    color: var(--text-color-light);
+    text-align: left !important;
+  }
+}
+
+.researchSection a[href^="http"]:not([class="uri"])::after {
+  content: none;
+}
+
+.serviceSection {
+  text-align: left;
+  break-before: always;
+  page: researchSection;
+}
+
+.serviceSection h1 {
+  font-size: 22pt;
+  color: var(--primary-color);
+  border: 1px solid hsl(214, 100%, 19%, 15%);
+  box-shadow: 2px 2px 6px 0px hsl(214, 100%, 19%, 15%);
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+  width: fit-content;
+}
+
+@page serviceSection:first {
+  background-image: url("https://res.cloudinary.com/awconway/image/upload/v1623088419/background_vy0tjb.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 794px 1124px;
+  @top-center {
+    content: none;
+  }
+  @top-right {
+    content: none;
+  }
+  @bottom-right {
+    content: none !important;
+  }
+  @bottom-left {
+    content: none !important;
+  }
+}
+@page serviceSection {
+  @bottom-right {
+    content: counter(page);
+    font-size: var(--font-small);
+    color: var(--text-color-light);
+  }
+  @bottom-left {
+    content: string(subtitle) " |";
+    white-space: nowrap !important;
+    font-size: var(--font-xsmall);
+    color: var(--text-color-light);
+    text-align: left !important;
+  }
+}
+
+.pubContainer {
+  border: 1px solid hsl(214, 100%, 19%, 15%);
+  box-shadow: 2px 2px 6px 0px hsl(214, 100%, 19%, 15%);
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.pubContainer a[href^="http"]:not([class="uri"])::after {
+  content: none;
+}
+
+.pubSubhead{
+  color: var(--text-color-light);
+
 }
