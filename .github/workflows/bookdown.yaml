@@ -54,9 +54,6 @@ jobs:
           ORCID_TOKEN: ${{ secrets.ORCID_TOKEN }}
         run: |
           targets::tar_make()
-        shell: Rscript {0}
-      - name: Session info
-        run: |
           sessioninfo::session_info()
         shell: Rscript {0}
 
