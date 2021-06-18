@@ -29,7 +29,8 @@ Suggests:
     rorcid,
     bib2df,
     targets,
-    tarchetypes
+    tarchetypes,
+    sessioninfo
 Remotes: 
     rstudio/pagedown,
     ropensci/targets,
