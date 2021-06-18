@@ -33,4 +33,5 @@ Suggests:
 Remotes: 
     rstudio/pagedown,
     ropensci/targets,
-    ropensci/tarchetypes
+    ropensci/tarchetypes,
+    rstudio/bookdown
