@@ -57,7 +57,7 @@ jobs:
         shell: Rscript {0}
       - name: Session info
         run: |
-          sessionInfo()
+          sessioninfo::session_info()
         shell: Rscript {0}
 
       - name: Deploy to Netlify
