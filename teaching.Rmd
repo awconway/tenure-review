@@ -1,7 +1,7 @@
 
-# (PART\*) Teaching portfolio {.first-h1 -}
+# (PART\*) Teaching portfolio {-}
 
-# Approach to teaching 
+# Approach to teaching {.first-h1}
 
 >[Teaching philosophy]{}
     I believe the approach I have taken to teaching has been strongly shaped by my experience as a clinician and researcher. In my clinical practice, I deliver patient-centered, evidence-based care. As a teacher, my goal is to deliver learner-centered, evidence-based educational opportunities for students. To achieve this goal, I assess learning needs, capabilities and student preferences in the design and delivery of my teaching strategies.
@@ -85,7 +85,7 @@ It took me quite some time to develop the summary of findings table - because A.
 
 ## Guest lectures {.break}
 
-I was invited to deliver lectures in a graduate course based on my skills in advanced data analytics and research experience related to critical care. 75% of the students attending my seminar on Nursing Perspectives in Resuscitation Science Research rated the quality of the presentation as excellent ([Appendix]()). Dr Charlene Chu, course instructor for NUR1059, provided a peer evaluation of my teaching performance for the workshops I delivered on data visualization for her course, NUR1059: Informatics and Technology ([Appendix]()). 
+I was invited to deliver lectures in a graduate course based on my skills in advanced data analytics and research experience related to critical care. 75% of the students attending my seminar on [Nursing Perspectives in Resuscitation Science Research](#resuseval) rated the quality of the presentation as excellent. Dr Charlene Chu, course instructor for NUR1059, provided a peer evaluation of my teaching performance for the workshops I delivered on data visualization for her course, [NUR1059: Informatics and Technology](#nur1059eval). My contribution to this course included 6 hours of teaching time. The resources and teaching material I developed are available at the [workshop webpage](https://nur1059-dataviz.netlify.app).
 
 | Term, Year   | Course number | Course name                                   | Level    | Class size | Content                                                |
 | ------------ | ------------- | --------------------------------------------- | -------- | ---------- | ------------------------------------------------------ |
@@ -111,7 +111,7 @@ I have been the primary supervisor for one PhD student for the past 2 years and 
 
 *Lawrence S. Bloomberg Faculty of Nursing*
 
-Navpreet was accepted into the program in 2019. She previously complete a MN (Thesis) degree at Western University and works clinically at Trillium. Navpreet's research aims at using machine learning to predict changes in blood pressure after nitroglycerin dose titrations. Her research builds upon her nursing experience in the coronary care unit. Navpreet is on track to meet her milestones for PhD completion. She has a systematic review currently under review in the journal *Intensive & Critical Care Nursing*.
+Navpreet was accepted into the program in 2019. She previously complete a MN (Thesis) degree at Western University and works clinically at Trillium. Navpreet's research aims at using machine learning to predict changes in blood pressure after nitroglycerin dose titrations. Her research builds upon her nursing experience in the coronary care unit. Navpreet is on track to meet her milestones for PhD completion. She has a systematic review accepted for publication in the journal *Intensive & Critical Care Nursing*.
 
 **Mohammad Goudarzi-Rad**
 
@@ -141,15 +141,15 @@ Litong is a MASc student commencing in the Fall of 2021 in the Toronto Intellige
 
 **Megan Bittner, Undergraduate Summer Research Placement, Summer 2019**
 
-During the Undergraduate Summer Research Placement, Megan worked on a research project related to transcutaneous carbon dioxide monitoring for detection of respiratory depression during sedation. I provided Megan with targeted education and guidance around building skills related to using R for data analysis. The goals, activities and resources I prepared for Megan are presented [here](https://awconway.github.io/USSRP.html). Megan also contributed to a systematic review during here summer research placement, which was subsequently published in the [Journal of Clinical Monitoring and Computing](http://link.springer.com/article/10.1007/s10877-020-00543-6).
+During the Undergraduate Summer Research Placement, Megan worked on a research project related to transcutaneous carbon dioxide monitoring for detection of respiratory depression during sedation. I provided Megan with targeted education and guidance around building skills related to using R for data analysis. A link to the goals, activities and resources I prepared for Megan is [here](https://awconway.github.io/USSRP.html). Megan also contributed to a systematic review during her summer research placement, which was subsequently published in the Journal of Clinical Monitoring and Computing.
 
 **Dan Phan, BScN Work Study Program, Summer 2019**
 
-One aspect of my research involved temperature management. Dan worked assisted with undertaking a systematic review of zero heat flux thermometers. The goals, activities and resources I provided to support Dan during this learning experience are provided [here](https://awconway.github.io/ZHF-review.html). The systematic review was subsequently published in the [Journal of Clinical Monitoring and Computing](http://link.springer.com/article/10.1007/s10877-020-00543-6).
+One aspect of my research involved temperature management. Dan worked assisted with undertaking a systematic review of zero heat flux thermometers. A link to the goals, activities and resources I provided to support Dan during this learning experience is [here](https://awconway.github.io/ZHF-review.html). The systematic review was subsequently published in the Journal of Clinical Monitoring and Computing.
 
 **Megan Bitner and Dan Phan, BScN Work Study Program, Fall 2019/Winter 2020**
 
-After a successful work term over the summer, I decided to hire both Megan and Dan during the fall. This work study placement involved data collection for a prospective study conducted at the Peter Munk Cardiac Centre, aiming to validate a scale to measure thirst discomfort before cardiac procedures. The responsibilities for Megan and Dan during this term included liaising with clinical staff to identify potentially eligible participants, explanation of the study to potential participants, and completion of a questionnaire for those who agreed to participate. From November 2019 to March 2020, Megan and Dan screened 203 patients for inclusion in the study. 194 of the 198 eligible participated in the study. The results of this study were subsequently published in the Journal of Radiology Nursing <https://www.sciencedirect.com/science/article/pii/S1546084320301814>. 
+After a successful work term over the summer, I decided to hire both Megan and Dan during the fall. This work study placement involved data collection for a prospective study conducted at the Peter Munk Cardiac Centre, aiming to validate a scale to measure thirst discomfort before cardiac procedures. The responsibilities for Megan and Dan during this term included liaising with clinical staff to identify potentially eligible participants, explanation of the study to potential participants, and completion of a questionnaire for those who agreed to participate. From November 2019 to March 2020, Megan and Dan screened 203 patients for inclusion in the study. 194 of the 198 eligible participated in the study. The results of this study were subsequently published in the Journal of Radiology Nursing. 
 
 **Kevin Auw-Yang, UTSC Co-op placement, Fall 2019 - Spring 2020**
 
@@ -692,10 +692,14 @@ articles <- targets::tar_read(papers) |> dplyr::filter(TITLE=="Theory-based stra
 <ul style="list-style-type:none;">
 <li>
 `r articles$TITLE`
+<span>
+<a target="_blank" href='`r articles$URL`'>
+<img src='https://res.cloudinary.com/awconway/image/upload/v1623707175/external-link-alt_tuhpcx.svg' 
+height='18px'/>
+</a>
+</span>
 <br>
 *`r articles$JOURNAL`*
-<br>
-[View publication](`r articles$URL`)
 <br>
 [`r articles$authors`]{.authorBlock}
 </li>
@@ -779,6 +783,16 @@ Teaching award
 </div>
 <div class='cardP'>Peer evaluation</div>
 <div class='cardSubhead'>Letter from Dr. Charlene Chu with an evaluation of the guest workshop I provided on data visualization for NUR1059</div>
+</div>
+</div>
+
+<div class='cardContainer break' id="resuseval" onclick="window.open('https://res.cloudinary.com/awconway/image/upload/v1624368864/MSC4001-resus_mn3z11.pdf','mywindow');">
+<div class='cardRow'>
+<div class='cardImage'>
+<img src='https://res.cloudinary.com/awconway/image/upload/v1623088170/star_gmsowt.svg' width='100%'/>
+</div>
+<div class='cardP'>Student evaluation of guest lecture</div>
+<div class='cardSubhead'>Foundations in Resuscitation Science Research (MSC4001H)<br/>Nursing Perspectives in Resuscitation Science Research</div>
 </div>
 </div>
 

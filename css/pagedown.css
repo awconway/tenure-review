@@ -855,6 +855,10 @@ br.pageBreak {
   content: none;
 }
 
+.researchSection a {
+  text-decoration: none;
+}
+
 .serviceSection {
   text-align: left;
   break-before: always;
@@ -920,4 +924,12 @@ br.pageBreak {
 .pubSubhead{
   color: var(--text-color-light);
 
+}
+
+.papers a[href^="http"]:not([class="uri"])::after {
+  content: none;
+}
+
+.papers a {
+  text-decoration: none;
 }

@@ -1,7 +1,9 @@
+
 # (PART\*) Scholarly work {-}
 
 ```{r echo=FALSE}
 targets::tar_load(uoftPapers)
+targets::tar_load(articles)
 ```
 
 # Overview {.first-h1}
@@ -10,7 +12,7 @@ My research aims to improve outcomes for patients undergoing procedures with sed
 
 Since my arrival in Canada, I have established new collaborations with researchers and clinicians who posses the complementary expertise required to make significant contributions to the evidence base underlying procedural sedation and analgesia. These include clinical collaborators within the discipline of nursing, as well as in the field of radiology and anesthesiology, but also academic collaborators from computer science and engineering departments at the University of Toronto. Notably, collaborating with these researchers from diverse fields has enabled me to pursue several new projects that leverage machine learning to create innovative solutions for the common problems encountered in procedural sedation. 
 
-In my research career to date, I have published 50 peer-reviewed, full-length journal articles, two editorials and a book chapter. I am the principal author for a large majority of these research outputs. As of June 8, 2021, I have 533 citations of my work listed in the Scopus database with a *h*-index of 12. Google scholar metrics include 1016 citations to my work with a *h*-index of 16. My research has produced high quality evidence to support clinician's decision-making regarding approaches for procedural sedation. This includes two randomized controlled trials, as well as multiple systematic reviews with meta-analyses, including a Cochrane review.
+In my research career to date, I have published `r nrow(articles)` peer-reviewed, full-length journal articles, two editorials and a book chapter. I am the principal author for a large majority of these research outputs. As of June 8, 2021, I have 533 citations of my work listed in the Scopus database with a *h*-index of 12. Google scholar metrics include 1016 citations to my work with a *h*-index of 16. My research has produced high quality evidence to support clinician's decision-making regarding approaches for procedural sedation. This includes two randomized controlled trials, as well as multiple systematic reviews with meta-analyses, including a Cochrane review.
 
 **Scholarly work undertaken at the University of Toronto**
 
@@ -519,6 +521,26 @@ Below is a list of publications from scholarly work undertaken at the University
 ## Procedural sedation
 
 ```{r results='asis', echo=FALSE} 
+articles <- uoftPapers|> dplyr::filter(TITLE=="Inter-rater reliability of the tracking and reporting outcomes of procedural sedation tool")
+```
+<ul style="list-style-type:none;">
+<li>
+`r articles$TITLE`
+<span>
+<a target="_blank" href='`r articles$URL`'>
+<img src='https://res.cloudinary.com/awconway/image/upload/v1623707175/external-link-alt_tuhpcx.svg' 
+height='18px'/>
+</a>
+</span>
+<br>
+*`r articles$JOURNAL`*
+<span style="float:right;color:#929598;">`r articles$YEAR`</span>
+<br>
+[`r articles$authors`]{.authorBlock}
+</li>
+<hr>
+</ul>
+```{r results='asis', echo=FALSE} 
 articles <- uoftPapers|> dplyr::filter(TITLE=="Development and validation of the nursing confidence in managing sedation complications scale")
 ```
 <ul style="list-style-type:none;">
@@ -750,7 +772,30 @@ height='18px'/>
 *`r articles$JOURNAL`*
 <span style="float:right;color:#929598;">`r articles$YEAR`</span>
 <br>
-Group author
+[`r articles$authors`]{.authorBlock}
+</li>
+<hr>
+</ul>
+
+## PhD student publications
+
+```{r results='asis', echo=FALSE} 
+articles <- uoftPapers|> dplyr::filter(TITLE=="Accuracy and Precision of Continuous Non-Invasive Arterial Pressure Monitoring in Critical Care: A systematic review and meta-analysis")
+```
+<ul style="list-style-type:none;">
+<li>
+`r articles$TITLE`
+<span>
+<a target="_blank" href='`r articles$URL`'>
+<img src='https://res.cloudinary.com/awconway/image/upload/v1623707175/external-link-alt_tuhpcx.svg' 
+height='18px'/>
+</a>
+</span>
+<br>
+*`r articles$JOURNAL`*
+<span style="float:right;color:#929598;">`r articles$YEAR`</span>
+<br>
+[`r articles$authors`]{.authorBlock}
 </li>
 <hr>
 </ul>

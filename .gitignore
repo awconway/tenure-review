@@ -1,7 +1,6 @@
 .DS_Store
 ?Icon
 *.html
-_book
 .Rproj.user
 _targets
 _bookdown_files

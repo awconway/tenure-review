@@ -2,8 +2,9 @@
 title: Interim Review
 subtitle: Aaron Conway
 author: Aaron Conway
-date: "August 2021"
+date: "June 2021"
 ---
+
 
 # CV
 
@@ -108,6 +109,7 @@ targets::tar_load(letters)
 targets::tar_load(protocols)
 targets::tar_load(preprints)
 ```
+<div class=papers>
 
 ### Journal articles [`r nrow(articles)`]{.number}
 
@@ -116,6 +118,10 @@ targets::tar_load(preprints)
 glue::glue('
            <li>
            {articles$TITLE}
+<a target="_blank" href="{articles$URL}">
+<img src="https://res.cloudinary.com/awconway/image/upload/v1623707175/external-link-alt_tuhpcx.svg"
+height="18px"/>
+</a>
            <br>
            <em>{articles$JOURNAL}</em>
            <span style="float:right;color:#929598;">{articles$YEAR}</span>
@@ -134,6 +140,12 @@ glue::glue('
 glue::glue('
            <li>
            {editorials$TITLE}
+                      <span>
+<a target="_blank" href="{editorials$URL}">
+<img src="https://res.cloudinary.com/awconway/image/upload/v1623707175/external-link-alt_tuhpcx.svg"
+height="18px"/>
+</a>
+</span>
            <br>
            <em>{editorials$JOURNAL}</em>
            <span style="float:right;color:#929598;">{editorials$YEAR}</span>
@@ -151,6 +163,12 @@ glue::glue('
 glue::glue('
            <li>
            {letters$TITLE}
+                                 <span>
+<a target="_blank" href="{letters$URL}">
+<img src="https://res.cloudinary.com/awconway/image/upload/v1623707175/external-link-alt_tuhpcx.svg"
+height="18px"/>
+</a>
+</span>
            <br>
            <em>{letters$JOURNAL}</em>
            <span style="float:right;color:#929598;">{letters$YEAR}</span>
@@ -169,6 +187,12 @@ glue::glue('
 glue::glue('
            <li>
            {protocols$TITLE}
+                                 <span>
+<a target="_blank" href="{protocols$URL}">
+<img src="https://res.cloudinary.com/awconway/image/upload/v1623707175/external-link-alt_tuhpcx.svg"
+height="18px"/>
+</a>
+</span>
            <br>
            <em>{protocols$JOURNAL}</em>
            <span style="float:right;color:#929598;">{protocols$YEAR}</span>
@@ -186,6 +210,12 @@ glue::glue('
 glue::glue('
            <li>
            {preprints$TITLE}
+                                 <span>
+<a target="_blank" href="{preprints$URL}">
+<img src="https://res.cloudinary.com/awconway/image/upload/v1623707175/external-link-alt_tuhpcx.svg"
+height="18px"/>
+</a>
+</span>
            <br>
            <em>{preprints$JOURNAL}</em>
            <span style="float:right;color:#929598;">{preprints$YEAR}</span>
@@ -196,6 +226,7 @@ glue::glue('
 ```
 </ul>
 
+</div>
 
 ### Book Chapters
 
@@ -242,4 +273,3 @@ glue::glue('
            </li>
            </ul>')
 ```
-
